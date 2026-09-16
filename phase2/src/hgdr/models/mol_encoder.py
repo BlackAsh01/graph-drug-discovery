@@ -3,9 +3,10 @@
 All drug molecules are packed into one disjoint batch graph once; a
 GAT/GIN message-passing stack followed by mean pooling yields one vector
 per drug.  Drugs without a parsable SMILES receive a learned
-``no_molecule`` vector.  This replaces the DAGT-style dual-attention
-graph transformer of the original notebooks with a lighter encoder that
-fits a 4 GB GPU together with the EHR graph.
+``no_molecule`` vector.  This replaces the official-figure Dual-attention
+Graph Transformer + InfoNCE DDI branch (DrugDAGT in the research
+``dagt/`` tree) with a lighter encoder that fits a 4 GB GPU together
+with the EHR graph.  Pairwise InfoNCE is **not** implemented.
 """
 
 from __future__ import annotations

@@ -2,7 +2,12 @@ NOTICE
 ======
 
 This repository is an original re-implementation of a two-phase graph-ML thesis
-(package names `dti_gt` and `hgdr`). The source is MIT-licensed (see LICENSE).
+by Ashwin Prabhu M (Register No. 2023176029), M.Tech. Information Technology
+(AI & DS), Department of Information Science and Technology, College of
+Engineering, Guindy, Anna University (May 2025 AUIST Phase-I report).
+Official project title: GRAND: Graph-based Recommendation with Attention
+Network for Personalized Drug Therapy (packages `dti_gt` and `hgdr`).
+The source is MIT-licensed (see LICENSE).
 Several ideas, metrics, and architectural motifs are adapted from prior work.
 Those projects retain their own licences and should be cited when this code is
 used; they are not redistributed here as vendored trees.
@@ -26,13 +31,23 @@ Phase 1 — drug–target affinity (`phase1/`, package `dti_gt`)
 
 Phase 2 — medication recommendation (`phase2/`, package `hgdr`)
 --------------------------------------------------------------
+The official GRAND architecture (diagnose / genome / medication channels,
+meta-paths P–D–P / P–M–P / M–P–M / M–G–M, semantic fusion, Dual-attention
+Graph Transformer + InfoNCE) is documented in `phase2/docs/`. The released
+`hgdr` model is the EHR+DDI subset that was actually trained (no genomes,
+no InfoNCE DAGT head). See `phase2/README.md`.
+
 * GAMENet (Shang et al., AAAI 2019) and SafeDrug (Yang et al., IJCAI 2021) —
   admission-level multi-label medication recommendation with a differentiable
   DDI-rate penalty; TWOSIDES top-40 side-effect convention.
 * DRecHGR (DGL/HAN heterogeneous recommender used in the research notebooks) —
-  heterogeneous attention encoder, re-implemented here in PyTorch Geometric.
-* DrugDAGT (Wang et al.) — molecular / pairwise DDI scoring used in the
-  research notebooks; replaced here by a GAT/GIN molecular encoder.
+  P–D–P / P–M–P meta-path attention and Linear–Tanh–Linear semantic fusion.
+  Approximated here by a PyTorch Geometric `HeteroConv` entity graph, not a
+  1:1 HAN port.
+* DrugDAGT (Chen et al., BMC Biology 2024) — dual-attention graph transformer
+  with contrastive (InfoNCE) learning for pairwise DDI; used in the research
+  notebooks and drawn on the official figure. Replaced in `hgdr` by a GAT/GIN
+  molecular encoder plus a soft-DDI-rate loss.
 * MIMIC-III v1.4 (Johnson et al., Sci. Data 2016) is **not** included.
   Access requires a PhysioNet credentialed Data Use Agreement and the data
   must not be redistributed. The public MIMIC-III demo is downloaded on demand

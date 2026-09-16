@@ -1,21 +1,31 @@
-# HGDR - Safe Medication Recommendation over Heterogeneous EHR Graphs (Phase 2)
+# GRAND / HGDR — Personalized medication recommendation (Phase 2)
 
-**Phase 2 of the thesis "Safe drug recommendation for patients using heterogeneous graphs".**
-Given a hospital admission (diagnoses, procedures and the patient's previous admissions),
-HGDR recommends the *set* of drugs to prescribe while penalising known drug-drug
-interactions (DDIs). It combines
+**Official project title (AUIST cover, May 2025):**
+*GRAND: Graph-based Recommendation with Attention Network for Personalized Drug Therapy.*
 
-* a **heterogeneous entity graph** built from MIMIC-III (diagnosis, procedure and drug nodes;
-  diagnosis-drug, procedure-drug and drug-drug co-prescription relations learned from the
-  training admissions),
-* a **DDI graph** from TWOSIDES (drug-`interacts`-drug edges + a differentiable DDI penalty),
-* **molecular drug features** from PubChem SMILES encoded with a GAT/GIN molecular encoder,
-* an **admission encoder** with attention pooling over codes and a GRU over the visit history.
+**Author:** Ashwin Prabhu M (Register No. **2023176029**), M.Tech. Information Technology
+(AI & DS), Department of Information Science and Technology, College of Engineering,
+Guindy, Anna University. Guide: Dr. T. Mala.
 
-Phase 1 (`../phase1/`) is owned by a separate package; this directory is self-contained.
+This directory is the public Phase 2 package (`hgdr`). It recommends a *set* of drugs
+for a hospital admission while penalising known drug–drug interactions (DDIs). The
+**architecture figure below is the official thesis drawing.** The code that actually
+trains and is ablated here is the **EHR + molecular + DDI subset** of that drawing —
+diagnoses, procedures and drugs, not genomes, and not the Dual-attention Graph
+Transformer + InfoNCE DDI head. See
+[Thesis architecture vs. released implementation](#thesis-architecture-vs-released-implementation)
+and [`docs/thesis_notes.md`](docs/thesis_notes.md).
+
+Phase 1 (`../phase1/`, KIBA drug–target affinity) is a separate package.
 
 <p align="center">
-  <img src="docs/figures/architecture.png" width="95%" alt="HGDR graph schema and model"/>
+  <img src="docs/figures/architecture_final.jpg" width="95%" alt="Official GRAND architecture: EHR channels, meta-paths, semantic fusion, Dual-attention Graph Transformer DDI branch"/>
+  <br><em>Official architecture. Left: EHR heterogeneous network → Diagnose / Genome / Medication
+  GCN channels (LeakyReLU) → meta-paths P–D–P, M–G–M, P–M–P, M–P–M → multi-head
+  node-projection attention → semantic fusion (Linear→Tanh→Linear) → \(Z^{(m)}, Z^{(p)}\)
+  → recommended drug with \(\mathcal{L}_1\). Bottom: Dual-attention Graph Transformer
+  on molecular graphs with InfoNCE → FFN → DDI score. The released <code>hgdr</code> model
+  trains the EHR+DDI subset of this figure (no genome channel, no InfoNCE DAGT head).</em>
 </p>
 
 ---
@@ -23,16 +33,17 @@ Phase 1 (`../phase1/`) is owned by a separate package; this directory is self-co
 ## Contents
 
 1. [Problem formulation](#1-problem-formulation)
-2. [Datasets and licensing](#2-datasets-and-licensing)
-3. [Installation](#3-installation)
-4. [Quick start](#4-quick-start)
-5. [Results](#5-results)
-6. [Ablation study](#6-ablation-study)
-7. [Hyper-parameters](#7-hyper-parameters)
-8. [Project structure](#8-project-structure)
-9. [Reproducibility notes](#9-reproducibility-notes)
-10. [Changes w.r.t. the research code](#10-changes-wrt-the-research-code)
-11. [Citation, licence, acknowledgements](#11-citation-licence-acknowledgements)
+2. [Thesis architecture vs. released implementation](#thesis-architecture-vs-released-implementation)
+3. [Datasets and licensing](#2-datasets-and-licensing)
+4. [Installation](#3-installation)
+5. [Quick start](#4-quick-start)
+6. [Results](#5-results)
+7. [Ablation study](#6-ablation-study)
+8. [Hyper-parameters](#7-hyper-parameters)
+9. [Project structure](#8-project-structure)
+10. [Reproducibility notes](#9-reproducibility-notes)
+11. [Changes w.r.t. the research code](#10-changes-wrt-the-research-code)
+12. [Citation, licence, acknowledgements](#11-citation-licence-acknowledgements)
 
 ---
 
@@ -46,8 +57,9 @@ diagnosis codes \(D_t\), procedure codes \(P_t\) and prescribed drugs \(M_t \sub
 \hat{y}_t = \sigma\big(f_\theta(D_t, P_t, \{(D_\tau, P_\tau, M_\tau)\}_{\tau < t};\, \mathcal{G})\big) \in [0, 1]^{|\mathcal{M}|}
 \]
 
-and recommends \(\hat{M}_t = \{ m : \hat{y}_{t,m} > 0.5 \}\). \(\mathcal{G}\) is the heterogeneous
-graph (figure (a)). Training minimises
+and recommends \(\hat{M}_t = \{ m : \hat{y}_{t,m} > 0.5 \}\). \(\mathcal{G}\) is the released
+heterogeneous entity graph (diagnoses, procedures, drugs — the EHR+DDI subset of
+the official figure). Training minimises
 
 \[
 \mathcal{L} = \mathrm{BCE}(y_t, \hat{y}_t) + \lambda \cdot
@@ -61,6 +73,39 @@ setting of GAMENet / SafeDrug, evaluated with **Jaccard, PR-AUC, F1, DDI rate an
 number of recommended drugs**, plus the ranking metrics the original notebooks reported
 (Precision@10, Jaccard@10, HitRate@10).
 
+The official figure labels the recommendation objective \(\mathcal{L}_1\). In this
+release \(\mathcal{L}_1\) is the BCE + soft-DDI-rate sum above — not an L1/MAE
+regression, and not the report’s substitute-ranking score
+\(\mathrm{cosine}-\lambda\rho\).
+
+## Thesis architecture vs. released implementation
+
+The May 2025 AUIST report and the official figure propose a two-branch system
+(HAN-style EHR channels + Dual-attention Graph Transformer DDI). `hgdr` is the
+piece that was actually trained on the credentialed MIMIC-III copy available for
+this work. **This README does not claim the package implements the full figure.**
+
+| Thesis component (figure / Ch. 3–4) | In `hgdr`? | What shipped |
+|---|---|---|
+| EHR nodes: patients, diagnoses, medications | partial | **diag / proc / drug** entity graph; patients are *examples*, not nodes |
+| **Genome channel** and meta-path **M–G–M** | **no** | Thesis-proposed / optional. MIMIC-III has no genome table in this release |
+| Diagnose / medication GCN channels, LeakyReLU | partial | `HeteroConv` + SAGE/GAT, residual + LayerNorm + ReLU (2 layers) |
+| Meta-paths **P–D–P**, **P–M–P**, **M–P–M** | partial | Training-only diag–drug, proc–drug, drug–drug co-prescription + TWOSIDES `interacts`. No explicit HAN meta-path adjacency (the research `DRecHGR/` used P–D–P / P–M–P graphs) |
+| Multi-head node-projection attention | partial | Optional GAT heads inside `HeteroConv`; default encoder is SAGE |
+| Semantic fusion Linear→Tanh→Linear | partial | Same MLP is the **admission-code attention pool**, *not* HAN semantic attention over meta-path embeddings \(Z^{(m)}, Z^{(p)}\) |
+| Dual-attention Graph Transformer + **InfoNCE** DDI branch | **no** | `MolEncoder` is a 2-layer GAT/GIN on packed SMILES graphs; DDI is the soft-rate **penalty**, not pairwise InfoNCE. DrugDAGT remains in the research `dagt/` tree only |
+| Clinical-notes NLP / BERT (report §3.2.1, §4.2.2) | **no** | Structured ICD / procedure / drug codes only |
+| FDA / DailyMed substitute APIs (report §3.1.3, §4.3) | **no** | Not required for the GAMENet-style multi-label task |
+| LightGCN patient embedding + cosine ranker (report §4.3.4–4.3.6) | **no** | Bilinear \(qK^\top/\sqrt{d}\) over the 606-drug vocabulary |
+| Report Tables 4.1–4.2 (DDI MAE 0.25, substitute Jaccard 0.967) | **not reproduced** | Different task. Released numbers: subset Jaccard **0.3233** / DDI **0.0779**; full-data Jaccard **0.3561** / DDI **0.0724** |
+
+**Released model in one sentence.** Diagnoses + procedures + drugs + PubChem
+molecules + TWOSIDES DDI, trained as multi-label admission recommendation —
+the EHR+DDI subset the ablation already measured. Genomes, InfoNCE, DAGT,
+BERT notes, and substitute APIs stay documented as thesis-proposed.
+
+Chapter-level mapping: [`docs/thesis_notes.md`](docs/thesis_notes.md).
+
 ## 2. Datasets and licensing
 
 | dataset | role | licence | shipped here? |
@@ -69,9 +114,12 @@ number of recommended drugs**, plus the ranking metrics the original notebooks r
 | **MIMIC-III demo v1.4** ([PhysioNet](https://physionet.org/content/mimiciii-demo/1.4/)) | 100-patient smoke test | ODbL 1.0 | no - downloaded by `scripts/demo_mode.ps1` |
 | **TWOSIDES** (Tatonetti et al. 2012) | DDI pairs | open | derived 0.7 MB CID-pair table in `data/mappings/` |
 | **PubChem** | drug name -> CID -> SMILES | open | 0.1 MB mapping in `data/mappings/` |
+| **Genomes** (official figure) | medication–genome channel / M–G–M | — | **not available** in the MIMIC-III extract used here; not trained |
 
 See [`data/README.md`](data/README.md) for access instructions, table requirements, and the
 list of research artefacts that were deliberately *not* included (everything patient-level).
+The report also names FDA / DailyMed APIs and BERT-encoded clinical notes; those
+inputs are **not** part of this release.
 
 ## 3. Installation
 
@@ -177,6 +225,10 @@ Jaccard rose to 0.356 and DDI fell to 0.072. That still does not overtake the *s
 Absolute numbers are **not** directly comparable to GAMENet/SafeDrug (131 ATC-3 classes,
 >= 2-visit patients); `results/baseline_comparison.md` explains the protocol differences and
 lists the literature numbers (marked *reported, not re-run*).
+
+They are also **not** comparable to AUIST report Tables 4.1–4.2 (DDI MAE ≈ 0.25,
+substitute-list Jaccard 0.967). Those evaluate a pairwise DDI regressor and a
+substitute-retrieval ranker. See [`docs/thesis_notes.md`](docs/thesis_notes.md).
 
 ### 5.1 Full-data run (seed 0)
 
@@ -313,7 +365,8 @@ phase2/
 ├── data/               README.md + mappings/ (shippable, non-patient); raw/ and processed/ are git-ignored
 ├── results/            ablation_results.csv, ablation_summary.csv, ablation_table.md, baseline_comparison.md,
 │                       fulldata_full_seed0_summary.md, figures/, runs/<run>/ (metrics.json, history.csv, config.yaml)
-├── docs/figures/       architecture.png
+├── docs/               thesis_notes.md (AUIST report summary) + figures/
+│                       architecture_final.jpg (official thesis figure) + architecture.png
 ├── notebooks/          demo_walkthrough.ipynb (outputs stripped)
 └── tests/              34 pytest cases (synthetic graph + synthetic MIMIC-shaped sample; < 1 min CPU)
 ```
@@ -354,35 +407,52 @@ See [`CHANGELOG.md`](CHANGELOG.md) for the full list. Highlights:
   normalised to active ingredients, training-only graph edges (no label leakage),
   admission-level (not patient-level) evaluation.
 * **DGL -> PyTorch Geometric.** DGL wheels for torch 2.5 / CUDA 12.1 / Windows were not
-  available; the HAN/GAT heterogeneous encoder was re-implemented with PyG's `HeteroConv`.
+  available. The HAN/GAT encoder of **DRecHGR** (P–D–P / P–M–P meta-path graphs +
+  Linear–Tanh–Linear semantic attention) was **not** ported 1:1; the release uses PyG
+  `HeteroConv` over a diag/proc/drug entity graph. That is an intentional
+  simplification — see the [gap table](#thesis-architecture-vs-released-implementation).
   `torch_scatter` is avoided on purpose (ABI-incompatible wheel).
-* DDI handling moved from a post-hoc filter into a differentiable loss; PubChem API field
-  rename (`CanonicalSMILES` -> `SMILES`) fixed; an `index_put`-based gather that made the
-  backward pass 8x slower on CUDA replaced by `F.embedding`.
+* DDI handling moved from a post-hoc filter / pairwise DrugDAGT score into a
+  differentiable soft-DDI-rate loss. The official figure’s Dual-attention Graph
+  Transformer + InfoNCE branch is **not** in `hgdr` (`MolEncoder` is GAT/GIN).
+* PubChem API field rename (`CanonicalSMILES` -> `SMILES`) fixed; an `index_put`-based
+  gather that made the backward pass 8x slower on CUDA replaced by `F.embedding`.
 
 ## 11. Citation, licence, acknowledgements
 
 ```bibtex
-@mastersthesis{hgdr2026,
-  title  = {Safe Medication Recommendation over Heterogeneous EHR Graphs with Drug--Drug Interaction Awareness},
-  author = {<Author>},
-  school = {<University>},
-  year   = {2026},
-  note   = {Phase 2 code: https://github.com/<org>/<repo>/tree/main/phase2}
+@mastersthesis{prabhu2025grand,
+  author  = {Ashwin Prabhu M},
+  title   = {GRAND: Graph-based Recommendation with Attention Network
+             for Personalized Drug Therapy},
+  school  = {Department of Information Science and Technology,
+             College of Engineering, Guindy, Anna University},
+  year    = {2025},
+  note    = {M.Tech. (Information Technology -- AI \& DS) AUIST Phase-I
+             project report, Register No. 2023176029. Supervisor: Dr. T. Mala.
+             Phase 2 code (package hgdr):
+             https://github.com/BlackAsh01/graph-drug-discovery/tree/main/phase2}
 }
 ```
+
+An alternate title on the report’s bona fide certificate is *Graph Transformer
+Based Personalized Drug Recommendation System for Cardiovascular Disease*.
 
 **Licence.** Source code: MIT (see the repository root). Data: MIMIC-III is governed by the
 PhysioNet DUA and is not included; TWOSIDES / PubChem derived tables in `data/mappings/` are
 redistributed under their original open terms.
 
 **Acknowledgements / adapted work.**
-* Task definition, metrics and the TWOSIDES top-40 convention follow **GAMENet**
-  (Shang et al., AAAI 2019) and **SafeDrug** (Yang et al., IJCAI 2021); the
-  `records`/`voc` data format of the original notebooks came from their public code.
-* The heterogeneous attention encoder of the research notebooks adapted **DRecHGR**
-  (a DGL/HAN drug recommender vendored as `DRecHGR/`), re-implemented here in PyG.
-* The molecular encoder replaces the **DrugDAGT** dual-attention graph transformer
-  (Wang et al.; vendored as `dagt/`) used in the notebooks for pairwise DDI scoring.
+* AUIST report acknowledgements: Dr. T. Mala (guide); Dr. S. Swamynathan (HOD);
+  committee Dr. S. Sridhar, Dr. G. Geetha, Dr. D. Narashiman; IST faculty and staff,
+  College of Engineering, Guindy, Anna University.
+* Task definition and the TWOSIDES top-40 convention follow **GAMENet**
+  (Shang et al., AAAI 2019) and **SafeDrug** (Yang et al., IJCAI 2021).
+* Heterogeneous attention / meta-paths in the official figure follow the research
+  **DRecHGR** notebooks (DGL/HAN). Semantic fusion Linear→Tanh→Linear is reused
+  here as admission-code pooling.
+* The molecular Dual-attention Graph Transformer + contrastive (InfoNCE) branch
+  follows **DrugDAGT** (Chen et al., *BMC Biology* 2024); it is cited, not vendored
+  into `hgdr`.
 * MIMIC-III: Johnson et al., *Sci. Data* 2016. TWOSIDES: Tatonetti et al., *Sci. Transl. Med.* 2012.
   PubChem: Kim et al., *Nucleic Acids Res.* 2023. RDKit, PyTorch, PyTorch Geometric.

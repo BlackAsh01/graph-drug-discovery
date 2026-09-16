@@ -5,12 +5,20 @@
 [![phase1 tests](https://img.shields.io/badge/phase1-pytest%2022-brightgreen)](phase1/README.md#tests)
 [![phase2 tests](https://img.shields.io/badge/phase2-pytest%2034-brightgreen)](phase2/README.md#tests)
 
-Publication-ready release of a two-phase graph-ML thesis:
+Publication-ready release of a two-phase graph-ML thesis by **Ashwin Prabhu M**
+(Register No. 2023176029), M.Tech. Information Technology (AI & DS),
+Department of Information Science and Technology, College of Engineering,
+Guindy, Anna University (guide: Dr. T. Mala).
+
+The official project title on the May 2025 AUIST cover is
+**GRAND: Graph-based Recommendation with Attention Network for Personalized Drug Therapy**.
+That report is the source for **Phase 2**. Phase 1 is the companion KIBA
+drug–target-affinity package.
 
 | Phase | Package | Task | Data | Headline (honest, budget-limited) |
 |---|---|---|---|---|
 | **[1](phase1/README.md)** | `dti_gt` | Drug–target **binding-affinity** regression | [KIBA](https://doi.org/10.1021/ci400709d) (TDC) | Residuals + layer-norm and a real protein encoder matter; Graphormer-style extras did not pay off on a 20 % subset / 12-epoch protocol |
-| **[2](phase2/README.md)** | `hgdr` | **Medication recommendation** with DDI control | [MIMIC-III](https://physionet.org/content/mimiciii/1.4/) (not shipped) | HGDR is the **safest** learned model on DDI rate; multi-hot MLP / logistic regression are **more accurate** under the 15-epoch protocol |
+| **[2](phase2/README.md)** | `hgdr` | **Medication recommendation** with DDI control (EHR+DDI subset of GRAND) | [MIMIC-III](https://physionet.org/content/mimiciii/1.4/) (not shipped) | HGDR is the **safest** learned model on DDI rate; multi-hot MLP / logistic regression are **more accurate** under the 15-epoch protocol |
 
 Both packages are from-scratch, DGL-free re-implementations of the research notebooks (bugs fixed; see each phase's `CHANGELOG.md`). They train on a laptop **GTX 1650 Ti (4 GB)** / 16 GB RAM. This repository is new and independent of `BlackAsh01/DTI_GraphTransformer` and `BlackAsh01/DAGT_drug_recommendation`.
 
@@ -36,8 +44,26 @@ Both packages are from-scratch, DGL-free re-implementations of the research note
 **Phase 1 — edge-aware graph transformer for KIBA drug–target affinity.**
 Given a drug SMILES and a kinase sequence, the model regresses the continuous KIBA score. The drug is an RDKit molecular graph encoded by an edge-aware graph transformer (bond-feature-biased sparse attention, Graphormer-style degree encoding, residual + BatchNorm blocks) adapted from [GraphormerDTI](https://github.com/mengmeng34/GraphormerDTI); the protein is a frozen ProtBERT-BFD embedding (or a learned 1-D CNN); the two are fused by protein-conditioned cross-attention over atoms and scored by a 3-layer MLP. Every component is a config flag. Under a fixed 20 % stratified KIBA subset (18,826 training pairs, ≤ 12 epochs, 2 seeds) the full 1.54 M model reaches **test MSE 0.4684 ± 0.0296 / CI 0.7343 ± 0.0088 / r_m² 0.3625 ± 0.0416** in **5.4 min** per run. Dropping residuals/norm inflates MSE by **+40 %**; a bag-of-residues protein encoder costs **+29 %**. Bond features, degree encoding and cross-attention fusion did not help under this budget; a 0.68 M GCN backbone is competitive. Full-KIBA training (`phase1/configs/default.yaml`) is provided but was not run for this release. Details: [`phase1/README.md`](phase1/README.md).
 
-**Phase 2 — HGDR heterogeneous-graph medication recommendation on MIMIC-III.**
-Given the diagnoses, procedures and visit history of a hospital admission, HGDR recommends a *set* of drugs while penalising known drug–drug interactions. It combines a heterogeneous entity graph (diagnosis / procedure / drug nodes; training-only co-occurrence edges), a TWOSIDES DDI graph with a differentiable DDI-rate loss, a GAT/GIN molecular encoder on PubChem SMILES, and an attention-pooled admission encoder with a GRU over previous visits. The task is the GAMENet / SafeDrug multi-label setting, evaluated with Jaccard, PR-AUC, F1, DDI rate and ranking metrics. Under a 30 % patient subset / ≤ 15 epochs / 2-seed protocol, **HGDR is safest** (DDI rate **0.0779 ± 0.0020**, below the 0.087 of the real prescriptions) but a **multi-hot MLP (Jaccard 0.363)** and **logistic regression (0.361)** are more accurate than HGDR (**0.323**). Graph message passing is the component HGDR cannot drop; the DDI loss is what keeps recommendations safer than the baselines. A later full-data seed-0 run (≤ 30 epochs) reached Jaccard **0.356** / DDI **0.072** — safer and more accurate than the subset HGDR, still short of the *subset* MLP (Jaccard 0.363; MLP not re-run on full data). **MIMIC-III patient data are not in this repo.** Details: [`phase2/README.md`](phase2/README.md).
+**Phase 2 — GRAND / HGDR medication recommendation on MIMIC-III.**
+The official architecture (EHR diagnose / genome / medication channels, meta-paths
+P–D–P / P–M–P / M–P–M / M–G–M, semantic fusion, Dual-attention Graph Transformer
++ InfoNCE DDI branch, recommendation loss \(\mathcal{L}_1\)) is in
+[`phase2/docs/figures/architecture_final.jpg`](phase2/docs/figures/architecture_final.jpg)
+and is summarised in [`phase2/docs/thesis_notes.md`](phase2/docs/thesis_notes.md).
+The **released `hgdr` package trains the EHR+DDI subset that the ablation
+measured**: diagnosis / procedure / drug nodes (no genomes, no patient nodes),
+a TWOSIDES DDI graph with a differentiable DDI-rate penalty (the shipped
+\(\mathcal{L}_1\)), a GAT/GIN molecular encoder on PubChem SMILES (not the
+InfoNCE Dual-attention Graph Transformer), and attention-pooled admissions plus
+a visit-history GRU. The task is the GAMENet / SafeDrug multi-label setting.
+Under a 30 % patient subset / ≤ 15 epochs / 2-seed protocol, **HGDR is safest**
+(DDI rate **0.0779 ± 0.0020**, below the 0.087 of the real prescriptions) but a
+**multi-hot MLP (Jaccard 0.363)** and **logistic regression (0.361)** are more
+accurate than HGDR (**0.323**). A later full-data seed-0 run (≤ 30 epochs)
+reached Jaccard **0.356** / DDI **0.072**. Report Tables 4.1–4.2 (DDI MAE,
+substitute Jaccard 0.967) are a **different protocol** and are not reproduced
+here. **MIMIC-III patient data are not in this repo.** Details and the
+thesis-vs-code gap table: [`phase2/README.md`](phase2/README.md).
 
 ---
 
@@ -51,8 +77,12 @@ Given the diagnoses, procedures and visit history of a hospital admission, HGDR 
 </p>
 
 <p align="center">
-  <img src="phase2/docs/figures/architecture.png" alt="HGDR graph schema and model" width="95%">
-  <br><em>Phase 2 HGDR: heterogeneous entity graph, DDI graph, molecular encoder, admission encoder.</em>
+  <img src="phase2/docs/figures/architecture_final.jpg" alt="Official GRAND architecture (Phase 2)" width="95%">
+  <br><em>Phase 2 official architecture (AUIST report / thesis figure): EHR channels,
+  meta-paths, semantic fusion, Dual-attention Graph Transformer + InfoNCE DDI branch.
+  The released <code>hgdr</code> model is the EHR+DDI subset of this drawing
+  (no genome channel, no InfoNCE DAGT head). See
+  <a href="phase2/README.md#thesis-architecture-vs-released-implementation">the gap table</a>.</em>
 </p>
 
 Per-phase figures, ablation charts and training curves live in
@@ -80,12 +110,13 @@ Per-phase figures, ablation charts and training curves live in
 │   ├── data/              compact KIBA + ProtBERT-BFD npz + versioned splits
 │   ├── results/           11-variant × 2-seed ablation tables and figures
 │   └── tests/             22 pytest cases
-└── phase2/                package hgdr    — MIMIC-III HGDR (ships mappings only, ~2 MB)
+└── phase2/                package hgdr    — MIMIC-III GRAND/HGDR (ships mappings only, ~2 MB)
     ├── README.md, CHANGELOG.md, requirements.txt, environment.yml
     ├── configs/           default.yaml (full data, 30 epochs) + ablation_*.yaml
     ├── src/hgdr/          data / models / utils
     ├── scripts/           preprocess, graph build, train, ablation, demo_mode.ps1
     ├── data/mappings/     TWOSIDES CID pairs + PubChem name map (no patient data)
+    ├── docs/              thesis_notes.md + official architecture_final.jpg
     ├── results/           12-variant × 2-seed ablation tables and figures
     └── tests/             34 pytest cases
 ```
@@ -277,17 +308,19 @@ How to obtain MIMIC-III and rebuild Phase 2 artefacts:
 
 ## Citation
 
-Author, title and school below are **placeholders** — update `CITATION.cff` and this
-block when the thesis is deposited. Please also cite the papers the architectures
-adapt (GraphormerDTI; GAMENet / SafeDrug).
+From the May 2025 AUIST Phase-I project report (cover title). Please also cite the
+papers the architectures adapt (GraphormerDTI; GAMENet / SafeDrug; DrugDAGT).
 
 ```bibtex
-@mastersthesis{prabhu2026graph,
+@mastersthesis{prabhu2025grand,
   author  = {Ashwin Prabhu M},
-  title   = {Graph models for drug discovery: edge-aware graph transformers for
-             drug--target affinity and heterogeneous-graph medication recommendation},
-  school  = {<University>},
-  year    = {2026},
+  title   = {GRAND: Graph-based Recommendation with Attention Network
+             for Personalized Drug Therapy},
+  school  = {Department of Information Science and Technology,
+             College of Engineering, Guindy, Anna University},
+  year    = {2025},
+  note    = {M.Tech. (Information Technology -- AI \& DS) AUIST Phase-I
+             project report, Register No. 2023176029. Supervisor: Dr. T. Mala},
   url     = {https://github.com/BlackAsh01/graph-drug-discovery}
 }
 
@@ -315,6 +348,17 @@ adapt (GraphormerDTI; GAMENet / SafeDrug).
   author    = {Yang, Chaoqi and Xiao, Cao and Ma, Fenglong and Glass, Lucas and Sun, Jimeng},
   booktitle = {IJCAI},
   year      = {2021}
+}
+
+@article{chen2024drugdagt,
+  title   = {DrugDAGT: a dual-attention graph transformer with contrastive learning
+             improves drug-drug interaction prediction},
+  author  = {Chen, Yaojia and Wang, Jiacheng and Zou, Quan and Niu, Mengting
+             and Ding, Yijie and Song, Jiangning and Wang, Yansu},
+  journal = {BMC Biology},
+  volume  = {22},
+  pages   = {233},
+  year    = {2024}
 }
 ```
 

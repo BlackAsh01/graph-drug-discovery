@@ -1,5 +1,11 @@
 """HGDR: heterogeneous-graph, DDI-aware medication recommender.
 
+This is the **released EHR+DDI subset** of the official GRAND figure
+(diagnose / medication channels, no genome / M–G–M, no Dual-attention
+Graph Transformer + InfoNCE).  ``AttentionPool`` reuses the thesis
+semantic-fusion MLP shape (Linear → Tanh → Linear) as *admission-code*
+pooling, not HAN attention over meta-path embeddings Z^(m), Z^(p).
+
 Forward pass (per mini-batch of admissions):
 
 1. **Node initialisation** – learned ID embeddings for diagnoses,

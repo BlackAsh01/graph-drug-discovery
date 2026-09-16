@@ -331,12 +331,16 @@ python -m pytest tests/     # 22 tests: featurisation, metrics vs naive O(n²) C
 If you use this code, please cite the thesis and the GraphormerDTI paper the architecture is adapted from.
 
 ```bibtex
-@mastersthesis{<key>,
-  author  = {<Author Name>},
-  title   = {<Thesis title>: Phase 1 -- Graph-transformer drug--target affinity prediction on KIBA},
-  school  = {<University>},
-  year    = {<2026>},
-  url     = {<repository URL>}
+@mastersthesis{prabhu2025grand,
+  author  = {Ashwin Prabhu M},
+  title   = {GRAND: Graph-based Recommendation with Attention Network
+             for Personalized Drug Therapy},
+  school  = {Department of Information Science and Technology,
+             College of Engineering, Guindy, Anna University},
+  year    = {2025},
+  note    = {Phase 1 package (dti_gt / KIBA):
+             https://github.com/BlackAsh01/graph-drug-discovery/tree/main/phase1},
+  url     = {https://github.com/BlackAsh01/graph-drug-discovery}
 }
 
 @article{gao2024graphormerdti,

@@ -1,5 +1,20 @@
 # Changelog - from research notebooks to the release package
 
+## 1.0.2 (2026-09-17) - thesis architecture alignment (docs)
+
+- Official AUIST title, author, register number and school: **GRAND: Graph-based
+  Recommendation with Attention Network for Personalized Drug Therapy**,
+  Ashwin Prabhu M (2023176029), CEG / Anna University, May 2025.
+- Added the official architecture figure
+  (`docs/figures/architecture_final.jpg`) and `docs/thesis_notes.md`.
+- README states the **thesis-vs-implementation** gap: no genome channel,
+  no Dual-attention Graph Transformer / InfoNCE DDI head, no BERT notes,
+  no FDA/DailyMed substitute APIs. Released `hgdr` remains the EHR+DDI
+  subset already measured in the ablation (Jaccard 0.3561 full-data, etc.).
+- Report Tables 4.1–4.2 (DDI MAE, substitute Jaccard 0.967) are documented
+  as a different protocol and are **not** mixed with the GAMENet-style tables.
+- No model / metric / checkpoint changes.
+
 ## 1.0.1 (2026-09-17) - full-data training results
 
 - Completed `configs/default.yaml` seed 0 on all 50,085 admissions (early stop epoch 24,

@@ -1,5 +1,10 @@
 """Recommendation losses: BCE (+ multi-label margin) and the DDI penalty.
 
+In the official GRAND figure the recommendation objective is labelled
+``L1``.  Here that term is BCE + ``ddi_weight`` × soft-DDI-rate — not
+an L1/MAE regression and not the AUIST report's substitute cosine-λρ
+ranker.  InfoNCE (figure, molecular branch) is not implemented.
+
 The DDI loss is a differentiable surrogate of the *DDI rate* metric.  With
 predicted probabilities ``p`` and the symmetric DDI adjacency ``A``
 
