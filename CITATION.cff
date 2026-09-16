@@ -1,24 +1,84 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using these metadata."
-title: "GRAND: Graph-based Recommendation with Attention Network for Personalized Drug Therapy"
+message: >
+  If you use this software, please cite this repository and both AUIST
+  project reports (December 2024 DTI / graph transformer, and May 2025 GRAND).
+title: "Graph models for drug discovery"
+abstract: >
+  Two-phase graph-ML release by Ashwin Prabhu M (Register No. 2023176029).
+  GitHub phase1/ (package dti_gt) is KIBA drug–target affinity from the
+  December 2024 AUIST report. GitHub phase2/ (package hgdr) is the released
+  EHR+DDI subset of GRAND from the May 2025 AUIST report. University PDFs
+  self-describe as “Phase-I”; that label is not the GitHub folder numbering.
 version: "1.0.2"
 date-released: "2026-09-17"
 license: MIT
 repository-code: "https://github.com/BlackAsh01/graph-drug-discovery"
+keywords:
+  - drug-target interaction
+  - graph transformer
+  - KIBA
+  - ProtBERT
+  - binding affinity
+  - medication recommendation
+  - GRAND
+  - drug-drug interaction
+  - MIMIC-III
 authors:
   - family-names: "Prabhu M"
     given-names: "Ashwin"
     alias: "BlackAsh01"
     affiliation: "Department of Information Science and Technology, College of Engineering, Guindy, Anna University"
 preferred-citation:
-  type: thesis
-  title: "GRAND: Graph-based Recommendation with Attention Network for Personalized Drug Therapy"
-  thesis-type: "Master's thesis"
-  year: 2025
+  type: software
+  title: "Graph models for drug discovery"
+  year: 2026
   authors:
     - family-names: "Prabhu M"
       given-names: "Ashwin"
       alias: "BlackAsh01"
-  institution:
-    name: "Department of Information Science and Technology, College of Engineering, Guindy, Anna University"
-  notes: "M.Tech. (Information Technology — AI & DS) AUIST Phase-I project report, May 2025. Register No. 2023176029. Supervisor: Dr. T. Mala. Alternate certificate title: Graph Transformer Based Personalized Drug Recommendation System for Cardiovascular Disease. Phase 1 package: dti_gt (KIBA DTI). Phase 2 package: hgdr (released EHR+DDI subset of the official GRAND architecture)."
+  url: "https://github.com/BlackAsh01/graph-drug-discovery"
+  repository-code: "https://github.com/BlackAsh01/graph-drug-discovery"
+  notes: >
+    Cite both AUIST reports listed under references. Mapping:
+    December 2024 DTI / graph transformer / KIBA ↔ repository folder phase1/;
+    University AUIST Phase-I report (GRAND) ↔ repository folder phase2/.
+references:
+  - type: thesis
+    title: "Graph Transformer Based Personalized Drug Recommendation System for Cardiovascular Disease"
+    thesis-type: "Master's thesis"
+    year: 2024
+    month: 12
+    authors:
+      - family-names: "Prabhu M"
+        given-names: "Ashwin"
+        alias: "BlackAsh01"
+    institution:
+      name: "Department of Information Science and Technology, College of Engineering, Guindy, Anna University"
+    notes: >
+      M.Tech. (Information Technology — AI & DS) AUIST Phase-I project report,
+      December 2024. Register No. 2023176029. Supervisor: Dr. T. Mala.
+      Cover title is the CVD wording; the report body is KIBA drug–target
+      interaction prediction with a graph transformer and ProtBERT.
+      PDF has no Keywords section; abstract terms include DTI, Graph Transformer,
+      ProtBERT, KIBA, SMILES, RDKit, multi-head attention, binding affinity.
+      Repository folder: phase1/ (package dti_gt).
+    url: "https://github.com/BlackAsh01/graph-drug-discovery"
+  - type: thesis
+    title: "GRAND: Graph-based Recommendation with Attention Network for Personalized Drug Therapy"
+    thesis-type: "Master's thesis"
+    year: 2025
+    month: 5
+    authors:
+      - family-names: "Prabhu M"
+        given-names: "Ashwin"
+        alias: "BlackAsh01"
+    institution:
+      name: "Department of Information Science and Technology, College of Engineering, Guindy, Anna University"
+    notes: >
+      M.Tech. (Information Technology — AI & DS) AUIST Phase-I project report,
+      Register No. 2023176029. Supervisor: Dr. T. Mala.
+      University AUIST Phase-I report (GRAND) ↔ repository folder phase2/
+      (package hgdr; released EHR+DDI subset of the official GRAND architecture).
+      Alternate certificate title: Graph Transformer Based Personalized Drug
+      Recommendation System for Cardiovascular Disease.
+    url: "https://github.com/BlackAsh01/graph-drug-discovery"

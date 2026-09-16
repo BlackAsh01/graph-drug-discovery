@@ -1,5 +1,11 @@
 # Changelog - from research notebooks to the release package
 
+## 1.0.3 (2026-09-17) - dual-thesis citation
+
+- University AUIST Phase-I report (GRAND) ↔ repository folder `phase2/`.
+- December 2024 DTI / graph-transformer report ↔ `phase1/`.
+- Root `CITATION.cff` / `CITATIONS.bib` now list both theses.
+
 ## 1.0.2 (2026-09-17) - thesis architecture alignment (docs)
 
 - Official AUIST title, author, register number and school: **GRAND: Graph-based

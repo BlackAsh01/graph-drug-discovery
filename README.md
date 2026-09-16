@@ -10,10 +10,14 @@ Publication-ready release of a two-phase graph-ML thesis by **Ashwin Prabhu M**
 Department of Information Science and Technology, College of Engineering,
 Guindy, Anna University (guide: Dr. T. Mala).
 
-The official project title on the May 2025 AUIST cover is
-**GRAND: Graph-based Recommendation with Attention Network for Personalized Drug Therapy**.
-That report is the source for **Phase 2**. Phase 1 is the companion KIBA
-drug–target-affinity package.
+Two AUIST project reports back this repository. The December 2024 cover title
+is *Graph Transformer Based Personalized Drug Recommendation System for
+Cardiovascular Disease* (report body: KIBA DTI / graph transformer / ProtBERT)
+and is the source for **Phase 1**. The May 2025 cover title is
+**GRAND: Graph-based Recommendation with Attention Network for Personalized Drug Therapy**
+and is the source for **Phase 2**. Both PDFs self-describe as an AUIST
+“Phase-I” project report; that label is **not** the GitHub folder numbering
+(see [Citation](#citation)).
 
 | Phase | Package | Task | Data | Headline (honest, budget-limited) |
 |---|---|---|---|---|
@@ -101,6 +105,7 @@ Per-phase figures, ablation charts and training curves live in
 ├── LICENSE                MIT
 ├── NOTICE                 attributions (GraphormerDTI, GAMENet/SafeDrug, DRecHGR, …)
 ├── CITATION.cff
+├── CITATIONS.bib          both AUIST @mastersthesis entries
 ├── .gitignore             unions both phases + venvs / MIMIC / checkpoints
 ├── phase1/                package dti_gt  — KIBA DTI (ships compact data, ~6 MB)
 │   ├── README.md, CHANGELOG.md, requirements.txt, environment.yml, pyproject.toml
@@ -308,10 +313,36 @@ How to obtain MIMIC-III and rebuild Phase 2 artefacts:
 
 ## Citation
 
-From the May 2025 AUIST Phase-I project report (cover title). Please also cite the
-papers the architectures adapt (GraphormerDTI; GAMENet / SafeDrug; DrugDAGT).
+Please cite **both** AUIST project reports when using this repository.
+University “Phase-I” labels on the PDFs are **not** the GitHub folder names:
+
+- GitHub `phase1/` ↔ December 2024 AUIST report (DTI / graph transformer / KIBA)
+- GitHub `phase2/` ↔ May 2025 GRAND report (the BibTeX `note` still says “AUIST Phase-I”)
+- **University AUIST Phase-I report (GRAND) ↔ repository folder `phase2/`**
+
+Machine-readable copies: [`CITATION.cff`](CITATION.cff), [`CITATIONS.bib`](CITATIONS.bib).
+Please also cite the papers the architectures adapt (GraphormerDTI; GAMENet / SafeDrug; DrugDAGT).
 
 ```bibtex
+@mastersthesis{prabhu2024dti,
+  author   = {Ashwin Prabhu M},
+  title    = {Graph Transformer Based Personalized Drug Recommendation
+              System for Cardiovascular Disease},
+  school   = {Department of Information Science and Technology,
+              College of Engineering, Guindy, Anna University},
+  year     = {2024},
+  month    = dec,
+  note     = {M.Tech. (Information Technology -- AI \& DS) AUIST Phase-I
+              project report, December 2024. Register No. 2023176029.
+              Supervisor: Dr. T. Mala. Cover title uses the CVD wording;
+              the report body is KIBA drug--target interaction prediction
+              with a graph transformer and ProtBERT (repository folder
+              phase1/). PDF has no Keywords section; abstract terms:
+              DTI, Graph Transformer, ProtBERT, KIBA, SMILES, RDKit,
+              multi-head attention, binding affinity.},
+  url      = {https://github.com/BlackAsh01/graph-drug-discovery}
+}
+
 @mastersthesis{prabhu2025grand,
   author  = {Ashwin Prabhu M},
   title   = {GRAND: Graph-based Recommendation with Attention Network

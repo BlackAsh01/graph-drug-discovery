@@ -16,7 +16,9 @@ Transformer + InfoNCE DDI head. See
 [Thesis architecture vs. released implementation](#thesis-architecture-vs-released-implementation)
 and [`docs/thesis_notes.md`](docs/thesis_notes.md).
 
-Phase 1 (`../phase1/`, KIBA drug–target affinity) is a separate package.
+Phase 1 (`../phase1/`, KIBA drug–target affinity) is a separate package
+from the December 2024 AUIST DTI / graph-transformer report.
+**University AUIST Phase-I report (GRAND) ↔ this folder (`phase2/`).**
 
 <p align="center">
   <img src="docs/figures/architecture_final.jpg" width="95%" alt="Official GRAND architecture: EHR channels, meta-paths, semantic fusion, Dual-attention Graph Transformer DDI branch"/>
@@ -420,6 +422,13 @@ See [`CHANGELOG.md`](CHANGELOG.md) for the full list. Highlights:
 
 ## 11. Citation, licence, acknowledgements
 
+Primary source for this package: the **May 2025** GRAND report.
+The BibTeX `note` keeps the university wording (“AUIST Phase-I”);
+**University AUIST Phase-I report (GRAND) ↔ repository folder `phase2/`**.
+The earlier DTI / graph-transformer report is cited under
+[`../phase1/`](../phase1/README.md). Both entries:
+[`../CITATIONS.bib`](../CITATIONS.bib).
+
 ```bibtex
 @mastersthesis{prabhu2025grand,
   author  = {Ashwin Prabhu M},
@@ -429,14 +438,14 @@ See [`CHANGELOG.md`](CHANGELOG.md) for the full list. Highlights:
              College of Engineering, Guindy, Anna University},
   year    = {2025},
   note    = {M.Tech. (Information Technology -- AI \& DS) AUIST Phase-I
-             project report, Register No. 2023176029. Supervisor: Dr. T. Mala.
-             Phase 2 code (package hgdr):
-             https://github.com/BlackAsh01/graph-drug-discovery/tree/main/phase2}
+             project report, Register No. 2023176029. Supervisor: Dr. T. Mala},
+  url     = {https://github.com/BlackAsh01/graph-drug-discovery}
 }
 ```
 
 An alternate title on the report’s bona fide certificate is *Graph Transformer
 Based Personalized Drug Recommendation System for Cardiovascular Disease*.
+That wording is also the **cover title** of the December 2024 Phase 1 DTI report.
 
 **Licence.** Source code: MIT (see the repository root). Data: MIMIC-III is governed by the
 PhysioNet DUA and is not included; TWOSIDES / PubChem derived tables in `data/mappings/` are

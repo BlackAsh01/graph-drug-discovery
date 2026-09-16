@@ -4,7 +4,8 @@
 [![pytorch](https://img.shields.io/badge/PyTorch-2.5-ee4c2c)](#installation)
 [![tests](https://img.shields.io/badge/tests-pytest%20%E2%9C%93-brightgreen)](#tests)
 
-Phase 1 of a two-phase thesis on graph-transformer models for drug discovery. This package predicts the
+Phase 1 of a two-phase thesis on graph-transformer models for drug discovery
+(December 2024 AUIST report; GitHub `phase1/` ↔ that PDF). This package predicts the
 **KIBA binding-affinity score** of a drug–kinase pair from (i) the drug's molecular graph and (ii) the target's
 amino-acid sequence. Drugs are encoded with an **edge-aware graph transformer** (bond-feature-biased sparse
 attention, Graphormer-style degree encoding, residual + BatchNorm blocks) adapted from
@@ -328,19 +329,30 @@ python -m pytest tests/     # 22 tests: featurisation, metrics vs naive O(n²) C
 
 ## Citation
 
-If you use this code, please cite the thesis and the GraphormerDTI paper the architecture is adapted from.
+Primary source for this package: the **December 2024** AUIST report
+(DTI / graph transformer / KIBA). GitHub `phase1/` ↔ that PDF.
+The later GRAND report lives under [`../phase2/`](../phase2/README.md)
+(**University AUIST Phase-I report (GRAND) ↔ repository folder `phase2/`**).
+Both entries are in [`../CITATIONS.bib`](../CITATIONS.bib).
 
 ```bibtex
-@mastersthesis{prabhu2025grand,
-  author  = {Ashwin Prabhu M},
-  title   = {GRAND: Graph-based Recommendation with Attention Network
-             for Personalized Drug Therapy},
-  school  = {Department of Information Science and Technology,
-             College of Engineering, Guindy, Anna University},
-  year    = {2025},
-  note    = {Phase 1 package (dti_gt / KIBA):
-             https://github.com/BlackAsh01/graph-drug-discovery/tree/main/phase1},
-  url     = {https://github.com/BlackAsh01/graph-drug-discovery}
+@mastersthesis{prabhu2024dti,
+  author   = {Ashwin Prabhu M},
+  title    = {Graph Transformer Based Personalized Drug Recommendation
+              System for Cardiovascular Disease},
+  school   = {Department of Information Science and Technology,
+              College of Engineering, Guindy, Anna University},
+  year     = {2024},
+  month    = dec,
+  note     = {M.Tech. (Information Technology -- AI \& DS) AUIST Phase-I
+              project report, December 2024. Register No. 2023176029.
+              Supervisor: Dr. T. Mala. Cover title uses the CVD wording;
+              the report body is KIBA drug--target interaction prediction
+              with a graph transformer and ProtBERT (repository folder
+              phase1/). PDF has no Keywords section; abstract terms:
+              DTI, Graph Transformer, ProtBERT, KIBA, SMILES, RDKit,
+              multi-head attention, binding affinity.},
+  url      = {https://github.com/BlackAsh01/graph-drug-discovery}
 }
 
 @article{gao2024graphormerdti,

@@ -4,9 +4,14 @@ NOTICE
 This repository is an original re-implementation of a two-phase graph-ML thesis
 by Ashwin Prabhu M (Register No. 2023176029), M.Tech. Information Technology
 (AI & DS), Department of Information Science and Technology, College of
-Engineering, Guindy, Anna University (May 2025 AUIST Phase-I report).
-Official project title: GRAND: Graph-based Recommendation with Attention
-Network for Personalized Drug Therapy (packages `dti_gt` and `hgdr`).
+Engineering, Guindy, Anna University. Two AUIST project reports (both PDFs
+self-describe as “Phase-I”; that label is not the GitHub folder numbering):
+* December 2024 — Graph Transformer Based Personalized Drug Recommendation
+  System for Cardiovascular Disease (report body: KIBA DTI / graph
+  transformer / ProtBERT). Repository folder `phase1/`, package `dti_gt`.
+* May 2025 — GRAND: Graph-based Recommendation with Attention Network
+  for Personalized Drug Therapy. University AUIST Phase-I report (GRAND)
+  ↔ repository folder `phase2/`, package `hgdr`.
 The source is MIT-licensed (see LICENSE).
 Several ideas, metrics, and architectural motifs are adapted from prior work.
 Those projects retain their own licences and should be cited when this code is

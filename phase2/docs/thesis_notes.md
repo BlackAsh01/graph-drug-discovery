@@ -7,11 +7,18 @@ guide, not a substitute for the PDF.
 **Report file:** `2023176029_AshwinPrabhuM_auistreport_PG_AI_DS_2024_.pdf`
 (68 pages, LaTeX / pdfTeX, May 2025).
 
-Academic “Phase-I report” here means the first submitted project report at
-Anna University. It is **not** the same split as this repo’s Phase 1 (KIBA
-DTI) vs Phase 2 (medication recommendation). The report is entirely about
+Academic “Phase-I report” here means the university project-report label on
+the PDF. It is **not** the same split as this repo’s Phase 1 (KIBA DTI) vs
+Phase 2 (medication recommendation). **University AUIST Phase-I report
+(GRAND) ↔ repository folder `phase2/`.** The report is entirely about
 DDI prediction and personalized drug recommendation; that work lives in
 `phase2/`.
+
+The earlier **December 2024** AUIST report (file
+`2023176029_AshwinPrabhuM_auistreport_PG_AI_DS_2024.pdf`, 62 pages,
+pdfTeX 2024-12-18, cover date DEC 2024) uses the CVD wording as its
+**cover** title and is a KIBA DTI / graph-transformer study. That PDF
+maps to repository **`phase1/`**, not this folder.
 
 ---
 

@@ -1,5 +1,12 @@
 # Changelog — from research notebooks to release
 
+## 1.0.1 — citation
+
+Primary thesis for this package is the December 2024 AUIST report
+(*Graph Transformer Based Personalized Drug Recommendation System for
+Cardiovascular Disease*; body: KIBA DTI / graph transformer / ProtBERT),
+not the May 2025 GRAND report. GitHub `phase1/` ↔ that December PDF.
+
 ## 1.0.0 — first public release
 
 Source material: `Phase1/scripts/*.ipynb` (nine notebooks, Sep–Oct 2024), `Phase1/scripts/*.py` (copies of
