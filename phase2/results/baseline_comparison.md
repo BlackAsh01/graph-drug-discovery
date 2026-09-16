@@ -62,6 +62,24 @@ best method), and DDI-aware models buy their lower DDI rate with some accuracy. 
 budget-limited protocol (<= 15 epochs) HGDR has not yet overtaken the multi-hot baselines on
 accuracy; it is the only learned model whose recommendations are safer than the real prescriptions.
 
+## This repository (full data, seed 0, ≤ 30 epochs)
+
+A follow-up run of `configs/default.yaml` on **all** 39,239 patients / 50,085 admissions
+(not a 30 % subset). One seed. Early-stopped at epoch 24 (best epoch 19), 12.3 min on a
+GTX 1650 Ti. Authoritative numbers: `fulldata_full_seed0_summary.md` and
+`runs/fulldata_full_seed0/metrics.json`. The subset ablation directories were not overwritten.
+
+| method | protocol | Jaccard ↑ | PR-AUC ↑ | F1 ↑ | DDI rate ↓ | #drugs |
+|---|---|---:|---:|---:|---:|---:|
+| **HGDR full** | full data, seed 0 | 0.3561 | 0.6033 | 0.4969 | **0.0724** | 15.54 |
+| HGDR full (from the table above) | 30 % subset, 2 seeds | 0.3233 ± 0.0013 | 0.5621 ± 0.0016 | 0.4590 ± 0.0020 | 0.0779 ± 0.0020 | 15.07 |
+| MLP on multi-hot codes (from the table above) | 30 % subset, 2 seeds | 0.3633 ± 0.0004 | 0.6261 ± 0.0012 | 0.5097 ± 0.0003 | 0.1003 ± 0.0006 | 15.15 |
+| *ground-truth prescriptions (full-data test)* | full data | - | - | - | 0.0866 | - |
+
+Full-data training improved HGDR Jaccard by about +0.033 and lowered DDI to 0.072 (still
+below real prescriptions). It did **not** overtake the published *subset* MLP (0.356 vs
+0.363). The MLP was not re-run on full data, so that comparison is across protocols.
+
 ## References
 
 - Shang, Xiao, Ma, Sun. *GAMENet: Graph Augmented MEmory Networks for Recommending Medication Combination.* AAAI 2019.

@@ -1,5 +1,11 @@
 # Changelog - from research notebooks to the release package
 
+## 1.0.1 (2026-09-17) - full-data training results
+
+- Completed `configs/default.yaml` seed 0 on all 50,085 admissions (early stop epoch 24,
+  best epoch 19, 12.3 min). Test Jaccard 0.3561 / PR-AUC 0.6033 / F1 0.4969 / DDI 0.0724.
+- Write-up in `results/fulldata_full_seed0_summary.md`; subset ablation runs are unchanged.
+
 ## 1.0.0 (2026-09) - first reproducible release
 
 ### What the original research code looked like
@@ -79,7 +85,7 @@ look-ups inside training loops.
   study can be launched as a detached process and resumed after an interruption
   (`--summary_only` rebuilds the table). Whole study: 24 runs / 68 min.
 - Subset protocol fixed at 30 % of patients, <= 15 epochs, patience 4, 2 seeds (see README
-  Section 6); the full-data `configs/default.yaml` run is documented but was not completed.
+  Section 6); the full-data `configs/default.yaml` run is documented in 1.0.1.
 
 **Hygiene**
 - No patient-level MIMIC-derived files, checkpoints or files > 10 MB in the release;

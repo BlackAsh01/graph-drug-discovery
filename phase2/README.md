@@ -122,7 +122,7 @@ python scripts/build_hetero_graph.py --processed_dir data/processed/mimic3
 
 # 5. train + evaluate one configuration
 python scripts/train.py --config configs/ablation_base.yaml --seed 0      # 30 % subset protocol (~5 min on a GTX 1650 Ti)
-python scripts/train.py --config configs/default.yaml --seed 0            # full data, 30 epochs (~1-1.5 h; not run for the release, see Section 5)
+python scripts/train.py --config configs/default.yaml --seed 0            # full data, 30 epochs (~12 min on a GTX 1650 Ti; see Section 5.1)
 python scripts/train.py --config configs/default.yaml --set train.epochs=5 model.hidden_dim=32   # any override
 
 # 6. evaluate a checkpoint (keep_checkpoint: true in the config, or scripts/train.py)
@@ -170,13 +170,36 @@ multi-hot baselines (0.100) - but the multi-hot MLP / logistic regression are *m
 still improving at the 15-epoch cap (best epoch = 14-15 for every `full` seed; the 20-epoch runs
 of the same config reached 0.326-0.345 test Jaccard), whereas the linear/MLP baselines converge in
 ~10 epochs; (ii) the DDI penalty costs accuracy (`no_ddi_loss` in Section 6 is +0.010 Jaccard at
-+0.032 DDI rate). Whether HGDR overtakes the multi-hot baselines with the full data and 30 epochs
-(`configs/default.yaml`) is an open question that the time budget of this release did not allow to
-answer - see Section 9.
++0.032 DDI rate). A later full-data run of `configs/default.yaml` (seed 0) is in Section 5.1:
+Jaccard rose to 0.356 and DDI fell to 0.072. That still does not overtake the *subset* MLP
+(Jaccard 0.363); the MLP was not re-run on full data.
 
 Absolute numbers are **not** directly comparable to GAMENet/SafeDrug (131 ATC-3 classes,
 >= 2-visit patients); `results/baseline_comparison.md` explains the protocol differences and
 lists the literature numbers (marked *reported, not re-run*).
+
+### 5.1 Full-data run (seed 0)
+
+`python scripts/train.py --config configs/default.yaml --seed 0` on all 39,239 patients /
+50,085 admissions (31,268 / 3,961 / 4,010 train/val/test patients; 39,992 / 5,032 / 5,061
+visits). Same 493 k model, batch 128, lr 1e-3, ≤ 30 epochs, early stopping patience 5 on
+validation Jaccard. One seed. Source: `results/fulldata_full_seed0_summary.md` and
+`results/runs/fulldata_full_seed0/metrics.json`. This does **not** replace the subset
+ablation directories (`results/runs/full_seed0`, `full_seed1`).
+
+| model | Jaccard ↑ | PR-AUC ↑ | F1 ↑ | DDI rate ↓ | #drugs | P@10 ↑ | best epoch | min |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| **HGDR (full data, seed 0)** | 0.3561 | 0.6033 | 0.4969 | **0.0724** | 15.54 | 0.7065 | 19 | 12.3 |
+| HGDR (30 % subset, 2-seed mean) | 0.3233 ± 0.0013 | 0.5621 ± 0.0016 | 0.4590 ± 0.0020 | 0.0779 ± 0.0020 | 15.07 | 0.676 | 14–15 | 4.2 |
+| MLP (30 % subset, 2-seed mean) | 0.3633 ± 0.0004 | 0.6261 ± 0.0012 | 0.5097 ± 0.0003 | 0.1003 ± 0.0006 | 15.15 | 0.731 | ~10 | 1.5 |
+| *ground-truth test prescriptions* | – | – | – | 0.0866 | – | – | – | – |
+
+Early-stopped at epoch 24 (no val improvement for 5 epochs after the best checkpoint at
+epoch 19). Wall-clock 12.3 min on a GTX 1650 Ti (~24–42 s/epoch). Full-data training
+closed most of the subset-protocol accuracy gap (+0.033 Jaccard vs subset HGDR) and
+lowered DDI further (0.072 vs 0.078, still below the 0.087 of real prescriptions). It
+did **not** overtake the published subset MLP (0.356 vs 0.363). The MLP was not re-run
+on full data, so that last comparison is across protocols.
 
 ## 6. Ablation study
 
@@ -289,7 +312,7 @@ phase2/
 │                       train.py, evaluate.py, run_ablation.py, make_figures.py, demo_mode.ps1, link_local_data.ps1
 ├── data/               README.md + mappings/ (shippable, non-patient); raw/ and processed/ are git-ignored
 ├── results/            ablation_results.csv, ablation_summary.csv, ablation_table.md, baseline_comparison.md,
-│                       figures/, runs/<run>/ (metrics.json, history.csv, config.yaml, train.log)
+│                       fulldata_full_seed0_summary.md, figures/, runs/<run>/ (metrics.json, history.csv, config.yaml)
 ├── docs/figures/       architecture.png
 ├── notebooks/          demo_walkthrough.ipynb (outputs stripped)
 └── tests/              34 pytest cases (synthetic graph + synthetic MIMIC-shaped sample; < 1 min CPU)
@@ -307,13 +330,13 @@ phase2/
 * **Hardware used.** NVIDIA GTX 1650 Ti (4 GB), 16 GB RAM, Windows 10/11, GPU shared with an
   unrelated training job. Peak GPU memory of the full model: ~1.4 GB (batch 256, including the
   molecular graphs). A subset-protocol epoch takes 11-20 s when the GPU is free (up to 80-200 s when
-  another job shares it); a full-data epoch 1.8-3.3 min. `train.py` automatically retries on CPU if CUDA
+  another job shares it); a full-data epoch 24-42 s when the GPU is free. `train.py` automatically retries on CPU if CUDA
   runs out of memory. See Section 6 for the measured per-run times.
-* **Full-scale run.** `configs/default.yaml` (all 50,085 admissions, 30 epochs) was *not* completed for
-  this release: at ~2 min per epoch it did not fit in the time budget next to the 24-run ablation. A
-  partial run (6 epochs, 13 min) reached validation Jaccard 0.314 / PR-AUC 0.578, i.e. already the
-  level the 30 % protocol reaches after 15 epochs; the config is kept as the reference full-scale
-  setting for anyone reproducing the work (`python scripts/train.py --config configs/default.yaml`).
+* **Full-scale run.** `configs/default.yaml` (all 50,085 admissions, ≤ 30 epochs, patience 5)
+  completed 2026-09-17, seed 0: early stop at epoch 24 (best epoch 19), **12.3 min** on a
+  GTX 1650 Ti. Test Jaccard **0.3561**, PR-AUC **0.6033**, F1 **0.4969**, DDI rate **0.0724**,
+  15.54 drugs/admission. Write-up: `results/fulldata_full_seed0_summary.md`. Reproduce with
+  `python scripts/train.py --config configs/default.yaml --seed 0`.
 * **Data versions.** MIMIC-III v1.4 tables as listed in `data/README.md`; the local copy lacked
   `PROCEDURES_ICD`, so procedure nodes are `PROCEDUREEVENTS_MV` item ids (MetaVision admissions
   only). With `PROCEDURES_ICD` present the code uses ICD-9 procedures automatically.

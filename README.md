@@ -37,7 +37,7 @@ Both packages are from-scratch, DGL-free re-implementations of the research note
 Given a drug SMILES and a kinase sequence, the model regresses the continuous KIBA score. The drug is an RDKit molecular graph encoded by an edge-aware graph transformer (bond-feature-biased sparse attention, Graphormer-style degree encoding, residual + BatchNorm blocks) adapted from [GraphormerDTI](https://github.com/mengmeng34/GraphormerDTI); the protein is a frozen ProtBERT-BFD embedding (or a learned 1-D CNN); the two are fused by protein-conditioned cross-attention over atoms and scored by a 3-layer MLP. Every component is a config flag. Under a fixed 20 % stratified KIBA subset (18,826 training pairs, ≤ 12 epochs, 2 seeds) the full 1.54 M model reaches **test MSE 0.4684 ± 0.0296 / CI 0.7343 ± 0.0088 / r_m² 0.3625 ± 0.0416** in **5.4 min** per run. Dropping residuals/norm inflates MSE by **+40 %**; a bag-of-residues protein encoder costs **+29 %**. Bond features, degree encoding and cross-attention fusion did not help under this budget; a 0.68 M GCN backbone is competitive. Full-KIBA training (`phase1/configs/default.yaml`) is provided but was not run for this release. Details: [`phase1/README.md`](phase1/README.md).
 
 **Phase 2 — HGDR heterogeneous-graph medication recommendation on MIMIC-III.**
-Given the diagnoses, procedures and visit history of a hospital admission, HGDR recommends a *set* of drugs while penalising known drug–drug interactions. It combines a heterogeneous entity graph (diagnosis / procedure / drug nodes; training-only co-occurrence edges), a TWOSIDES DDI graph with a differentiable DDI-rate loss, a GAT/GIN molecular encoder on PubChem SMILES, and an attention-pooled admission encoder with a GRU over previous visits. The task is the GAMENet / SafeDrug multi-label setting, evaluated with Jaccard, PR-AUC, F1, DDI rate and ranking metrics. Under a 30 % patient subset / ≤ 15 epochs / 2-seed protocol, **HGDR is safest** (DDI rate **0.0779 ± 0.0020**, below the 0.087 of the real prescriptions) but a **multi-hot MLP (Jaccard 0.363)** and **logistic regression (0.361)** are more accurate than HGDR (**0.323**). Graph message passing is the component HGDR cannot drop; the DDI loss is what keeps recommendations safer than the baselines. Whether HGDR overtakes the multi-hot models on full MIMIC-III with 30 epochs is an open question this release did not have time to answer. **MIMIC-III patient data are not in this repo.** Details: [`phase2/README.md`](phase2/README.md).
+Given the diagnoses, procedures and visit history of a hospital admission, HGDR recommends a *set* of drugs while penalising known drug–drug interactions. It combines a heterogeneous entity graph (diagnosis / procedure / drug nodes; training-only co-occurrence edges), a TWOSIDES DDI graph with a differentiable DDI-rate loss, a GAT/GIN molecular encoder on PubChem SMILES, and an attention-pooled admission encoder with a GRU over previous visits. The task is the GAMENet / SafeDrug multi-label setting, evaluated with Jaccard, PR-AUC, F1, DDI rate and ranking metrics. Under a 30 % patient subset / ≤ 15 epochs / 2-seed protocol, **HGDR is safest** (DDI rate **0.0779 ± 0.0020**, below the 0.087 of the real prescriptions) but a **multi-hot MLP (Jaccard 0.363)** and **logistic regression (0.361)** are more accurate than HGDR (**0.323**). Graph message passing is the component HGDR cannot drop; the DDI loss is what keeps recommendations safer than the baselines. A later full-data seed-0 run (≤ 30 epochs) reached Jaccard **0.356** / DDI **0.072** — safer and more accurate than the subset HGDR, still short of the *subset* MLP (Jaccard 0.363; MLP not re-run on full data). **MIMIC-III patient data are not in this repo.** Details: [`phase2/README.md`](phase2/README.md).
 
 ---
 
@@ -168,7 +168,7 @@ python scripts/preprocess_mimic.py --mimic_dir data/raw/mimic-iii --out data/pro
 python scripts/build_hetero_graph.py --processed_dir data/processed/mimic3
 # 2. subset protocol (matches the published ablation, ~5 min)
 python scripts/train.py --config configs/ablation_base.yaml --seed 0
-# 3. full-data 30-epoch run (~1–1.5 h; not completed for this release)
+# 3. full-data 30-epoch run (~12 min on a GTX 1650 Ti; seed 0 completed)
 python scripts/train.py --config configs/default.yaml --seed 0
 ```
 
@@ -225,6 +225,21 @@ runs of the same config reached Jaccard 0.326–0.345); (ii) the DDI penalty cos
 largest HGDR-internal effect (`no_gnn` drops Jaccard by 0.064). The visit-history GRU
 does not help on this mostly single-admission cohort.
 
+### Phase 2 — full MIMIC-III, ≤ 30 epochs, seed 0
+
+Source: [`phase2/results/fulldata_full_seed0_summary.md`](phase2/results/fulldata_full_seed0_summary.md).
+Same 39,239-patient cohort, no 30 % subset. One seed. Early-stopped at epoch 24 (best 19), 12.3 min.
+
+| Model | Jaccard ↑ | PR-AUC ↑ | F1 ↑ | DDI rate ↓ | #drugs |
+|---|---|---|---|---|---|
+| **HGDR (full data, seed 0)** | 0.3561 | 0.6033 | 0.4969 | **0.0724** | 15.54 |
+| HGDR (30 % subset, 2-seed mean) | 0.3233 ± 0.0013 | 0.5621 ± 0.0016 | 0.4590 ± 0.0020 | 0.0779 ± 0.0020 | 15.07 |
+| MLP (30 % subset, 2-seed mean) | **0.3633 ± 0.0004** | 0.6261 ± 0.0012 | 0.5097 ± 0.0003 | 0.1003 ± 0.0006 | 15.15 |
+
+**Takeaway.** Full-data training improved HGDR Jaccard by about +0.033 and lowered DDI to 0.072
+(still below real prescriptions). It did not overtake the published *subset* MLP (0.356 vs 0.363).
+The MLP was not re-run on full data.
+
 ---
 
 ## Reproducibility and hardware
@@ -237,12 +252,10 @@ does not help on this mostly single-admission cohort.
 | Seeds | `dti_gt.utils.set_seed` (Python / NumPy / PyTorch); CUDA scatter is not bit-deterministic | `hgdr.utils.set_seed`; same caveat — report mean ± std |
 | Splits | Versioned index files in `phase1/data/splits/` | `md5(split_seed:subject_id)` — reproducible without shipping IDs |
 | Checkpoints | `best.pt` git-ignored (~6 MB); regenerate with `train.py` | never shipped (trained on credentialed data) |
-| Full-scale config | `phase1/configs/default.yaml` (94 k pairs, ≤ 40 epochs, ~1.5–2 h) — **not run** | `phase2/configs/default.yaml` (50 k admissions, 30 epochs, ~1–1.5 h) — **not completed** |
+| Full-scale config | `phase1/configs/default.yaml` (94 k pairs, ≤ 40 epochs, ~1.5–2 h) — **not run** | `phase2/configs/default.yaml` (50 k admissions, ≤ 30 epochs) — **seed 0 done**, 12.3 min, Jaccard 0.3561 / DDI 0.0724 |
 
-A partial Phase 2 full-data run (6 epochs) already reached validation Jaccard 0.314 /
-PR-AUC 0.578, i.e. the level the 30 % protocol reaches after 15 epochs. Anyone with a
-credentialed MIMIC-III copy can finish that run with
-`python scripts/train.py --config configs/default.yaml`.
+Phase 2 full-data write-up: [`phase2/results/fulldata_full_seed0_summary.md`](phase2/results/fulldata_full_seed0_summary.md).
+Reproduce with `python scripts/train.py --config configs/default.yaml --seed 0`.
 
 ---
 
