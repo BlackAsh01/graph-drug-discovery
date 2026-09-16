@@ -1,0 +1,19 @@
+# Shared settings for the ablation study: the *subset protocol*.
+# A stratified 20 % subset of KIBA (23,532 pairs, fixed seed 42, data/splits/kiba_subset20_seed42) split
+# 80/10/10 = 18,826 / 2,353 / 2,353 pairs. Fixed training budget so that every variant x 2 seeds fits a
+# 4 GB laptop GPU in ~2.5 h when run sequentially: batch 128, at most 12 epochs, early stopping after
+# 4 epochs without val-MSE improvement, ReduceLROnPlateau(x0.5, patience 2). All variants inherit this file
+# unchanged; the full model is trained under exactly the same budget.
+base: ../default.yaml
+results_dir: results
+
+data:
+  subset_fraction: 0.2
+  split_seed: 42
+
+training:
+  epochs: 12
+  batch_size: 128
+  early_stopping_patience: 4
+  lr_patience: 2
+  keep_checkpoint: false

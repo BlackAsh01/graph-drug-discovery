@@ -1,0 +1,25 @@
+# conda alternative to requirements.txt
+#   conda env create -f environment.yml && conda activate dti-gt
+name: dti-gt
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1        # drop this line for a CPU-only environment
+  - rdkit=2024.03.5
+  - numpy=1.26
+  - pandas=2.2
+  - scipy
+  - scikit-learn=1.6
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - pytest
+  - pip
+  - pip:
+      - torch-geometric==2.6.1
+      - transformers==4.46.2   # optional: only for scripts/embed_proteins.py
+      - sentencepiece

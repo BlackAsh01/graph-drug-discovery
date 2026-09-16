@@ -1,0 +1,46 @@
+NOTICE
+======
+
+This repository is an original re-implementation of a two-phase graph-ML thesis
+(package names `dti_gt` and `hgdr`). The source is MIT-licensed (see LICENSE).
+Several ideas, metrics, and architectural motifs are adapted from prior work.
+Those projects retain their own licences and should be cited when this code is
+used; they are not redistributed here as vendored trees.
+
+Phase 1 — drug–target affinity (`phase1/`, package `dti_gt`)
+-----------------------------------------------------------
+* GraphormerDTI (Gao et al., Comput. Biol. Med. 2024;
+  https://github.com/mengmeng34/GraphormerDTI) — edge-aware graph transformer
+  with bond-feature attention bias and Graphormer-style degree encoding.
+  Re-implemented with PyTorch Geometric (no DGL).
+* Dwivedi & Bresson, "A Generalization of Transformer Networks to Graphs"
+  (AAAI Workshop 2021) and Ying et al., Graphormer (NeurIPS 2021).
+* DeepDTA (Öztürk et al., Bioinformatics 2018) — 1-D CNN protein encoder and
+  the MSE / CI / r_m² metric set.
+* KIBA (Tang et al., J. Chem. Inf. Model. 2014) via Therapeutics Data Commons.
+  The compact pair/drug/target tables in `phase1/data/kiba/` are a normalised
+  copy of that public benchmark.
+* ProtTrans / ProtBERT-BFD (Elnaggar et al., IEEE TPAMI 2021; Rostlab,
+  MIT-licensed weights). The shipped `kiba_prot_bert_bfd.npz` is a 229 × 1024
+  mean-pooled embedding table derived from those weights.
+
+Phase 2 — medication recommendation (`phase2/`, package `hgdr`)
+--------------------------------------------------------------
+* GAMENet (Shang et al., AAAI 2019) and SafeDrug (Yang et al., IJCAI 2021) —
+  admission-level multi-label medication recommendation with a differentiable
+  DDI-rate penalty; TWOSIDES top-40 side-effect convention.
+* DRecHGR (DGL/HAN heterogeneous recommender used in the research notebooks) —
+  heterogeneous attention encoder, re-implemented here in PyTorch Geometric.
+* DrugDAGT (Wang et al.) — molecular / pairwise DDI scoring used in the
+  research notebooks; replaced here by a GAT/GIN molecular encoder.
+* MIMIC-III v1.4 (Johnson et al., Sci. Data 2016) is **not** included.
+  Access requires a PhysioNet credentialed Data Use Agreement and the data
+  must not be redistributed. The public MIMIC-III demo is downloaded on demand
+  by `phase2/scripts/demo_mode.ps1` and is never committed.
+* TWOSIDES (Tatonetti et al., Sci. Transl. Med. 2012) — derived CID-pair table
+  in `phase2/data/mappings/`.
+* PubChem (Kim et al., Nucleic Acids Res. 2023) — name → CID → SMILES mapping
+  in `phase2/data/mappings/`.
+
+If you redistribute this repository, keep this NOTICE and the MIT LICENSE
+together with the source.

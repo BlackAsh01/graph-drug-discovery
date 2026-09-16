@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "subset_fraction": 0.2,
+  "protocol": "random pair-level split 80/10/10, stratified 20% subset over 10 quantile bins of y",
+  "test": 2353,
+  "val": 2353,
+  "train": 18826
+}

@@ -1,0 +1,19 @@
+22:49:11 | INFO | data: 9349/1182/1196 train/val/test patients; 11954/1471/1485 visits; {'diag': 3868, 'proc': 115, 'drug': 606}
+22:49:12 | INFO | device: cuda
+22:49:14 | INFO | trainable parameters: 469,150
+22:49:29 | INFO | epoch 001 | loss 0.1642 (bce 0.1617, ddi 0.04964) | val jaccard 0.1694 f1 0.2822 prauc 0.4417 ddi 0.0417 #drugs 7.4 | 14.4s
+22:49:44 | INFO | epoch 002 | loss 0.1235 (bce 0.1208, ddi 0.05278) | val jaccard 0.1937 f1 0.3153 prauc 0.4452 ddi 0.0253 #drugs 9.3 | 15.2s
+22:50:00 | INFO | epoch 003 | loss 0.1212 (bce 0.1186, ddi 0.05285) | val jaccard 0.1923 f1 0.3126 prauc 0.4454 ddi 0.0294 #drugs 8.9 | 15.9s
+22:50:14 | INFO | epoch 004 | loss 0.1178 (bce 0.1152, ddi 0.05216) | val jaccard 0.1924 f1 0.3102 prauc 0.4915 ddi 0.0612 #drugs 8.0 | 14.4s
+22:50:26 | INFO | epoch 005 | loss 0.1154 (bce 0.1128, ddi 0.05175) | val jaccard 0.2365 f1 0.3625 prauc 0.4984 ddi 0.0828 #drugs 9.9 | 11.6s
+22:50:40 | INFO | epoch 006 | loss 0.1135 (bce 0.1109, ddi 0.05139) | val jaccard 0.2488 f1 0.3753 prauc 0.5121 ddi 0.0944 #drugs 10.1 | 13.4s
+22:50:53 | INFO | epoch 007 | loss 0.1109 (bce 0.1083, ddi 0.05150) | val jaccard 0.2749 f1 0.4035 prauc 0.5241 ddi 0.0716 #drugs 11.3 | 12.8s
+22:51:03 | INFO | epoch 008 | loss 0.1088 (bce 0.1062, ddi 0.05201) | val jaccard 0.2862 f1 0.4168 prauc 0.5284 ddi 0.0763 #drugs 12.0 | 10.4s
+22:51:14 | INFO | epoch 009 | loss 0.1076 (bce 0.1050, ddi 0.05218) | val jaccard 0.2644 f1 0.3857 prauc 0.5313 ddi 0.0743 #drugs 10.7 | 10.7s
+22:51:26 | INFO | epoch 010 | loss 0.1063 (bce 0.1037, ddi 0.05174) | val jaccard 0.2899 f1 0.4208 prauc 0.5377 ddi 0.0814 #drugs 12.7 | 11.7s
+22:51:36 | INFO | epoch 011 | loss 0.1050 (bce 0.1024, ddi 0.05239) | val jaccard 0.2935 f1 0.4242 prauc 0.5399 ddi 0.0863 #drugs 13.1 | 10.8s
+22:51:47 | INFO | epoch 012 | loss 0.1042 (bce 0.1016, ddi 0.05192) | val jaccard 0.2903 f1 0.4205 prauc 0.5435 ddi 0.0825 #drugs 12.2 | 10.1s
+22:51:59 | INFO | epoch 013 | loss 0.1035 (bce 0.1009, ddi 0.05240) | val jaccard 0.3034 f1 0.4365 prauc 0.5479 ddi 0.0839 #drugs 13.3 | 12.4s
+22:52:10 | INFO | epoch 014 | loss 0.1027 (bce 0.1001, ddi 0.05229) | val jaccard 0.3009 f1 0.4308 prauc 0.5479 ddi 0.0839 #drugs 13.5 | 11.2s
+22:52:21 | INFO | epoch 015 | loss 0.1018 (bce 0.0992, ddi 0.05226) | val jaccard 0.3024 f1 0.4335 prauc 0.5566 ddi 0.0889 #drugs 13.3 | 10.8s
+22:52:28 | INFO | TEST | jaccard 0.3099 | prauc 0.5505 | f1 0.4442 | ddi 0.0844 (gt 0.0869) | #drugs 13.87 | P@10 0.6670 | 3.3 min

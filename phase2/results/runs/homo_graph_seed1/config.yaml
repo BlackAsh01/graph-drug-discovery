@@ -1,0 +1,44 @@
+name: homo_graph
+seed: 1
+device: auto
+results_dir: results
+keep_checkpoint: false
+data:
+  processed_dir: data/processed/mimic3
+  graph_file: graph.pt
+  split_fractions:
+  - 0.8
+  - 0.1
+  - 0.1
+  split_seed: 0
+  subset_fraction: 0.3
+  subset_seed: 0
+  max_history: 10
+model:
+  name: hgdr
+  hidden_dim: 64
+  gnn_type: homo
+  gnn_layers: 2
+  conv: sage
+  heads: 4
+  use_mol: true
+  mol_layers: 2
+  mol_conv: gat
+  use_proc: true
+  use_history: true
+  use_ddi_edges: true
+  use_coprescription_edges: true
+  dropout: 0.2
+train:
+  epochs: 15
+  patience: 4
+  batch_size: 256
+  lr: 0.002
+  weight_decay: 1.0e-05
+  grad_clip: 1.0
+  ddi_weight: 0.05
+  margin_weight: 0.0
+  threshold: 0.5
+  select_metric: jaccard
+  min_epochs: 3
+config_path: configs\default.yaml

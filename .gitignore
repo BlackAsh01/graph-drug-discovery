@@ -1,0 +1,108 @@
+# =============================================================================
+# Root ignore for the two-phase release.
+# Unions phase1/.gitignore + phase2/.gitignore and adds extra safety nets.
+# =============================================================================
+
+# --- Python / packaging ------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- virtualenvs (release/.venv_phase1, release/.venv_phase2, local) --------
+.venv*
+.venv*/
+venv/
+myenv/
+
+# --- secrets -----------------------------------------------------------------
+.env
+.env.*
+!.env.example
+credentials.json
+**/credentials*
+*secret*
+*token*.json
+
+# --- licensed / regenerated data --------------------------------------------
+# Raw downloads and any processed artefacts (MIMIC-derived or graph caches).
+# phase1 ships only the compact KIBA copy, splits, sample, and ProtBERT npz.
+# phase2 ships only data/mappings/ (TWOSIDES / PubChem side tables).
+data/raw/
+data/raw/**
+data/processed/
+data/processed/**
+**/data/raw/
+**/data/processed/
+**/data/processed/mimic3/**
+**/data/processed/demo/**
+**/mimic-iii/**
+**/mimic-iii-demo/**
+**/mimic3/**
+data/*.tab
+data/*.pkl
+
+# Patient-level / large MIMIC-derived names (never commit, anywhere)
+records.pkl
+records*.pkl
+filtered_data.csv
+merged_data_all*.csv
+merged_data*.csv
+twosides.csv
+graph.pt
+voc.json
+drug_raw_names.json
+
+# Regenerated / large protein-LM dumps (kiba_prot_bert_bfd.npz IS tracked)
+data/protein_embeddings/*.pt
+data/protein_embeddings/*.bin
+data/protein_embeddings/*.npy
+data/protein_embeddings/*.pkl
+data/protein_embeddings/*.safetensors
+
+# --- model checkpoints / binary artefacts -----------------------------------
+*.pt
+*.pth
+*.bin
+*.pkl
+*.gpickle
+*.ckpt
+!phase1/data/kiba/pairs.csv.gz
+
+# --- results scratch ---------------------------------------------------------
+# Tracked: ablation CSVs/Markdown, figures, per-run config/history/metrics.
+# Ignored: demo outputs, superseded experiments, logs, checkpoints.
+results_demo/
+**/results_demo/
+results/_superseded*
+**/results/_superseded*
+results/*.log
+**/results/*.log
+results/runs/**/best.pt
+results/runs/**/*.pt
+results/runs/**/*.pth
+results/runs/_*/
+checkpoints/
+
+# --- agent / editor / OS junk ------------------------------------------------
+.cursor/
+.vscode/
+.idea/
+.agent/
+store/
+Recording*
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.DS_Store
+Thumbs.db
+desktop.ini
+*.log.tmp

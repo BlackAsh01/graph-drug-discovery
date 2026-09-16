@@ -1,0 +1,5 @@
+﻿# Baseline (h): parameter-free "copy the previous admission's drugs" (training-set prior for first visits).
+base: ablation_base.yaml
+name: baseline_nearest
+model:
+  name: nearest

@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "subset_fraction": 1.0,
+  "protocol": "random pair-level split 80/10/10",
+  "test": 11766,
+  "val": 11766,
+  "train": 94125
+}

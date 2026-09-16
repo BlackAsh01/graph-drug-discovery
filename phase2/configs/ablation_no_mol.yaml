@@ -1,0 +1,5 @@
+﻿# Ablation (c): no molecular (SMILES / PubChem) drug features -> learned ID embeddings only.
+base: ablation_base.yaml
+name: no_mol
+model:
+  use_mol: false

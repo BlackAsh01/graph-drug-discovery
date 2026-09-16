@@ -1,0 +1,48 @@
+{
+  "run_name": "backbone_gat_seed0",
+  "variant": "backbone_gat",
+  "seed": 0,
+  "best_epoch": 10,
+  "epochs_run": 12,
+  "train_time_s": 177.0,
+  "n_parameters": 684545,
+  "device": "cuda",
+  "peak_gpu_memory_mb": 193.0,
+  "target_scaler": {
+    "mean": 11.717900276184082,
+    "std": 0.8285475373268127
+  },
+  "data": {
+    "split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42",
+    "sizes": {
+      "train": 18826,
+      "val": 2353,
+      "test": 2353
+    },
+    "n_drugs": 2068,
+    "n_targets": 229,
+    "protein_input_dim": 1024
+  },
+  "val": {
+    "mse": 0.4688911261212691,
+    "rmse": 0.6847562530720469,
+    "mae": 0.4556516614104148,
+    "ci": 0.7170259063871945,
+    "rm2": 0.3209251195552652,
+    "pearson": 0.5730675093325248,
+    "spearman": 0.5753600205469939,
+    "auroc": 0.7519338109260316,
+    "auprc": 0.5359018033610586
+  },
+  "test": {
+    "mse": 0.47700880375058075,
+    "rmse": 0.6906582394720132,
+    "mae": 0.4592143456782881,
+    "ci": 0.719492122397875,
+    "rm2": 0.34639867450336315,
+    "pearson": 0.601124143869451,
+    "spearman": 0.576667323710672,
+    "auroc": 0.7547542978059173,
+    "auprc": 0.5544085634632339
+  }
+}

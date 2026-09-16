@@ -1,0 +1,7 @@
+﻿# Ablation (b): remove DDI knowledge entirely - no TWOSIDES 'interacts' edges and no DDI penalty.
+base: ablation_base.yaml
+name: no_ddi
+model:
+  use_ddi_edges: false
+train:
+  ddi_weight: 0.0

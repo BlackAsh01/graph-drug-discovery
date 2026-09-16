@@ -1,0 +1,16 @@
+00:05:29 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1024}
+00:05:29 | INFO | model: transformer backbone, 1444353 trainable parameters, device=cuda
+00:05:29 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+00:05:43 | INFO | epoch   1/12 | train_mse 0.6292 | val_mse 0.6312 | val_ci 0.6470 | val_pearson 0.3634 | lr 5.00e-04 | 13.8s
+00:05:57 | INFO | epoch   2/12 | train_mse 0.5638 | val_mse 0.6540 | val_ci 0.6581 | val_pearson 0.3994 | lr 5.00e-04 | 13.4s
+00:06:10 | INFO | epoch   3/12 | train_mse 0.5271 | val_mse 0.5531 | val_ci 0.6865 | val_pearson 0.4634 | lr 5.00e-04 | 13.3s
+00:06:24 | INFO | epoch   4/12 | train_mse 0.5043 | val_mse 0.5775 | val_ci 0.6787 | val_pearson 0.4392 | lr 5.00e-04 | 14.3s
+00:06:50 | INFO | epoch   5/12 | train_mse 0.4870 | val_mse 0.5231 | val_ci 0.7045 | val_pearson 0.5036 | lr 5.00e-04 | 25.8s
+00:07:06 | INFO | epoch   6/12 | train_mse 0.4730 | val_mse 0.5267 | val_ci 0.6979 | val_pearson 0.5245 | lr 5.00e-04 | 16.2s
+00:07:23 | INFO | epoch   7/12 | train_mse 0.4589 | val_mse 0.4984 | val_ci 0.7139 | val_pearson 0.5372 | lr 5.00e-04 | 16.6s
+00:07:40 | INFO | epoch   8/12 | train_mse 0.4496 | val_mse 0.4885 | val_ci 0.7201 | val_pearson 0.5479 | lr 5.00e-04 | 16.4s
+00:07:55 | INFO | epoch   9/12 | train_mse 0.4355 | val_mse 0.5027 | val_ci 0.7159 | val_pearson 0.5432 | lr 5.00e-04 | 15.4s
+00:08:08 | INFO | epoch  10/12 | train_mse 0.4344 | val_mse 0.4925 | val_ci 0.7183 | val_pearson 0.5624 | lr 5.00e-04 | 13.2s
+00:08:21 | INFO | epoch  11/12 | train_mse 0.4291 | val_mse 0.4734 | val_ci 0.7336 | val_pearson 0.5789 | lr 5.00e-04 | 13.3s
+00:08:35 | INFO | epoch  12/12 | train_mse 0.4165 | val_mse 0.4441 | val_ci 0.7375 | val_pearson 0.6032 | lr 5.00e-04 | 13.1s
+00:08:36 | INFO | TEST | mse 0.4483 | rmse 0.6695 | ci 0.7401 | rm2 0.3939 | pearson 0.6305 | (185s)

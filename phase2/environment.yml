@@ -1,0 +1,23 @@
+name: hgdr-phase2
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1        # drop this line for a CPU-only environment
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - scipy=1.16
+  - scikit-learn=1.6.1
+  - rdkit=2024.03.5
+  - networkx=3.4.2
+  - pyyaml=6.0.1
+  - matplotlib=3.9.2
+  - requests=2.32.3
+  - tqdm=4.66.5
+  - pytest=7.4
+  - pip
+  - pip:
+      - torch-geometric==2.6.1

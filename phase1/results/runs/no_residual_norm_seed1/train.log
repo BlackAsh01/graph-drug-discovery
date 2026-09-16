@@ -1,0 +1,16 @@
+00:02:53 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1024}
+00:02:53 | INFO | model: transformer backbone, 1539329 trainable parameters, device=cuda
+00:02:53 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+00:03:07 | INFO | epoch   1/12 | train_mse 0.6552 | val_mse 0.6616 | val_ci 0.6308 | val_pearson 0.2415 | lr 5.00e-04 | 13.5s
+00:03:20 | INFO | epoch   2/12 | train_mse 0.6253 | val_mse 0.6636 | val_ci 0.6474 | val_pearson 0.2874 | lr 5.00e-04 | 13.2s
+00:03:34 | INFO | epoch   3/12 | train_mse 0.6186 | val_mse 0.6367 | val_ci 0.6493 | val_pearson 0.2960 | lr 5.00e-04 | 13.8s
+00:03:49 | INFO | epoch   4/12 | train_mse 0.6104 | val_mse 0.6357 | val_ci 0.6535 | val_pearson 0.2981 | lr 5.00e-04 | 14.7s
+00:04:02 | INFO | epoch   5/12 | train_mse 0.6069 | val_mse 0.6383 | val_ci 0.6588 | val_pearson 0.2974 | lr 5.00e-04 | 13.3s
+00:04:15 | INFO | epoch   6/12 | train_mse 0.6063 | val_mse 0.6335 | val_ci 0.6613 | val_pearson 0.3073 | lr 5.00e-04 | 13.3s
+00:04:30 | INFO | epoch   7/12 | train_mse 0.6027 | val_mse 0.6294 | val_ci 0.6604 | val_pearson 0.3121 | lr 5.00e-04 | 14.7s
+00:04:44 | INFO | epoch   8/12 | train_mse 0.6015 | val_mse 0.6368 | val_ci 0.6565 | val_pearson 0.3027 | lr 5.00e-04 | 14.1s
+00:04:58 | INFO | epoch   9/12 | train_mse 0.6026 | val_mse 0.6324 | val_ci 0.6618 | val_pearson 0.3068 | lr 5.00e-04 | 13.5s
+00:05:12 | INFO | epoch  10/12 | train_mse 0.5997 | val_mse 0.6355 | val_ci 0.6602 | val_pearson 0.3045 | lr 2.50e-04 | 14.6s
+00:05:27 | INFO | epoch  11/12 | train_mse 0.5950 | val_mse 0.6378 | val_ci 0.6620 | val_pearson 0.3069 | lr 2.50e-04 | 14.9s
+00:05:27 | INFO | early stopping at epoch 11 (best epoch 7)
+00:05:29 | INFO | TEST | mse 0.6520 | rmse 0.8075 | ci 0.6724 | rm2 0.1190 | pearson 0.3568 | (154s)

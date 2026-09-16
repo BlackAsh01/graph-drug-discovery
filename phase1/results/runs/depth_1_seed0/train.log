@@ -1,0 +1,16 @@
+22:58:16 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1024}
+22:58:16 | INFO | model: transformer backbone, 849153 trainable parameters, device=cuda
+22:58:16 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+22:58:40 | INFO | epoch   1/12 | train_mse 0.6353 | val_mse 0.6352 | val_ci 0.6406 | val_pearson 0.3237 | lr 5.00e-04 | 24.4s
+22:58:58 | INFO | epoch   2/12 | train_mse 0.5796 | val_mse 0.5941 | val_ci 0.6661 | val_pearson 0.3974 | lr 5.00e-04 | 17.2s
+22:59:13 | INFO | epoch   3/12 | train_mse 0.5435 | val_mse 0.5684 | val_ci 0.6852 | val_pearson 0.4489 | lr 5.00e-04 | 15.6s
+22:59:28 | INFO | epoch   4/12 | train_mse 0.5257 | val_mse 0.5404 | val_ci 0.6899 | val_pearson 0.4799 | lr 5.00e-04 | 14.6s
+22:59:42 | INFO | epoch   5/12 | train_mse 0.5051 | val_mse 0.5583 | val_ci 0.6892 | val_pearson 0.4708 | lr 5.00e-04 | 14.4s
+22:59:56 | INFO | epoch   6/12 | train_mse 0.4834 | val_mse 0.5214 | val_ci 0.7042 | val_pearson 0.5043 | lr 5.00e-04 | 14.2s
+23:00:09 | INFO | epoch   7/12 | train_mse 0.4718 | val_mse 0.5083 | val_ci 0.7080 | val_pearson 0.5220 | lr 5.00e-04 | 12.9s
+23:00:23 | INFO | epoch   8/12 | train_mse 0.4685 | val_mse 0.5023 | val_ci 0.7135 | val_pearson 0.5365 | lr 5.00e-04 | 13.3s
+23:00:36 | INFO | epoch   9/12 | train_mse 0.4541 | val_mse 0.5009 | val_ci 0.7147 | val_pearson 0.5451 | lr 5.00e-04 | 12.9s
+23:00:49 | INFO | epoch  10/12 | train_mse 0.4439 | val_mse 0.4908 | val_ci 0.7178 | val_pearson 0.5508 | lr 5.00e-04 | 13.8s
+23:01:03 | INFO | epoch  11/12 | train_mse 0.4321 | val_mse 0.4660 | val_ci 0.7251 | val_pearson 0.5771 | lr 5.00e-04 | 13.6s
+23:01:27 | INFO | epoch  12/12 | train_mse 0.4248 | val_mse 0.4698 | val_ci 0.7251 | val_pearson 0.5744 | lr 5.00e-04 | 24.0s
+23:01:30 | INFO | TEST | mse 0.4940 | rmse 0.7029 | ci 0.7310 | rm2 0.3259 | pearson 0.5803 | (191s)

@@ -1,0 +1,16 @@
+00:08:37 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 26}
+00:08:37 | INFO | model: transformer backbone, 1266049 trainable parameters, device=cuda
+00:08:37 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+00:08:55 | INFO | epoch   1/12 | train_mse 0.6579 | val_mse 0.7089 | val_ci 0.5396 | val_pearson 0.1322 | lr 5.00e-04 | 18.5s
+00:09:13 | INFO | epoch   2/12 | train_mse 0.6375 | val_mse 0.6356 | val_ci 0.5904 | val_pearson 0.2982 | lr 5.00e-04 | 17.6s
+00:09:36 | INFO | epoch   3/12 | train_mse 0.6121 | val_mse 0.6586 | val_ci 0.5932 | val_pearson 0.2945 | lr 5.00e-04 | 22.2s
+00:09:54 | INFO | epoch   4/12 | train_mse 0.6027 | val_mse 0.6348 | val_ci 0.6016 | val_pearson 0.3147 | lr 5.00e-04 | 18.0s
+00:10:13 | INFO | epoch   5/12 | train_mse 0.5887 | val_mse 0.6152 | val_ci 0.6154 | val_pearson 0.3754 | lr 5.00e-04 | 18.9s
+00:10:30 | INFO | epoch   6/12 | train_mse 0.5788 | val_mse 0.6196 | val_ci 0.6219 | val_pearson 0.3890 | lr 5.00e-04 | 17.2s
+00:10:47 | INFO | epoch   7/12 | train_mse 0.5754 | val_mse 0.6063 | val_ci 0.6255 | val_pearson 0.3956 | lr 5.00e-04 | 17.4s
+00:11:06 | INFO | epoch   8/12 | train_mse 0.5638 | val_mse 0.6197 | val_ci 0.6040 | val_pearson 0.3568 | lr 5.00e-04 | 19.0s
+00:11:24 | INFO | epoch   9/12 | train_mse 0.5537 | val_mse 0.5910 | val_ci 0.6287 | val_pearson 0.4030 | lr 5.00e-04 | 17.9s
+00:11:42 | INFO | epoch  10/12 | train_mse 0.5490 | val_mse 0.5855 | val_ci 0.6272 | val_pearson 0.4059 | lr 5.00e-04 | 17.7s
+00:12:06 | INFO | epoch  11/12 | train_mse 0.5398 | val_mse 0.5718 | val_ci 0.6351 | val_pearson 0.4243 | lr 5.00e-04 | 23.8s
+00:12:28 | INFO | epoch  12/12 | train_mse 0.5334 | val_mse 0.5777 | val_ci 0.6294 | val_pearson 0.4149 | lr 5.00e-04 | 21.8s
+00:12:30 | INFO | TEST | mse 0.5882 | rmse 0.7670 | ci 0.6445 | rm2 0.2038 | pearson 0.4576 | (231s)

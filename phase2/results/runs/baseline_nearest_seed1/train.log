@@ -1,0 +1,4 @@
+23:44:09 | INFO | data: 9349/1182/1196 train/val/test patients; 11954/1471/1485 visits; {'diag': 3868, 'proc': 115, 'drug': 606}
+23:44:09 | INFO | device: cuda
+23:44:11 | INFO | trainable parameters: 1
+23:44:17 | INFO | TEST | jaccard 0.2100 | prauc 0.4474 | f1 0.3348 | ddi 0.0959 (gt 0.0869) | #drugs 12.44 | P@10 0.5776 | 0.1 min

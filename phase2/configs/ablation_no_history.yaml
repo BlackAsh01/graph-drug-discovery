@@ -1,0 +1,5 @@
+﻿# Ablation (f): no patient-history / visit-sequence modelling (GRU over previous admissions).
+base: ablation_base.yaml
+name: no_history
+model:
+  use_history: false

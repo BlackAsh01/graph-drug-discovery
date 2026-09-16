@@ -1,0 +1,54 @@
+# Default configuration: full model on the full KIBA dataset (random pair-level split 80/10/10).
+# All paths are relative to the phase1/ repository root.
+run_name: full_model_fulldata_seed0
+variant: full
+results_dir: results
+
+data:
+  data_dir: data
+  pairs_file: null              # explicit kiba.tab/.csv; null -> data/raw/kiba.tab or data/kiba/ compact copy
+  split_seed: 42                # seed used to create the train/val/test split (fixed, documented)
+  subset_fraction: 1.0          # 1.0 = full KIBA; 0.2 = the ablation subset protocol
+  split_name: null              # override the split folder name under data/splits/ (auto if null)
+  num_workers: 0
+
+protein:
+  encoder: pretrained           # pretrained | cnn | composition
+  embedding_file: data/protein_embeddings/kiba_prot_bert_bfd.npz
+  max_len: 1000                 # truncation for the cnn encoder
+  dropout: 0.1
+
+model:
+  backbone: transformer         # transformer | gcn | gat | gine
+  hidden_dim: 128
+  num_layers: 4
+  num_heads: 8
+  dropout: 0.1
+  input_dropout: 0.0
+  use_edge_features: true       # bond-feature bias in attention + edge channel
+  use_degree_encoding: true     # Graphormer centrality encoding
+  residual: true
+  norm: batch                   # batch | layer | none
+  self_loops: true
+  fusion: cross_attention       # cross_attention | concat | add
+  fusion_heads: 4
+  head_hidden: 256
+  head_layers: 3
+  head_dropout: 0.1
+
+training:
+  seed: 0
+  device: auto                  # auto | cuda | cpu
+  epochs: 40
+  batch_size: 128               # the model is kernel-launch bound on small GPUs; 128 ~ same step time as 64
+  lr: 5.0e-4
+  weight_decay: 1.0e-5
+  lr_factor: 0.5
+  lr_patience: 3
+  early_stopping_patience: 8
+  grad_clip: 1.0
+  amp: false
+  deterministic: true
+  monitor: mse                  # validation metric used for checkpoint selection / early stopping
+  normalize_target: true        # z-score y with train-split statistics; metrics are always in KIBA units
+  keep_checkpoint: true

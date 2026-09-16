@@ -1,0 +1,5 @@
+# A1 - remove the bond-feature bias / edge channel from attention
+base: _base.yaml
+variant: no_edge_features
+model:
+  use_edge_features: false

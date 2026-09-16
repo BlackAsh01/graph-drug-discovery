@@ -1,0 +1,21 @@
+# Phase 2 (HGDR) - pinned versions verified on Windows 10 / Python 3.12.3 / CUDA 12.1.
+#
+# PyTorch is installed separately so you can pick the right CUDA build, e.g.
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+# (CPU-only works too: pip install torch==2.5.1)
+#
+# torch_scatter / torch_sparse are intentionally NOT required: PyTorch Geometric
+# 2.6 falls back to pure-PyTorch scatter ops, which is what this code relies on.
+torch==2.5.1
+torch-geometric==2.6.1
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.6.1
+rdkit==2024.3.5
+networkx==3.4.2
+PyYAML==6.0.1
+matplotlib==3.9.2
+requests==2.32.3
+tqdm==4.66.5
+pytest==7.4.4

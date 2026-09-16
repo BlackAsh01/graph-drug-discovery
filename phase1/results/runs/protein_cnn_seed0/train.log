@@ -1,0 +1,16 @@
+23:33:31 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1000}
+23:33:31 | INFO | model: transformer backbone, 1659521 trainable parameters, device=cuda
+23:33:31 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+23:34:48 | INFO | epoch   1/12 | train_mse 0.6090 | val_mse 0.6146 | val_ci 0.6675 | val_pearson 0.3553 | lr 5.00e-04 | 76.7s
+23:36:22 | INFO | epoch   2/12 | train_mse 0.5566 | val_mse 0.5901 | val_ci 0.6693 | val_pearson 0.4028 | lr 5.00e-04 | 93.4s
+23:37:46 | INFO | epoch   3/12 | train_mse 0.5274 | val_mse 0.5545 | val_ci 0.6818 | val_pearson 0.4643 | lr 5.00e-04 | 84.1s
+23:39:20 | INFO | epoch   4/12 | train_mse 0.5036 | val_mse 0.5299 | val_ci 0.7029 | val_pearson 0.5274 | lr 5.00e-04 | 93.7s
+23:40:56 | INFO | epoch   5/12 | train_mse 0.4787 | val_mse 0.4911 | val_ci 0.7206 | val_pearson 0.5479 | lr 5.00e-04 | 95.8s
+23:42:09 | INFO | epoch   6/12 | train_mse 0.4613 | val_mse 0.5355 | val_ci 0.6961 | val_pearson 0.4931 | lr 5.00e-04 | 73.1s
+23:43:06 | INFO | epoch   7/12 | train_mse 0.4503 | val_mse 0.4877 | val_ci 0.7095 | val_pearson 0.5495 | lr 5.00e-04 | 57.4s
+23:44:04 | INFO | epoch   8/12 | train_mse 0.4374 | val_mse 0.4933 | val_ci 0.7256 | val_pearson 0.5488 | lr 5.00e-04 | 57.3s
+23:44:52 | INFO | epoch   9/12 | train_mse 0.4249 | val_mse 0.4648 | val_ci 0.7312 | val_pearson 0.5794 | lr 5.00e-04 | 48.4s
+23:45:39 | INFO | epoch  10/12 | train_mse 0.4138 | val_mse 0.4659 | val_ci 0.7363 | val_pearson 0.5832 | lr 5.00e-04 | 47.2s
+23:46:27 | INFO | epoch  11/12 | train_mse 0.4059 | val_mse 0.4669 | val_ci 0.7274 | val_pearson 0.5956 | lr 5.00e-04 | 48.0s
+23:47:17 | INFO | epoch  12/12 | train_mse 0.3943 | val_mse 0.4599 | val_ci 0.7408 | val_pearson 0.5889 | lr 5.00e-04 | 49.2s
+23:47:21 | INFO | TEST | mse 0.4629 | rmse 0.6804 | ci 0.7461 | rm2 0.3718 | pearson 0.6222 | (825s)

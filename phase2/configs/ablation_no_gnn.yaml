@@ -1,0 +1,6 @@
+﻿# Ablation (g): no graph message passing (gnn_layers = 0) - entity embeddings (+ molecular
+# features) are used directly, so co-occurrence / DDI structure is only seen via the loss.
+base: ablation_base.yaml
+name: no_gnn
+model:
+  gnn_layers: 0

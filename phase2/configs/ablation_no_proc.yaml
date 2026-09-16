@@ -1,0 +1,5 @@
+﻿# Ablation (e): drop the procedure node type (graph + visit encoder see diagnoses only).
+base: ablation_base.yaml
+name: no_proc
+model:
+  use_proc: false

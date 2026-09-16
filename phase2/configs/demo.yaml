@@ -1,0 +1,13 @@
+# Smoke-test configuration for the public MIMIC-III demo (100 patients).
+# Numbers obtained on the demo are NOT meaningful; use it to verify the pipeline.
+base: default.yaml
+name: demo_full
+data:
+  processed_dir: data/processed/demo
+model:
+  hidden_dim: 32
+train:
+  epochs: 15
+  patience: 5
+  batch_size: 32
+  select_metric: jaccard+prauc   # 9 validation visits -> Jaccard alone is too quantised

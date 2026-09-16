@@ -1,0 +1,16 @@
+23:07:20 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1024}
+23:07:20 | INFO | model: transformer backbone, 1539329 trainable parameters, device=cuda
+23:07:20 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+23:07:47 | INFO | epoch   1/12 | train_mse 0.6519 | val_mse 0.6566 | val_ci 0.6425 | val_pearson 0.2855 | lr 5.00e-04 | 27.7s
+23:08:15 | INFO | epoch   2/12 | train_mse 0.6229 | val_mse 0.6479 | val_ci 0.6457 | val_pearson 0.2778 | lr 5.00e-04 | 27.7s
+23:08:43 | INFO | epoch   3/12 | train_mse 0.6161 | val_mse 0.6381 | val_ci 0.6560 | val_pearson 0.2956 | lr 5.00e-04 | 27.7s
+23:09:10 | INFO | epoch   4/12 | train_mse 0.6098 | val_mse 0.6404 | val_ci 0.6541 | val_pearson 0.2864 | lr 5.00e-04 | 26.8s
+23:09:44 | INFO | epoch   5/12 | train_mse 0.6068 | val_mse 0.6404 | val_ci 0.6589 | val_pearson 0.3035 | lr 5.00e-04 | 33.8s
+23:10:18 | INFO | epoch   6/12 | train_mse 0.6049 | val_mse 0.6337 | val_ci 0.6563 | val_pearson 0.3075 | lr 5.00e-04 | 33.8s
+23:10:55 | INFO | epoch   7/12 | train_mse 0.6035 | val_mse 0.6335 | val_ci 0.6580 | val_pearson 0.3083 | lr 5.00e-04 | 37.0s
+23:11:27 | INFO | epoch   8/12 | train_mse 0.6026 | val_mse 0.6393 | val_ci 0.6591 | val_pearson 0.3036 | lr 5.00e-04 | 31.5s
+23:12:01 | INFO | epoch   9/12 | train_mse 0.6031 | val_mse 0.6342 | val_ci 0.6608 | val_pearson 0.3075 | lr 5.00e-04 | 34.0s
+23:12:31 | INFO | epoch  10/12 | train_mse 0.6004 | val_mse 0.6299 | val_ci 0.6625 | val_pearson 0.3109 | lr 5.00e-04 | 29.9s
+23:12:59 | INFO | epoch  11/12 | train_mse 0.6001 | val_mse 0.6347 | val_ci 0.6580 | val_pearson 0.3070 | lr 5.00e-04 | 28.5s
+23:13:28 | INFO | epoch  12/12 | train_mse 0.6000 | val_mse 0.6292 | val_ci 0.6628 | val_pearson 0.3167 | lr 5.00e-04 | 29.0s
+23:13:32 | INFO | TEST | mse 0.6553 | rmse 0.8095 | ci 0.6738 | rm2 0.1177 | pearson 0.3597 | (368s)

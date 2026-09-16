@@ -1,0 +1,6 @@
+# A10 - backbone swap: GAT (attention without edge features / transformer FFN)
+base: _base.yaml
+variant: backbone_gat
+model:
+  backbone: gat
+  num_heads: 4

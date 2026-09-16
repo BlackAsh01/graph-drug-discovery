@@ -1,0 +1,2812 @@
+{
+ "ABACAVIR": {
+  "cid": 441300,
+  "smiles": "C1CC1NC2=C3C(=NC(=N2)N)N(C=N3)[C@@H]4C[C@@H](C=C4)CO",
+  "name": "ABACAVIR"
+ },
+ "ACEBUTOLOL": {
+  "cid": 441307,
+  "smiles": "CCCC(=O)NC1=CC(=C(C=C1)OCC(CNC(C)C)O)C(=O)C.Cl",
+  "name": "N-[3-acetyl-4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]butanamide;hydrochloride"
+ },
+ "ACETAMINOPHEN": {
+  "cid": 1983,
+  "smiles": "CC(=O)NC1=CC=C(C=C1)O",
+  "name": "N-(4-hydroxyphenyl)acetamide"
+ },
+ "ACETAMINOPHEN W CODEINE": {
+  "cid": 1983,
+  "smiles": "CC(=O)NC1=CC=C(C=C1)O",
+  "name": "Acetaminophen w/Codeine"
+ },
+ "ACETAZOLAMIDE": {
+  "cid": 13290219,
+  "smiles": "CC(=O)NC1=NN=C(S1)S(=O)(=O)[NH-].[Na+]",
+  "name": "sodium;(5-acetamido-1,3,4-thiadiazol-2-yl)sulfonylazanide"
+ },
+ "ACETYLCYSTEINE": {
+  "cid": 12035,
+  "smiles": "CC(=O)NC(CS)C(=O)O",
+  "name": "(2R)-2-acetamido-3-sulfanylpropanoic acid"
+ },
+ "ACULAR": {
+  "cid": 84003,
+  "smiles": "C1CN2C(=CC=C2C(=O)C3=CC=CC=C3)C1C(=O)O.C(C(CO)(CO)N)O",
+  "name": "2-amino-2-(hydroxymethyl)propane-1,3-diol;5-benzoyl-2,3-dihydro-1H-pyrrolizine-1-carboxylic acid"
+ },
+ "ACYCLOVIR": {
+  "cid": 135398513,
+  "smiles": "C1=NC2=C(N1COCCO)N=C(NC2=O)N",
+  "name": "2-amino-9-(2-hydroxyethoxymethyl)-1H-purin-6-one"
+ },
+ "ADENOSINE": {
+  "cid": 60961,
+  "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N",
+  "name": "(2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol"
+ },
+ "ADVAIR": {
+  "cid": 9811567,
+  "smiles": "CCC(=O)O[C@@]1([C@@H](C[C@@H]2[C@@]1(C[C@@H]([C@]3([C@H]2C[C@@H](C4=CC(=O)C=C[C@@]43C)F)F)O)C)C)C(=O)SCF.C1=CC=C(C=C1)CCCCOCCCCCCNCC(C2=CC(=C(C=C2)O)CO)O",
+  "name": "ADVAIR"
+ },
+ "ALBUTEROL": {
+  "cid": 2083,
+  "smiles": "CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O",
+  "name": "4-[2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol"
+ },
+ "ALBUTEROL SULFATE-IPRATROPIUM": {
+  "cid": 2083,
+  "smiles": "CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O",
+  "name": "ALBUTEROL"
+ },
+ "ALBUTEROL-IPRATROPIUM": {
+  "cid": 2083,
+  "smiles": "CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O",
+  "name": "Albuterol-Ipratropium"
+ },
+ "ALENDRONATE": {
+  "cid": 16760285,
+  "smiles": "C(CC(O)(P(=O)(O)O)P(=O)(O)[O-])CN.[Na+]",
+  "name": "sodium;(4-amino-1-hydroxy-1-phosphonobutyl)-hydroxyphosphinate"
+ },
+ "ALLOPURINOL": {
+  "cid": 135401907,
+  "smiles": "C1=NNC2=C1C(=O)NC=N2",
+  "name": "1,5-dihydropyrazolo[3,4-d]pyrimidin-4-one"
+ },
+ "ALPRAZOLAM": {
+  "cid": 2118,
+  "smiles": "CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4",
+  "name": "8-chloro-1-methyl-6-phenyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine"
+ },
+ "ALTEPLASE": {
+  "cid": 5462261,
+  "smiles": "CC(C)C(C(C(=O)O)O)C(=O)O",
+  "name": "Alteplase (Catheter Clearance)"
+ },
+ "ALUMINUM HYDROXIDE": {
+  "cid": 10176082,
+  "smiles": "[OH-].[OH-].[OH-].[Al+3]",
+  "name": "aluminum;trihydroxide"
+ },
+ "ALUMINUM-MAGNESIUM": {
+  "cid": 14574635,
+  "smiles": "[Mg+2].[Al+3]",
+  "name": "ALUMINUM-MAGNESIUM"
+ },
+ "ALUMINUM-MAGNESIUM HYDROX.-SIMETHICONE": {
+  "cid": 14574635,
+  "smiles": "[Mg+2].[Al+3]",
+  "name": "ALUMINUM-MAGNESIUM"
+ },
+ "AMANTADINE": {
+  "cid": 2130,
+  "smiles": "C1C2CC3CC1CC(C2)(C3)N",
+  "name": "AMANTADINE"
+ },
+ "AMARYL": {
+  "cid": 3476,
+  "smiles": "CCC1=C(CN(C1=O)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCC(CC3)C)C",
+  "name": "AMARYL"
+ },
+ "AMBISOME": {
+  "cid": 5280965,
+  "smiles": "C[C@H]1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@@H](C[C@H]2[C@@H]([C@H](C[C@](O2)(C[C@H](C[C@H]([C@@H](CC[C@H](C[C@H](CC(=O)O[C@H]([C@@H]([C@@H]1O)C)C)O)O)O)O)O)O)O)C(=O)O)O[C@H]3[C@H]([C@H]([C@@H]([C@H](O3)C)O)N)O",
+  "name": "AMBISOME"
+ },
+ "AMIKACIN": {
+  "cid": 37768,
+  "smiles": "C1[C@@H]([C@H]([C@@H]([C@H]([C@@H]1NC(=O)[C@H](CCN)O)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)N)O)O)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CN)O)O)O)N",
+  "name": "AMIKACIN"
+ },
+ "AMINOCAPROIC ACID": {
+  "cid": 564,
+  "smiles": "C(CCC(=O)O)CCN",
+  "name": "AMINOCAPROIC ACID"
+ },
+ "AMIODARONE": {
+  "cid": 441325,
+  "smiles": "CCCCC1=C(C2=CC=CC=C2O1)C(=O)C3=CC(=C(C(=C3)I)OCCN(CC)CC)I.Cl",
+  "name": "(2-butyl-1-benzofuran-3-yl)-[4-[2-(diethylamino)ethoxy]-3,5-diiodophenyl]methanone;hydrochloride"
+ },
+ "AMITRIPTYLINE": {
+  "cid": 2160,
+  "smiles": "CN(C)CCC=C1C2=CC=CC=C2CCC3=CC=CC=C31",
+  "name": "AMITRIPTYLINE"
+ },
+ "AMLODIPINE": {
+  "cid": 2162,
+  "smiles": "CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN",
+  "name": "3-O-ethyl 5-O-methyl 2-(2-aminoethoxymethyl)-4-(2-chlorophenyl)-6-methyl-1,4-dihydropyridine-3,5-dicarboxylate"
+ },
+ "AMOXICILLIN": {
+  "cid": 33613,
+  "smiles": "CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)[C@@H](C3=CC=C(C=C3)O)N)C(=O)O)C",
+  "name": "AMOXICILLIN"
+ },
+ "AMOXICILLIN-CLAVULANIC ACID": {
+  "cid": 6435923,
+  "smiles": "CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=C(C=C3)O)N)C(=O)O)C.C1C2N(C1=O)C(C(=CCO)O2)C(=O)[O-].[K+]",
+  "name": "Amoxicillin-Clavulanic Acid"
+ },
+ "AMP": {
+  "cid": 6083,
+  "smiles": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)COP(=O)(O)O)O)O)N",
+  "name": "[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate"
+ },
+ "AMPHOTERICIN B": {
+  "cid": 5280965,
+  "smiles": "CC1C=CC=CC=CC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(CC(C(CCC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O",
+  "name": "(1R,3S,5R,6R,9R,11R,15S,16R,17R,18S,19E,21E,23E,25E,27E,29E,31E,33R,35S,36R,37S)-33-[(2R,3S,4S,5S,6R)-4-amino-3,5-dihydroxy-6-methyloxan-2-yl]oxy-1,3,5,6,9,11,17,37-octahydroxy-15,16,18-trimethyl-13-oxo-14,39-dioxabicyclo[33.3.1]nonatriaconta-19,21,23,25,27,29,31-heptaene-36-carboxylic acid"
+ },
+ "AMPICILLIN": {
+  "cid": 23663979,
+  "smiles": "CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)[O-])C.[Na+]",
+  "name": "sodium;(2S,5R,6R)-6-[[(2R)-2-amino-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate"
+ },
+ "AMPICILLIN-SULBACTAM": {
+  "cid": 119561,
+  "smiles": "CC1(C(C2C(S1(=O)=O)CC2=O)C(=O)O)C.CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C",
+  "name": "(2S,5R,6R)-6-[[(2R)-2-amino-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid;(1R,4S)-3,3-dimethyl-2,2,6-trioxo-2lambda6-thiabicyclo[3.2.0]heptane-4-carboxylic acid"
+ },
+ "AQUAPHOR": {
+  "cid": 26618,
+  "smiles": "CC1=C(C(=CC=C1)C)NC(=O)C2=CC(=C(C=C2O)Cl)S(=O)(=O)N",
+  "name": "AQUAPHOR"
+ },
+ "ARGATROBAN": {
+  "cid": 92722,
+  "smiles": "C[C@@H]1CCN([C@H](C1)C(=O)O)C(=O)[C@H](CCCN=C(N)N)NS(=O)(=O)C2=CC=CC3=C2NCC(C3)C",
+  "name": "ARGATROBAN"
+ },
+ "ARIMIDEX": {
+  "cid": 2187,
+  "smiles": "CC(C)(C#N)C1=CC(=CC(=C1)CN2C=NC=N2)C(C)(C)C#N",
+  "name": "ARIMIDEX"
+ },
+ "ARIPIPRAZOLE": {
+  "cid": 60795,
+  "smiles": "C1CC(=O)NC2=C1C=CC(=C2)OCCCCN3CCN(CC3)C4=C(C(=CC=C4)Cl)Cl",
+  "name": "ARIPIPRAZOLE"
+ },
+ "ASCORBIC ACID": {
+  "cid": 54670067,
+  "smiles": "C(C(C1C(=C(C(=O)O1)O)O)O)O",
+  "name": "(2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one"
+ },
+ "ASPIRIN": {
+  "cid": 2244,
+  "smiles": "CC(=O)OC1=CC=CC=C1C(=O)O",
+  "name": "2-acetyloxybenzoic acid"
+ },
+ "ATAZANAVIR": {
+  "cid": 148192,
+  "smiles": "CC(C)(C)[C@@H](C(=O)N[C@@H](CC1=CC=CC=C1)[C@H](CN(CC2=CC=C(C=C2)C3=CC=CC=N3)NC(=O)[C@H](C(C)(C)C)NC(=O)OC)O)NC(=O)OC",
+  "name": "ATAZANAVIR"
+ },
+ "ATENOLOL": {
+  "cid": 2249,
+  "smiles": "CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O",
+  "name": "2-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetamide"
+ },
+ "ATORVASTATIN": {
+  "cid": 60823,
+  "smiles": "CC(C)C1=C(C(=C(N1CCC(CC(CC(=O)O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4",
+  "name": "(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid"
+ },
+ "ATOVAQUONE": {
+  "cid": 74989,
+  "smiles": "C1CC(CCC1C2=CC=C(C=C2)Cl)C3=C(C4=CC=CC=C4C(=O)C3=O)O",
+  "name": "3-[4-(4-chlorophenyl)cyclohexyl]-4-hydroxynaphthalene-1,2-dione"
+ },
+ "ATROPINE": {
+  "cid": 60196398,
+  "smiles": "CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.OS(=O)(=O)O",
+  "name": "[(1S,5R)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 3-hydroxy-2-phenylpropanoate;sulfuric acid"
+ },
+ "AVAPRO": {
+  "cid": 3749,
+  "smiles": "CCCCC1=NC2(CCCC2)C(=O)N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5",
+  "name": "AVAPRO"
+ },
+ "AZATHIOPRINE": {
+  "cid": 2265,
+  "smiles": "CN1C=NC(=C1SC2=NC=NC3=C2NC=N3)[N+](=O)[O-]",
+  "name": "AZATHIOPRINE"
+ },
+ "AZITHROMYCIN": {
+  "cid": 447043,
+  "smiles": "CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O",
+  "name": "(2R,3S,4R,5R,8R,10R,11R,12S,13S,14R)-11-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-2-ethyl-3,4,10-trihydroxy-13-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-3,5,6,8,10,12,14-heptamethyl-1-oxa-6-azacyclopentadecan-15-one"
+ },
+ "AZTREONAM": {
+  "cid": 5742832,
+  "smiles": "C[C@H]1[C@@H](C(=O)N1S(=O)(=O)O)NC(=O)/C(=N\\OC(C)(C)C(=O)O)/C2=CSC(=N2)N",
+  "name": "AZTREONAM"
+ },
+ "BACITRACIN": {
+  "cid": 10909430,
+  "smiles": "CC[C@H](C)[C@H]1C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)NCCCC[C@@H](C(=O)N[C@@H](C(=O)N1)CCCN)NC(=O)[C@H]([C@@H](C)CC)NC(=O)[C@@H](CCC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]2CSC(=N2)[C@H]([C@@H](C)CC)N)CC(=O)N)CC(=O)O)CC3=CN=CN3)CC4=CC=CC=C4",
+  "name": "BACITRACIN"
+ },
+ "BACITRACIN POLYMYXIN B SULFATE OPHT": {
+  "cid": 10909430,
+  "smiles": "CC[C@H](C)[C@H]1C(=O)N[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)NCCCC[C@@H](C(=O)N[C@@H](C(=O)N1)CCCN)NC(=O)[C@H]([C@@H](C)CC)NC(=O)[C@@H](CCC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]2CSC(=N2)[C@H]([C@@H](C)CC)N)CC(=O)N)CC(=O)O)CC3=CN=CN3)CC4=CC=CC=C4",
+  "name": "BACITRACIN"
+ },
+ "BACLOFEN": {
+  "cid": 2284,
+  "smiles": "C1=CC(=CC=C1C(CC(=O)O)CN)Cl",
+  "name": "4-amino-3-(4-chlorophenyl)butanoic acid"
+ },
+ "BECLOMETHASONE": {
+  "cid": 20469,
+  "smiles": "C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)Cl)C",
+  "name": "BECLOMETHASONE"
+ },
+ "BECLOMETHASONE DIPRO AQ": {
+  "cid": 20469,
+  "smiles": "C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)Cl)C",
+  "name": "BECLOMETHASONE"
+ },
+ "BENGAY": {
+  "cid": 3676,
+  "smiles": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C",
+  "name": "BENGAY"
+ },
+ "BENZOCAINE": {
+  "cid": 2337,
+  "smiles": "CCOC(=O)C1=CC=C(C=C1)N",
+  "name": "Benzocaine 20% Spray"
+ },
+ "BENZONATATE": {
+  "cid": 7699,
+  "smiles": "CCCCNC1=CC=C(C=C1)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC",
+  "name": "2-[2-[2-[2-[2-[2-[2-[2-(2-methoxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethyl 4-(butylamino)benzoate"
+ },
+ "BENZTROPINE": {
+  "cid": 1201549,
+  "smiles": "CN1[C@@H]2CC[C@H]1CC(C2)OC(C3=CC=CC=C3)C4=CC=CC=C4",
+  "name": "BENZTROPINE"
+ },
+ "BETAMETHASONE DIPRO": {
+  "cid": 9782,
+  "smiles": "C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C",
+  "name": "BETAMETHASONE"
+ },
+ "BETAXOLOL": {
+  "cid": 2369,
+  "smiles": "CC(C)NCC(COC1=CC=C(C=C1)CCOCC2CC2)O",
+  "name": "BETAXOLOL"
+ },
+ "BICITRA": {
+  "cid": 6224,
+  "smiles": "C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O.[Na+].[Na+].[Na+]",
+  "name": "BICITRA"
+ },
+ "BISACODYL": {
+  "cid": 2391,
+  "smiles": "CC(=O)OC1=CC=C(C=C1)C(C2=CC=C(C=C2)OC(=O)C)C3=CC=CC=N3",
+  "name": "[4-[(4-acetyloxyphenyl)-pyridin-2-ylmethyl]phenyl] acetate"
+ },
+ "BISMUTH SUBSALICYLATE": {
+  "cid": 16682734,
+  "smiles": "C1=CC=C2C(=C1)C(=O)O[Bi]O2.O",
+  "name": null
+ },
+ "BRIMONIDINE": {
+  "cid": 2438,
+  "smiles": "CN1CCC(CC1)C2=CNC3=C2C=C(C=C3)O",
+  "name": "Brimonidine Tartrate 0.15% Ophth."
+ },
+ "BUDESONIDE": {
+  "cid": 5281004,
+  "smiles": "CCCC1O[C@@H]2C[C@H]3[C@@H]4CCC5=CC(=O)C=C[C@@]5([C@H]4[C@H](C[C@@]3([C@@]2(O1)C(=O)CO)C)O)C",
+  "name": "BUDESONIDE"
+ },
+ "BUMETANIDE": {
+  "cid": 2471,
+  "smiles": "CCCCNC1=C(C(=CC(=C1)C(=O)O)S(=O)(=O)N)OC2=CC=CC=C2",
+  "name": "BUMETANIDE"
+ },
+ "BUPIVACAINE": {
+  "cid": 2474,
+  "smiles": "CCCCN1CCCCC1C(=O)NC2=C(C=CC=C2C)C",
+  "name": "1-butyl-N-(2,6-dimethylphenyl)piperidine-2-carboxamide"
+ },
+ "BUPROPION": {
+  "cid": 444,
+  "smiles": "CC(C(=O)C1=CC(=CC=C1)Cl)NC(C)(C)C",
+  "name": "BUPROPION"
+ },
+ "BUSPIRONE": {
+  "cid": 2477,
+  "smiles": "C1CCC2(C1)CC(=O)N(C(=O)C2)CCCCN3CCN(CC3)C4=NC=CC=N4",
+  "name": "BUSPIRONE"
+ },
+ "CABERGOLINE": {
+  "cid": 54746,
+  "smiles": "CCNC(=O)N(CCCN(C)C)C(=O)C1CC2C(CC3=CNC4=CC=CC2=C34)N(C1)CC=C",
+  "name": "(6aR,9R,10aR)-N-[3-(dimethylamino)propyl]-N-(ethylcarbamoyl)-7-prop-2-enyl-6,6a,8,9,10,10a-hexahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide"
+ },
+ "CAFFEINE": {
+  "cid": 2519,
+  "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+  "name": "CAFFEINE"
+ },
+ "CALCITONIN SALMON": {
+  "cid": 16220016,
+  "smiles": "C[C@H]([C@H]1C(=O)N[C@@H](CSSC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CO)CC(C)C)CC(=O)N)CO)N)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC(C)C)C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CO)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC2=CN=CN2)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC3=CC=C(C=C3)O)C(=O)N4CCC[C@H]4C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@@H](CO)C(=O)NCC(=O)N[C@@H]([C@@H](C)O)C(=O)N5CCC[C@H]5C(=O)N)O",
+  "name": "CALCITONIN SALMON"
+ },
+ "CALCITRIOL": {
+  "cid": 5280453,
+  "smiles": "CC(CCCC(C)(C)O)C1CCC2C1(CCCC2=CC=C3CC(CC(C3=C)O)O)C",
+  "name": "(1R,3S,5Z)-5-[(2E)-2-[(1R,3aS,7aR)-1-[(2R)-6-hydroxy-6-methylheptan-2-yl]-7a-methyl-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylidenecyclohexane-1,3-diol"
+ },
+ "CALCIUM": {
+  "cid": 5460341,
+  "smiles": "[Ca]",
+  "name": "Calcium Replacement (Oncology)"
+ },
+ "CALCIUM ACETATE": {
+  "cid": 6116,
+  "smiles": "CC(=O)[O-].CC(=O)[O-].[Ca+2]",
+  "name": "calcium;diacetate"
+ },
+ "CALCIUM CARBONATE": {
+  "cid": 10112,
+  "smiles": "C(=O)([O-])[O-].[Ca+2]",
+  "name": "calcium;carbonate"
+ },
+ "CALCIUM CHLORIDE": {
+  "cid": 5284359,
+  "smiles": "[Cl-].[Cl-].[Ca+2]",
+  "name": "calcium;dichloride"
+ },
+ "CALCIUM GLUCONATE": {
+  "cid": 9290,
+  "smiles": "C(C(C(C(C(C(=O)[O-])O)O)O)O)O.C(C(C(C(C(C(=O)[O-])O)O)O)O)O.[Ca+2]",
+  "name": "calcium;(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoate"
+ },
+ "CANDESARTAN": {
+  "cid": 2541,
+  "smiles": "CCOC1=NC2=CC=CC(=C2N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5)C(=O)O",
+  "name": "2-ethoxy-3-[[4-[2-(2H-tetrazol-5-yl)phenyl]phenyl]methyl]benzimidazole-4-carboxylic acid"
+ },
+ "CAPSAICIN": {
+  "cid": 1548943,
+  "smiles": "CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC",
+  "name": "(E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide"
+ },
+ "CAPTOPRIL": {
+  "cid": 44093,
+  "smiles": "CC(CS)C(=O)N1CCCC1C(=O)O",
+  "name": "(2S)-1-[(2S)-2-methyl-3-sulfanylpropanoyl]pyrrolidine-2-carboxylic acid"
+ },
+ "CARBAMAZEPINE": {
+  "cid": 2554,
+  "smiles": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+  "name": "Carbamazepine XR"
+ },
+ "CARBAMIDE PEROXIDE": {
+  "cid": 31294,
+  "smiles": "C(=O)(N)N.OO",
+  "name": "CARBAMIDE PEROXIDE"
+ },
+ "CARBIDOPA-LEVODOPA": {
+  "cid": 6047,
+  "smiles": "C1=CC(=C(C=C1CC(C(=O)O)N)O)O",
+  "name": "Carbidopa-Levodopa (25-250)"
+ },
+ "CARBOPLATIN": {
+  "cid": 426756,
+  "smiles": "C1CC(C1)(C(=O)O)C(=O)O.[NH2-].[NH2-].[Pt+2]",
+  "name": "azanide;cyclobutane-1,1-dicarboxylic acid;platinum(2+)"
+ },
+ "CARVEDILOL": {
+  "cid": 2585,
+  "smiles": "COC1=CC=CC=C1OCCNCC(COC2=CC=CC3=C2C4=CC=CC=C4N3)O",
+  "name": "1-(9H-carbazol-4-yloxy)-3-[2-(2-methoxyphenoxy)ethylamino]propan-2-ol"
+ },
+ "CASPOFUNGIN": {
+  "cid": 16119814,
+  "smiles": "CC[C@H](C)C[C@H](C)CCCCCCCCC(=O)N[C@H]1C[C@H]([C@H](NC(=O)[C@@H]2[C@H](CCN2C(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H]3C[C@H](CN3C(=O)[C@@H](NC1=O)[C@@H](C)O)O)[C@@H]([C@H](C4=CC=C(C=C4)O)O)O)[C@@H](CCN)O)O)NCCN)O",
+  "name": "CASPOFUNGIN"
+ },
+ "CEFAZOLIN": {
+  "cid": 33255,
+  "smiles": "CC1=NN=C(S1)SCC2=C(N3C(C(C3=O)NC(=O)CN4C=NN=N4)SC2)C(=O)O",
+  "name": "(6R,7R)-3-[(5-methyl-1,3,4-thiadiazol-2-yl)sulfanylmethyl]-8-oxo-7-[[2-(tetrazol-1-yl)acetyl]amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+ },
+ "CEFEPIME": {
+  "cid": 5479537,
+  "smiles": "C[N+]1(CCCC1)CC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)[O-]",
+  "name": "(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[(1-methylpyrrolidin-1-ium-1-yl)methyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate"
+ },
+ "CEFOTAXIME": {
+  "cid": 5742673,
+  "smiles": "CC(=O)OCC1=C(N2[C@@H]([C@@H](C2=O)NC(=O)/C(=N\\OC)/C3=CSC(=N3)N)SC1)C(=O)O",
+  "name": "CEFOTAXIME"
+ },
+ "CEFPODOXIME": {
+  "cid": 6526396,
+  "smiles": "CC(C)OC(=O)OC(C)OC(=O)C1=C(CSC2N1C(=O)C2NC(=O)C(=NOC)C3=CSC(=N3)N)COC",
+  "name": "1-propan-2-yloxycarbonyloxyethyl (6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-(methoxymethyl)-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate"
+ },
+ "CEFTAZIDIME": {
+  "cid": 5481173,
+  "smiles": "CC(C)(C(=O)O)ON=C(C1=CSC(=N1)N)C(=O)NC2C3N(C2=O)C(=C(CS3)C[N+]4=CC=CC=C4)C(=O)[O-]",
+  "name": "(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-(2-carboxypropan-2-yloxyimino)acetyl]amino]-8-oxo-3-(pyridin-1-ium-1-ylmethyl)-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate"
+ },
+ "CEFTRIAXONE": {
+  "cid": 5479530,
+  "smiles": "CN1C(=NC(=O)C(=O)N1)SCC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)O",
+  "name": "(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[(2-methyl-5,6-dioxo-1H-1,2,4-triazin-3-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+ },
+ "CELEBREX": {
+  "cid": 2662,
+  "smiles": "CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F",
+  "name": "CELEBREX"
+ },
+ "CEPACOL": {
+  "cid": 1256,
+  "smiles": "CC(=C)C1CCC(=CC1)C(=O)O",
+  "name": "Cepacol (Menthol)"
+ },
+ "CEPHALEXIN": {
+  "cid": 27447,
+  "smiles": "CC1=C(N2C(C(C2=O)NC(=O)C(C3=CC=CC=C3)N)SC1)C(=O)O",
+  "name": "(6R,7R)-7-[[(2R)-2-amino-2-phenylacetyl]amino]-3-methyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+ },
+ "CETYLPYRIDINIUM CHL": {
+  "cid": 31239,
+  "smiles": "CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-]",
+  "name": "Cetylpyridinium Chl (Cepacol)"
+ },
+ "CHLORASEPTIC THROAT": {
+  "cid": 2337,
+  "smiles": "CCOC(=O)C1=CC=C(C=C1)N",
+  "name": "CHLORASEPTIC"
+ },
+ "CHLORDIAZEPOXIDE": {
+  "cid": 2712,
+  "smiles": "CN=C1CN(C(=C2C=C(C=CC2=N1)Cl)C3=CC=CC=C3)O",
+  "name": "CHLORDIAZEPOXIDE"
+ },
+ "CHLORHEXIDINE": {
+  "cid": 9552081,
+  "smiles": "C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl.C(C(C(C(C(C(=O)O)O)O)O)O)O.C(C(C(C(C(C(=O)O)O)O)O)O)O",
+  "name": "(1E)-2-[6-[[amino-[(E)-[amino-(4-chloroanilino)methylidene]amino]methylidene]amino]hexyl]-1-[amino-(4-chloroanilino)methylidene]guanidine;(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoic acid"
+ },
+ "CHLOROTHIAZIDE": {
+  "cid": 2720,
+  "smiles": "C1=C2C(=CC(=C1Cl)S(=O)(=O)N)S(=O)(=O)N=CN2",
+  "name": "CHLOROTHIAZIDE"
+ },
+ "CHLORPROMAZINE": {
+  "cid": 2726,
+  "smiles": "CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl",
+  "name": "3-(2-chlorophenothiazin-10-yl)-N,N-dimethylpropan-1-amine"
+ },
+ "CHLORTHALIDONE": {
+  "cid": 2732,
+  "smiles": "C1=CC=C2C(=C1)C(=O)NC2(C3=CC(=C(C=C3)Cl)S(=O)(=O)N)O",
+  "name": "CHLORTHALIDONE"
+ },
+ "CILOSTAZOL": {
+  "cid": 2754,
+  "smiles": "C1CCC(CC1)N2C(=NN=N2)CCCCOC3=CC4=C(C=C3)NC(=O)CC4",
+  "name": "6-[4-(1-cyclohexyltetrazol-5-yl)butoxy]-3,4-dihydro-1H-quinolin-2-one"
+ },
+ "CIMETIDINE": {
+  "cid": 2756,
+  "smiles": "CC1=C(N=CN1)CSCCNC(=NC)NC#N",
+  "name": "1-cyano-2-methyl-3-[2-[(5-methyl-1H-imidazol-4-yl)methylsulfanyl]ethyl]guanidine"
+ },
+ "CINACALCET": {
+  "cid": 156419,
+  "smiles": "CC(C1=CC=CC2=CC=CC=C21)NCCCC3=CC(=CC=C3)C(F)(F)F",
+  "name": "N-[(1R)-1-naphthalen-1-ylethyl]-3-[3-(trifluoromethyl)phenyl]propan-1-amine"
+ },
+ "CIPROFLOXACIN": {
+  "cid": 62999,
+  "smiles": "C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O.Cl",
+  "name": "1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid;hydrochloride"
+ },
+ "CISATRACURIUM": {
+  "cid": 62886,
+  "smiles": "C[N+]1(CCC2=CC(=C(C=C2C1CC3=CC(=C(C=C3)OC)OC)OC)OC)CCC(=O)OCCCCCOC(=O)CC[N+]4(CCC5=CC(=C(C=C5C4CC6=CC(=C(C=C6)OC)OC)OC)OC)C.C1=CC=C(C=C1)S(=O)(=O)[O-].C1=CC=C(C=C1)S(=O)(=O)[O-]",
+  "name": "benzenesulfonate;5-[3-[(1R,2R)-1-[(3,4-dimethoxyphenyl)methyl]-6,7-dimethoxy-2-methyl-3,4-dihydro-1H-isoquinolin-2-ium-2-yl]propanoyloxy]pentyl 3-[(1R,2R)-1-[(3,4-dimethoxyphenyl)methyl]-6,7-dimethoxy-2-methyl-3,4-dihydro-1H-isoquinolin-2-ium-2-yl]propanoate"
+ },
+ "CITALOPRAM": {
+  "cid": 77995,
+  "smiles": "CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F.Br",
+  "name": "1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-3H-2-benzofuran-5-carbonitrile;hydrobromide"
+ },
+ "CITRATE DEXTROSE": {
+  "cid": 31348,
+  "smiles": "C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O",
+  "name": "CITRATE"
+ },
+ "CLARITHROMYCIN": {
+  "cid": 84029,
+  "smiles": "CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O",
+  "name": "(3R,4S,5S,6R,7R,9R,11R,12R,13S,14R)-6-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-14-ethyl-12,13-dihydroxy-4-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-7-methoxy-3,5,7,9,11,13-hexamethyl-oxacyclotetradecane-2,10-dione"
+ },
+ "CLINDAMYCIN": {
+  "cid": 446598,
+  "smiles": "CCCC1CC(N(C1)C)C(=O)NC(C2C(C(C(C(O2)SC)O)O)O)C(C)Cl",
+  "name": "(2S,4R)-N-[(1S,2S)-2-chloro-1-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-methylsulfanyloxan-2-yl]propyl]-1-methyl-4-propylpyrrolidine-2-carboxamide"
+ },
+ "CLOBETASOL": {
+  "cid": 5311051,
+  "smiles": "C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CCl)O)C)O)F)C",
+  "name": "CLOBETASOL"
+ },
+ "CLONAZEPAM": {
+  "cid": 2802,
+  "smiles": "C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])C(=N1)C3=CC=CC=C3Cl",
+  "name": "5-(2-chlorophenyl)-7-nitro-1,3-dihydro-1,4-benzodiazepin-2-one"
+ },
+ "CLONIDINE": {
+  "cid": 20179,
+  "smiles": "C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl.Cl",
+  "name": "N-(2,6-dichlorophenyl)-4,5-dihydro-1H-imidazol-2-amine;hydrochloride"
+ },
+ "CLOPIDOGREL": {
+  "cid": 115366,
+  "smiles": "COC(=O)C(C1=CC=CC=C1Cl)N2CCC3=C(C2)C=CS3.OS(=O)(=O)O",
+  "name": "methyl (2S)-2-(2-chlorophenyl)-2-(6,7-dihydro-4H-thieno[3,2-c]pyridin-5-yl)acetate;sulfuric acid"
+ },
+ "CLOTRIMAZOLE": {
+  "cid": 2812,
+  "smiles": "C1=CC=C(C=C1)C(C2=CC=CC=C2)(C3=CC=CC=C3Cl)N4C=CN=C4",
+  "name": "1-[(2-chlorophenyl)-diphenylmethyl]imidazole"
+ },
+ "CLOZAPINE": {
+  "cid": 135398737,
+  "smiles": "CN1CCN(CC1)C2=NC3=C(C=CC(=C3)Cl)NC4=CC=CC=C42",
+  "name": "CLOZAPINE"
+ },
+ "CODEINE": {
+  "cid": 5359613,
+  "smiles": "CN1CCC23C4C1CC5=C2C(=C(C=C5)OC)OC3C(C=C4)O.CN1CCC23C4C1CC5=C2C(=C(C=C5)OC)OC3C(C=C4)O.OS(=O)(=O)O",
+  "name": "(4R,4aR,7S,7aR,12bS)-9-methoxy-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-ol;sulfuric acid"
+ },
+ "COLCHICINE": {
+  "cid": 6167,
+  "smiles": "CC(=O)N[C@H]1CCC2=CC(=C(C(=C2C3=CC=C(C(=O)C=C13)OC)OC)OC)OC",
+  "name": "COLCHICINE"
+ },
+ "COLLAGENASE": {
+  "cid": 75007581,
+  "smiles": "CCCCCCCCC1CCC2(C1(CCC3(C2CCC4(C3(CC5=C(C4)N=C6CC7(C(CCC8C7(CCC9(C8(CCC9CCCCCCCC)C)C)C)(CC6=N5)C)C)C)C)C)C)C",
+  "name": "5,6,9,13,17,23,24,27,31,35-decamethyl-10,28-dioctyl-2,20-diazanonacyclo[19.15.0.03,19.05,17.06,14.09,13.023,35.024,32.027,31]hexatriaconta-1(21),2,19-triene"
+ },
+ "COSYNTROPIN": {
+  "cid": 16133802,
+  "smiles": "CC(C)C(C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)N1CCCC1C(=O)NC(C(C)C)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=C(C=C2)O)C(=O)N3CCCC3C(=O)O)NC(=O)C4CCCN4C(=O)C(CCCCN)NC(=O)CNC(=O)C(CC5=CNC6=CC=CC=C65)NC(=O)C(CCCNC(=N)N)NC(=O)C(CC7=CC=CC=C7)NC(=O)C(CC8=CNC=N8)NC(=O)C(CCC(=O)O)NC(=O)C(CCSC)NC(=O)C(CO)NC(=O)C(CC9=CC=C(C=C9)O)NC(=O)C(CO)N",
+  "name": "(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[2-[[(2S)-2-[[(2S)-1-[(2S)-6-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-3-hydroxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylsulfanylbutanoyl]amino]-4-carboxybutanoyl]amino]-3-(1H-imidazol-4-yl)propanoyl]amino]-3-phenylpropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]acetyl]amino]hexanoyl]pyrrolidine-2-carbonyl]amino]-3-methylbutanoyl]amino]acetyl]amino]hexanoyl]amino]hexanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-carbamimidamidopentanoyl]pyrrolidine-2-carbonyl]amino]-3-methylbutanoyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]pyrrolidine-2-carboxylic acid"
+ },
+ "CROMOLYN": {
+  "cid": 2882,
+  "smiles": "C1=CC2=C(C(=C1)OCC(COC3=CC=CC4=C3C(=O)C=C(O4)C(=O)O)O)C(=O)C=C(O2)C(=O)O",
+  "name": "5-[3-(2-carboxy-4-oxochromen-5-yl)oxy-2-hydroxypropoxy]-4-oxochromene-2-carboxylic acid"
+ },
+ "CYANOCOBALAMIN": {
+  "cid": 5311498,
+  "smiles": "CC1=CC2=C(C=C1C)N(C=N2)C3C(C(C(O3)CO)OP(=O)([O-])OC(C)CNC(=O)CCC4(C(C5C6(C(C(C(=C(C7=NC(=CC8=NC(=C(C4=N5)C)C(C8(C)C)CCC(=O)N)C(C7(C)CC(=O)N)CCC(=O)N)C)[N-]6)CCC(=O)N)(C)CC(=O)N)C)CC(=O)N)C)O.[C-]#N.[Co+3]",
+  "name": "cobalt(3+);[(2R,3S,4R,5S)-5-(5,6-dimethylbenzimidazol-1-yl)-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl] [(2R)-1-[3-[(1R,2R,3R,5Z,7S,10Z,12S,13S,15Z,17S,18S,19R)-2,13,18-tris(2-amino-2-oxoethyl)-7,12,17-tris(3-amino-3-oxopropyl)-3,5,8,8,13,15,18,19-octamethyl-2,7,12,17-tetrahydro-1H-corrin-24-id-3-yl]propanoylamino]propan-2-yl] phosphate;cyanide"
+ },
+ "CYCLOBENZAPRINE": {
+  "cid": 2895,
+  "smiles": "CN(C)CCC=C1C2=CC=CC=C2C=CC3=CC=CC=C31",
+  "name": "CYCLOBENZAPRINE"
+ },
+ "CYCLOPENTOLATE": {
+  "cid": 2905,
+  "smiles": "CN(C)CCOC(=O)C(C1=CC=CC=C1)C2(CCCC2)O",
+  "name": "CYCLOPENTOLATE"
+ },
+ "CYCLOPHOSPHAMIDE": {
+  "cid": 2907,
+  "smiles": "C1CNP(=O)(OC1)N(CCCl)CCCl",
+  "name": "N,N-bis(2-chloroethyl)-2-oxo-1,3,2lambda5-oxazaphosphinan-2-amine"
+ },
+ "CYCLOSPORINE": {
+  "cid": 5284373,
+  "smiles": "CC[C@H]1C(=O)N(CC(=O)N([C@H](C(=O)N[C@H](C(=O)N([C@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N([C@H](C(=O)N1)[C@@H]([C@H](C)C/C=C/C)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C",
+  "name": "CYCLOSPORINE"
+ },
+ "CYPROHEPTADINE": {
+  "cid": 2913,
+  "smiles": "CN1CCC(=C2C3=CC=CC=C3C=CC4=CC=CC=C42)CC1",
+  "name": "1-methyl-4-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaenylidene)piperidine"
+ },
+ "CYTARABINE": {
+  "cid": 6253,
+  "smiles": "C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O",
+  "name": "4-amino-1-[(2R,3S,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one"
+ },
+ "D5 2NS": {
+  "cid": 5793,
+  "smiles": "C(C1C(C(C(C(O1)O)O)O)O)O",
+  "name": "D5 1/2NS"
+ },
+ "DABIGATRAN ETEXILATE": {
+  "cid": 135565674,
+  "smiles": "CCCCCCOC(=O)NC(=N)C1=CC=C(C=C1)NCC2=NC3=C(N2C)C=CC(=C3)C(=O)N(CCC(=O)OCC)C4=CC=CC=N4",
+  "name": "DABIGATRAN ETEXILATE"
+ },
+ "DANAZOL": {
+  "cid": 28417,
+  "smiles": "CC12CCC3C(C1CCC2(C#C)O)CCC4=CC5=C(CC34C)C=NO5",
+  "name": "(1S,2R,13R,14S,17R,18S)-17-ethynyl-2,18-dimethyl-7-oxa-6-azapentacyclo[11.7.0.02,10.04,8.014,18]icosa-4(8),5,9-trien-17-ol"
+ },
+ "DAPSONE": {
+  "cid": 2955,
+  "smiles": "C1=CC(=CC=C1N)S(=O)(=O)C2=CC=C(C=C2)N",
+  "name": "4-(4-aminophenyl)sulfonylaniline"
+ },
+ "DAPTOMYCIN": {
+  "cid": 21585658,
+  "smiles": "CCCCCCCCCC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC3C(OC(=O)C(NC(=O)C(NC(=O)C(NC(=O)CNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)CNC3=O)CCCN)CC(=O)O)C)CC(=O)O)CO)C(C)CC(=O)O)CC(=O)C4=CC=CC=C4N)C",
+  "name": "(3S)-3-[[(2R)-4-amino-2-[[(2S)-2-(decanoylamino)-3-(1H-indol-3-yl)propanoyl]amino]-4-oxobutanoyl]amino]-4-[[(3S,6S,9R,15S,18R,21S,24S,30S,31R)-3-[2-(2-aminophenyl)-2-oxoethyl]-24-(3-aminopropyl)-15,21-bis(carboxymethyl)-6-[(2R)-1-carboxypropan-2-yl]-9-(hydroxymethyl)-18,31-dimethyl-2,5,8,11,14,17,20,23,26,29-decaoxo-1-oxa-4,7,10,13,16,19,22,25,28-nonazacyclohentriacont-30-yl]amino]-4-oxobutanoic acid"
+ },
+ "DARUNAVIR": {
+  "cid": 213039,
+  "smiles": "CC(C)CN(C[C@H]([C@H](CC1=CC=CC=C1)NC(=O)O[C@H]2CO[C@@H]3[C@H]2CCO3)O)S(=O)(=O)C4=CC=C(C=C4)N",
+  "name": "DARUNAVIR"
+ },
+ "DEBROX": {
+  "cid": 31294,
+  "smiles": "C(=O)(N)N.OO",
+  "name": "DEBROX"
+ },
+ "DEMECLOCYCLINE": {
+  "cid": 54680690,
+  "smiles": "CN(C)C1C2CC3C(C4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)Cl)O",
+  "name": "(4S,4aS,5aS,6S,12aR)-7-chloro-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide"
+ },
+ "DESITIN": {
+  "cid": 14806,
+  "smiles": "O=[Zn]",
+  "name": "oxozinc"
+ },
+ "DESMOPRESSIN": {
+  "cid": 5311065,
+  "smiles": "C1C[C@H](N(C1)C(=O)[C@@H]2CSSCCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N2)CC(=O)N)CCC(=O)N)CC3=CC=CC=C3)CC4=CC=C(C=C4)O)C(=O)N[C@H](CCCN=C(N)N)C(=O)NCC(=O)N",
+  "name": "DESMOPRESSIN"
+ },
+ "DEXAMETHASONE": {
+  "cid": 5743,
+  "smiles": "CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C",
+  "name": "(8S,9R,10S,11S,13S,14S,16R,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13,16-trimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one"
+ },
+ "DEXAMETHASONE SOD": {
+  "cid": 5743,
+  "smiles": "CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C",
+  "name": "Dexamethasone Sod Phosphate"
+ },
+ "DEXMEDETOMIDINE": {
+  "cid": 5311068,
+  "smiles": "CC1=C(C(=CC=C1)[C@H](C)C2=CN=CN2)C",
+  "name": "DEXMEDETOMIDINE"
+ },
+ "DEXTROMETHORPHAN POLY COMPLEX": {
+  "cid": 5360696,
+  "smiles": "CN1CC[C@@]23CCCC[C@@H]2[C@@H]1CC4=C3C=C(C=C4)OC",
+  "name": "DEXTROMETHORPHAN"
+ },
+ "DEXTROMETHORPHAN-GUAIFENESIN": {
+  "cid": 3516,
+  "smiles": "COC1=CC=CC=C1OCC(CO)O",
+  "name": "Dextromethorphan-Guaifenesin (Sugar Free)"
+ },
+ "DIAZEPAM": {
+  "cid": 3016,
+  "smiles": "CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3",
+  "name": "7-chloro-1-methyl-5-phenyl-3H-1,4-benzodiazepin-2-one"
+ },
+ "DICLOXACILLIN": {
+  "cid": 18381,
+  "smiles": "CC1=C(C(=NO1)C2=C(C=CC=C2Cl)Cl)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)O",
+  "name": "(2S,5R,6R)-6-[[3-(2,6-dichlorophenyl)-5-methyl-1,2-oxazole-4-carbonyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+ },
+ "DICYCLOMINE": {
+  "cid": 3042,
+  "smiles": "CCN(CC)CCOC(=O)C1(CCCCC1)C2CCCCC2",
+  "name": "DICYCLOMINE"
+ },
+ "DIGOXIN": {
+  "cid": 2724385,
+  "smiles": "CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O",
+  "name": "3-[(3S,5R,8R,9S,10S,12R,13S,14S,17R)-3-[(2R,4S,5S,6R)-5-[(2S,4S,5S,6R)-5-[(2S,4S,5S,6R)-4,5-dihydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-12,14-dihydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one"
+ },
+ "DILTIAZEM": {
+  "cid": 39186,
+  "smiles": "CC(=O)OC1C(SC2=CC=CC=C2N(C1=O)CCN(C)C)C3=CC=C(C=C3)OC",
+  "name": "[(2S,3S)-5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3-dihydro-1,5-benzothiazepin-3-yl] acetate"
+ },
+ "DIPHENHYDRAMINE": {
+  "cid": 3100,
+  "smiles": "CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2",
+  "name": "2-benzhydryloxy-N,N-dimethylethanamine"
+ },
+ "DIPHENOXYLATE-ATROPINE": {
+  "cid": 64662,
+  "smiles": "CCOC(=O)C1(CCN(CC1)CCC(C#N)(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4.CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3.OS(=O)(=O)O.Cl",
+  "name": "DIPHENOXYLATE-ATROPINE"
+ },
+ "DIVALPROEX": {
+  "cid": 3121,
+  "smiles": "CCCC(CCC)C(=O)O",
+  "name": "Divalproex (EXTended Release)"
+ },
+ "DIVALPROEX SOD SPRINKLES": {
+  "cid": 3121,
+  "smiles": "CCCC(CCC)C(=O)O",
+  "name": "Divalproex Sod. Sprinkles"
+ },
+ "DOBUTAMINE": {
+  "cid": 36811,
+  "smiles": "CC(CCC1=CC=C(C=C1)O)NCCC2=CC(=C(C=C2)O)O",
+  "name": "4-[2-[4-(4-hydroxyphenyl)butan-2-ylamino]ethyl]benzene-1,2-diol"
+ },
+ "DOCETAXEL": {
+  "cid": 148124,
+  "smiles": "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)OC(C)(C)C)O)O)OC(=O)C6=CC=CC=C6)(CO4)OC(=O)C)O)C)O",
+  "name": "[(1S,2S,3R,4S,7R,9S,10S,12R,15S)-4-acetyloxy-1,9,12-trihydroxy-15-[(2R,3S)-2-hydroxy-3-[(2-methylpropan-2-yl)oxycarbonylamino]-3-phenylpropanoyl]oxy-10,14,17,17-tetramethyl-11-oxo-6-oxatetracyclo[11.3.1.03,10.04,7]heptadec-13-en-2-yl] benzoate"
+ },
+ "DOCUSATE": {
+  "cid": 23673837,
+  "smiles": "CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)[O-].[Na+]",
+  "name": "sodium;1,4-bis(2-ethylhexoxy)-1,4-dioxobutane-2-sulfonate"
+ },
+ "DOFETILIDE": {
+  "cid": 71329,
+  "smiles": "CN(CCC1=CC=C(C=C1)NS(=O)(=O)C)CCOC2=CC=C(C=C2)NS(=O)(=O)C",
+  "name": "DOFETILIDE"
+ },
+ "DOLASETRON": {
+  "cid": 6918119,
+  "smiles": "CS(=O)(=O)O.C1C2CC3CC(CC1N3CC2=O)OC(=O)C4=CNC5=CC=CC=C54.O",
+  "name": "methanesulfonic acid;[(3S,7R)-10-oxo-8-azatricyclo[5.3.1.03,8]undecan-5-yl] 1H-indole-3-carboxylate;hydrate"
+ },
+ "DONEPEZIL": {
+  "cid": 3152,
+  "smiles": "COC1=C(C=C2C(=C1)CC(C2=O)CC3CCN(CC3)CC4=CC=CC=C4)OC",
+  "name": "2-[(1-benzylpiperidin-4-yl)methyl]-5,6-dimethoxy-2,3-dihydroinden-1-one"
+ },
+ "DONEPEZIL OR": {
+  "cid": 3152,
+  "smiles": "COC1=C(C=C2C(=C1)CC(C2=O)CC3CCN(CC3)CC4=CC=CC=C4)OC",
+  "name": "Donepezil 5 mg or Placebo"
+ },
+ "DOPAMINE": {
+  "cid": 681,
+  "smiles": "C1=CC(=C(C=C1CCN)O)O",
+  "name": "4-(2-aminoethyl)benzene-1,2-diol"
+ },
+ "DORZOLAMIDE": {
+  "cid": 5284549,
+  "smiles": "CCN[C@H]1C[C@@H](S(=O)(=O)C2=C1C=C(S2)S(=O)(=O)N)C",
+  "name": "DORZOLAMIDE"
+ },
+ "DORZOLAMIDE TIMOLOL": {
+  "cid": 5284549,
+  "smiles": "CCNC1CC(S(=O)(=O)C2=C1C=C(S2)S(=O)(=O)N)C",
+  "name": "Dorzolamide 2%/Timolol 0.5% Ophth."
+ },
+ "DOSTINEX": {
+  "cid": 54746,
+  "smiles": "CCNC(=O)N(CCCN(C)C)C(=O)C1CC2C(CC3=CNC4=CC=CC2=C34)N(C1)CC=C",
+  "name": "(6aR,9R,10aR)-N-[3-(dimethylamino)propyl]-N-(ethylcarbamoyl)-7-prop-2-enyl-6,6a,8,9,10,10a-hexahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide"
+ },
+ "DOXAZOSIN": {
+  "cid": 3157,
+  "smiles": "COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4COC5=CC=CC=C5O4)N)OC",
+  "name": "[4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(2,3-dihydro-1,4-benzodioxin-3-yl)methanone"
+ },
+ "DOXEPIN": {
+  "cid": 3158,
+  "smiles": "CN(C)CCC=C1C2=CC=CC=C2COC3=CC=CC=C31",
+  "name": "DOXEPIN"
+ },
+ "DOXERCALCIFEROL": {
+  "cid": 5281107,
+  "smiles": "C[C@H](/C=C/[C@H](C)C(C)C)[C@H]1CC[C@@H]\\2[C@@]1(CCC/C2=C\\C=C/3\\C[C@H](C[C@@H](C3=C)O)O)C",
+  "name": "DOXERCALCIFEROL"
+ },
+ "DOXORUBICIN": {
+  "cid": 31703,
+  "smiles": "CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O",
+  "name": "(7S,9S)-7-[(2R,4S,5S,6S)-4-amino-5-hydroxy-6-methyloxan-2-yl]oxy-6,9,11-trihydroxy-9-(2-hydroxyacetyl)-4-methoxy-8,10-dihydro-7H-tetracene-5,12-dione"
+ },
+ "DOXYCYCLINE HYCLATE": {
+  "cid": 54686183,
+  "smiles": "CCO.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O.Cl.Cl",
+  "name": "(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide;ethanol;hydrate;dihydrochloride"
+ },
+ "DRONABINOL": {
+  "cid": 16078,
+  "smiles": "CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O",
+  "name": "(6aR,10aR)-6,6,9-trimethyl-3-pentyl-6a,7,8,10a-tetrahydrobenzo[c]chromen-1-ol"
+ },
+ "DROPERIDOL": {
+  "cid": 3168,
+  "smiles": "C1CN(CC=C1N2C3=CC=CC=C3NC2=O)CCCC(=O)C4=CC=C(C=C4)F",
+  "name": "DROPERIDOL"
+ },
+ "DT & ACELLULAR PERTUSSIS": {
+  "cid": 5789,
+  "smiles": "CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)CO)O",
+  "name": "DT"
+ },
+ "DULOXETINE": {
+  "cid": 60835,
+  "smiles": "CNCCC(C1=CC=CS1)OC2=CC=CC3=CC=CC=C32",
+  "name": "(3S)-N-methyl-3-naphthalen-1-yloxy-3-thiophen-2-ylpropan-1-amine"
+ },
+ "EFAVIRENZ": {
+  "cid": 64139,
+  "smiles": "C1CC1C#C[C@]2(C3=C(C=CC(=C3)Cl)NC(=O)O2)C(F)(F)F",
+  "name": "EFAVIRENZ"
+ },
+ "EMTRICITABINE": {
+  "cid": 60877,
+  "smiles": "C1[C@H](O[C@H](S1)CO)N2C=C(C(=NC2=O)N)F",
+  "name": "EMTRICITABINE"
+ },
+ "ENALAPRIL": {
+  "cid": 5388961,
+  "smiles": "CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CCCC2C(=O)O.C(=CC(=O)O)C(=O)O",
+  "name": "(Z)-but-2-enedioic acid;(2S)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]pyrrolidine-2-carboxylic acid"
+ },
+ "ENALAPRILAT": {
+  "cid": 5462501,
+  "smiles": "CC(C(=O)N1CCCC1C(=O)O)NC(CCC2=CC=CC=C2)C(=O)O",
+  "name": "(2S)-1-[(2S)-2-[[(1S)-1-carboxy-3-phenylpropyl]amino]propanoyl]pyrrolidine-2-carboxylic acid"
+ },
+ "ENOXAPARIN": {
+  "cid": 72679307,
+  "smiles": "CC1C(C(OC(C1OC2CC(C(C(C2O)O)OC3C(C(C(C(O3)COS(=O)(=O)O)OC4C(C(C=C(O4)C(=O)[O-])O)O)O)NC(=O)C)C(=O)[O-])CO)OC5C(C(C(OC5C(=O)[O-])OC6C7COC(O7)C(C6O)NS(=O)(=O)[O-])O)O)NC(=O)C.[Na+].[Na+].[Na+].[Na+]",
+  "name": "tetrasodium;2-[5-acetamido-6-[4-[5-acetamido-6-[2-carboxylato-4,5-dihydroxy-6-[[3-hydroxy-4-(sulfonatoamino)-6,8-dioxabicyclo[3.2.1]octan-2-yl]oxy]oxan-3-yl]oxy-2-(hydroxymethyl)-4-methyloxan-3-yl]oxy-6-carboxylato-2,3-dihydroxycyclohexyl]oxy-4-hydroxy-2-(sulfooxymethyl)oxan-3-yl]oxy-3,4-dihydroxy-3,4-dihydro-2H-pyran-6-carboxylate"
+ },
+ "EPINEPHRINE": {
+  "cid": 5816,
+  "smiles": "CNCC(C1=CC(=C(C=C1)O)O)O",
+  "name": "4-[(1R)-1-hydroxy-2-(methylamino)ethyl]benzene-1,2-diol"
+ },
+ "EPINEPHRINE INHALATION": {
+  "cid": 5816,
+  "smiles": "CNC[C@@H](C1=CC(=C(C=C1)O)O)O",
+  "name": "EPINEPHRINE INHALATION"
+ },
+ "EPLERENONE": {
+  "cid": 443872,
+  "smiles": "C[C@]12CCC(=O)C=C1C[C@H]([C@@H]3[C@]24[C@H](O4)C[C@]5([C@H]3CC[C@@]56CCC(=O)O6)C)C(=O)OC",
+  "name": "EPLERENONE"
+ },
+ "EPOETIN": {
+  "cid": 92043599,
+  "smiles": "CC1CC=CC=CC(C(CC(C(C(C(CC(=O)O1)O)OC)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CCO)C)OC4CC(C(C(O4)C)O)(C)O",
+  "name": "(4R,5S,6S,7R,9R,10R,11E,13E,16R)-10-[(2R,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy-6-[(2S,3R,4R,5S,6R)-5-[(2R,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-7-(2-hydroxyethyl)-5-methoxy-9,16-dimethyl-1-oxacyclohexadeca-11,13-dien-2-one"
+ },
+ "EPOPROSTENOL": {
+  "cid": 5282411,
+  "smiles": "CCCCCC(C=CC1C(CC2C1CC(=CCCCC(=O)O)O2)O)O",
+  "name": "Epoprostenol Na"
+ },
+ "EPTIFIBATIDE": {
+  "cid": 448812,
+  "smiles": "C1C[C@H]2C(=O)N[C@@H](CSSCCC(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N2C1)CC3=CNC4=CC=CC=C43)CC(=O)O)CCCCN=C(N)N)C(=O)N",
+  "name": "EPTIFIBATIDE"
+ },
+ "ERTAPENEM": {
+  "cid": 150610,
+  "smiles": "CC1C2C(C(=O)N2C(=C1SC3CC(NC3)C(=O)NC4=CC=CC(=C4)C(=O)O)C(=O)O)C(C)O",
+  "name": "*NF* Ertapenem Sodium"
+ },
+ "ERYTHROMYCIN": {
+  "cid": 12560,
+  "smiles": "CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)O)(C)O",
+  "name": "(3R,4S,5S,6R,7R,9R,11R,12R,13S,14R)-6-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-14-ethyl-7,12,13-trihydroxy-4-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-3,5,7,9,11,13-hexamethyl-oxacyclotetradecane-2,10-dione"
+ },
+ "ERYTHROMYCIN LACTOBIONATE": {
+  "cid": 71469,
+  "smiles": "CC[C@@H]1[C@@]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)OC)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O)C)C)O)(C)O.C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C(=O)O)O)O)O)O)O)O",
+  "name": "ERYTHROMYCIN LACTOBIONATE"
+ },
+ "ESCITALOPRAM OXALATE": {
+  "cid": 146571,
+  "smiles": "CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F.C(=O)(C(=O)O)O",
+  "name": "(1S)-1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-3H-2-benzofuran-5-carbonitrile;oxalic acid"
+ },
+ "ESMOLOL": {
+  "cid": 59768,
+  "smiles": "CC(C)NCC(COC1=CC=C(C=C1)CCC(=O)OC)O",
+  "name": "methyl 3-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]propanoate"
+ },
+ "ESMOLOL IN SALINE": {
+  "cid": 59768,
+  "smiles": "CC(C)NCC(COC1=CC=C(C=C1)CCC(=O)OC)O",
+  "name": "Esmolol in Saline (Iso-osm)"
+ },
+ "ESTROGENS CONJUGATED": {
+  "cid": 23676225,
+  "smiles": "CC12CCC3C(=CCC4=C3C=CC(=C4)OS(=O)(=O)[O-])C1CCC2=O.[Na+]",
+  "name": "sodium;[(9S,13S,14S)-13-methyl-17-oxo-9,11,12,14,15,16-hexahydro-6H-cyclopenta[a]phenanthren-3-yl] sulfate"
+ },
+ "ETHACRYNATE": {
+  "cid": 3278,
+  "smiles": "CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)O)Cl)Cl",
+  "name": "ETHACRYNATE"
+ },
+ "ETHACRYNIC ACID": {
+  "cid": 3278,
+  "smiles": "CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)O)Cl)Cl",
+  "name": "ETHACRYNIC ACID"
+ },
+ "ETHAMBUTOL": {
+  "cid": 14051,
+  "smiles": "CCC(CO)NCCNC(CC)CO.Cl.Cl",
+  "name": "(2S)-2-[2-[[(2S)-1-hydroxybutan-2-yl]amino]ethylamino]butan-1-ol;dihydrochloride"
+ },
+ "ETOMIDATE": {
+  "cid": 667484,
+  "smiles": "CCOC(=O)C1=CN=CN1C(C)C2=CC=CC=C2",
+  "name": "ethyl 3-[(1R)-1-phenylethyl]imidazole-4-carboxylate"
+ },
+ "ETOPOSIDE": {
+  "cid": 36462,
+  "smiles": "CC1OCC2C(O1)C(C(C(O2)OC3C4COC(=O)C4C(C5=CC6=C(C=C35)OCO6)C7=CC(=C(C(=C7)OC)O)OC)O)O",
+  "name": "(5S,5aR,8aR,9R)-5-[[(2R,4aR,6R,7R,8R,8aS)-7,8-dihydroxy-2-methyl-4,4a,6,7,8,8a-hexahydropyrano[3,2-d][1,3]dioxin-6-yl]oxy]-9-(4-hydroxy-3,5-dimethoxyphenyl)-5a,6,8a,9-tetrahydro-5H-[2]benzofuro[6,5-f][1,3]benzodioxol-8-one"
+ },
+ "EVISTA": {
+  "cid": 54900,
+  "smiles": "C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O.Cl",
+  "name": "EVISTA"
+ },
+ "EXELON": {
+  "cid": 77991,
+  "smiles": "CCN(C)C(=O)OC1=CC=CC(=C1)C(C)N(C)C",
+  "name": "[3-[(1S)-1-(dimethylamino)ethyl]phenyl] N-ethyl-N-methylcarbamate"
+ },
+ "EZETIMIBE": {
+  "cid": 150311,
+  "smiles": "C1=CC(=CC=C1[C@@H]2[C@H](C(=O)N2C3=CC=C(C=C3)F)CC[C@@H](C4=CC=C(C=C4)F)O)O",
+  "name": "EZETIMIBE"
+ },
+ "FAMOTIDINE": {
+  "cid": 5702160,
+  "smiles": "C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N",
+  "name": "3-[[2-(diaminomethylideneamino)-1,3-thiazol-4-yl]methylsulfanyl]-N'-sulfamoylpropanimidamide"
+ },
+ "FELODIPINE": {
+  "cid": 3333,
+  "smiles": "CCOC(=O)C1=C(NC(=C(C1C2=C(C(=CC=C2)Cl)Cl)C(=O)OC)C)C",
+  "name": "5-O-ethyl 3-O-methyl 4-(2,3-dichlorophenyl)-2,6-dimethyl-1,4-dihydropyridine-3,5-dicarboxylate"
+ },
+ "FENOFIBRATE": {
+  "cid": 3339,
+  "smiles": "CC(C)OC(=O)C(C)(C)OC1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)Cl",
+  "name": "FENOFIBRATE"
+ },
+ "FENTANYL": {
+  "cid": 13810,
+  "smiles": "CCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+  "name": "2-hydroxypropane-1,2,3-tricarboxylic acid;N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide"
+ },
+ "FENTANYL PCA": {
+  "cid": 3345,
+  "smiles": "CCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3",
+  "name": "FENTANYL"
+ },
+ "FERRIC GLUCONATE": {
+  "cid": 656646,
+  "smiles": "C([C@H]([C@H]([C@@H]([C@H](C(=O)[O-])O)O)O)O)O.C([C@H]([C@H]([C@@H]([C@H](C(=O)[O-])O)O)O)O)O.C([C@H]([C@H]([C@@H]([C@H](C(=O)[O-])O)O)O)O)O.[Fe+3]",
+  "name": "FERRIC GLUCONATE"
+ },
+ "FERROUS GLUCONATE": {
+  "cid": 23616740,
+  "smiles": "C(C(C(C(C(C(=O)[O-])O)O)O)O)O.C(C(C(C(C(C(=O)[O-])O)O)O)O)O.[Fe+2]",
+  "name": "iron(2+);(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoate"
+ },
+ "FERROUS SULFATE": {
+  "cid": 24393,
+  "smiles": "[O-]S(=O)(=O)[O-].[Fe+2]",
+  "name": "iron(2+);sulfate"
+ },
+ "FERROUS SULFATE ELIXER": {
+  "cid": 24393,
+  "smiles": "[O-]S(=O)(=O)[O-].[Fe+2]",
+  "name": "FERROUS SULFATE"
+ },
+ "FEXOFENADINE": {
+  "cid": 3348,
+  "smiles": "CC(C)(C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O)C(=O)O",
+  "name": "FEXOFENADINE"
+ },
+ "FINASTERIDE": {
+  "cid": 57363,
+  "smiles": "CC12CCC3C(C1CCC2C(=O)NC(C)(C)C)CCC4C3(C=CC(=O)N4)C",
+  "name": "(1S,3aS,3bS,5aR,9aR,9bS,11aS)-N-tert-butyl-9a,11a-dimethyl-7-oxo-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinoline-1-carboxamide"
+ },
+ "FLECAINIDE": {
+  "cid": 3356,
+  "smiles": "C1CCNC(C1)CNC(=O)C2=C(C=CC(=C2)OCC(F)(F)F)OCC(F)(F)F",
+  "name": "FLECAINIDE"
+ },
+ "FLEET": {
+  "cid": 24203,
+  "smiles": "OP(=O)([O-])[O-].[Na+].[Na+]",
+  "name": "disodium;hydrogen phosphate"
+ },
+ "FLUCONAZOLE": {
+  "cid": 3365,
+  "smiles": "C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O",
+  "name": "2-(2,4-difluorophenyl)-1,3-bis(1,2,4-triazol-1-yl)propan-2-ol"
+ },
+ "FLUDROCORTISONE": {
+  "cid": 225609,
+  "smiles": "CC(=O)OCC(=O)C1(CCC2C1(CC(C3(C2CCC4=CC(=O)CCC43C)F)O)C)O",
+  "name": "[2-[(8S,9R,10S,11S,13S,14S,17R)-9-fluoro-11,17-dihydroxy-10,13-dimethyl-3-oxo-1,2,6,7,8,11,12,14,15,16-decahydrocyclopenta[a]phenanthren-17-yl]-2-oxoethyl] acetate"
+ },
+ "FLUMAZENIL": {
+  "cid": 3373,
+  "smiles": "CCOC(=O)C1=C2CN(C(=O)C3=C(N2C=N1)C=CC(=C3)F)C",
+  "name": "ethyl 8-fluoro-5-methyl-6-oxo-4H-imidazo[1,5-a][1,4]benzodiazepine-3-carboxylate"
+ },
+ "FLUOCINONIDE": {
+  "cid": 9642,
+  "smiles": "CC(=O)OCC(=O)C12C(CC3C1(CC(C4(C3CC(C5=CC(=O)C=CC54C)F)F)O)C)OC(O2)(C)C",
+  "name": "[2-[(1S,2S,4R,8S,9S,11S,12R,13S,19S)-12,19-difluoro-11-hydroxy-6,6,9,13-tetramethyl-16-oxo-5,7-dioxapentacyclo[10.8.0.02,9.04,8.013,18]icosa-14,17-dien-8-yl]-2-oxoethyl] acetate"
+ },
+ "FLUOXETINE": {
+  "cid": 3386,
+  "smiles": "CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F",
+  "name": "FLUOXETINE"
+ },
+ "FLUPHENAZINE": {
+  "cid": 3372,
+  "smiles": "C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F)CCO",
+  "name": "FLUPHENAZINE"
+ },
+ "FLUTICASONE": {
+  "cid": 444036,
+  "smiles": "CCC(=O)OC1(C(CC2C1(CC(C3(C2CC(C4=CC(=O)C=CC43C)F)F)O)C)C)C(=O)SCF",
+  "name": "[(6S,8S,9R,10S,11S,13S,14S,16R,17R)-6,9-difluoro-17-(fluoromethylsulfanylcarbonyl)-11-hydroxy-10,13,16-trimethyl-3-oxo-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-17-yl] propanoate"
+ },
+ "FLUTICASONE-SALMETEROL": {
+  "cid": 444036,
+  "smiles": "CCC(=O)OC1(C(CC2C1(CC(C3(C2CC(C4=CC(=O)C=CC43C)F)F)O)C)C)C(=O)SCF",
+  "name": "Fluticasone-Salmeterol Diskus (250/50)"
+ },
+ "FOLIC ACID": {
+  "cid": 135398658,
+  "smiles": "C1=CC(=CC=C1C(=O)NC(CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)NC(=N3)N",
+  "name": "(2S)-2-[[4-[(2-amino-4-oxo-3H-pteridin-6-yl)methylamino]benzoyl]amino]pentanedioic acid"
+ },
+ "FONDAPARINUX": {
+  "cid": 636380,
+  "smiles": "COC1C(C(C(C(O1)COS(=O)(=O)[O-])OC2C(C(C(C(O2)C(=O)[O-])OC3C(C(C(C(O3)COS(=O)(=O)[O-])OC4C(C(C(C(O4)C(=O)[O-])OC5C(C(C(C(O5)COS(=O)(=O)[O-])O)O)NS(=O)(=O)[O-])O)O)OS(=O)(=O)[O-])NS(=O)(=O)[O-])O)OS(=O)(=O)[O-])O)NS(=O)(=O)[O-].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+]",
+  "name": "decasodium;(2S,3S,4R,5R,6R)-6-[(2R,3R,4R,5R,6R)-6-[(2R,3S,4S,5R,6R)-2-carboxylato-4-hydroxy-6-[(2R,3S,4R,5R,6S)-4-hydroxy-6-methoxy-5-(sulfonatoamino)-2-(sulfonatooxymethyl)oxan-3-yl]oxy-5-sulfonatooxyoxan-3-yl]oxy-5-(sulfonatoamino)-4-sulfonatooxy-2-(sulfonatooxymethyl)oxan-3-yl]oxy-3-[(2R,3R,4R,5S,6R)-4,5-dihydroxy-3-(sulfonatoamino)-6-(sulfonatooxymethyl)oxan-2-yl]oxy-4,5-dihydroxyoxane-2-carboxylate"
+ },
+ "FOSINOPRIL": {
+  "cid": 55891,
+  "smiles": "CCC(=O)OC(C(C)C)OP(=O)(CCCCC1=CC=CC=C1)CC(=O)N2CC(CC2C(=O)O)C3CCCCC3",
+  "name": "(2S,4S)-4-cyclohexyl-1-[2-[(2-methyl-1-propanoyloxypropoxy)-(4-phenylbutyl)phosphoryl]acetyl]pyrrolidine-2-carboxylic acid"
+ },
+ "FOSPHENYTOIN": {
+  "cid": 56339,
+  "smiles": "C1=CC=C(C=C1)C2(C(=O)N(C(=O)N2)COP(=O)(O)O)C3=CC=CC=C3",
+  "name": "(2,5-dioxo-4,4-diphenylimidazolidin-1-yl)methyl dihydrogen phosphate"
+ },
+ "FUROSEMIDE": {
+  "cid": 3440,
+  "smiles": "C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl",
+  "name": "4-chloro-2-(furan-2-ylmethylamino)-5-sulfamoylbenzoic acid"
+ },
+ "GABAPENTIN": {
+  "cid": 3446,
+  "smiles": "C1CCC(CC1)(CC(=O)O)CN",
+  "name": "2-[1-(aminomethyl)cyclohexyl]acetic acid"
+ },
+ "GANCICLOVIR": {
+  "cid": 135398740,
+  "smiles": "C1=NC2=C(N1COC(CO)CO)N=C(NC2=O)N",
+  "name": "2-amino-9-(1,3-dihydroxypropan-2-yloxymethyl)-1H-purin-6-one"
+ },
+ "GEMFIBROZIL": {
+  "cid": 3463,
+  "smiles": "CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O",
+  "name": "GEMFIBROZIL"
+ },
+ "GENTAMICIN": {
+  "cid": 3467,
+  "smiles": "CC(C1CCC(C(O1)OC2C(CC(C(C2O)OC3C(C(C(CO3)(C)O)NC)O)N)N)N)NC",
+  "name": "2-[4,6-diamino-3-[3-amino-6-[1-(methylamino)ethyl]oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol"
+ },
+ "GLIMEPIRIDE": {
+  "cid": 3476,
+  "smiles": "CCC1=C(CN(C1=O)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCC(CC3)C)C",
+  "name": "GLIMEPIRIDE"
+ },
+ "GLIPIZIDE": {
+  "cid": 3478,
+  "smiles": "CC1=CN=C(C=N1)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCCCC3",
+  "name": "N-[2-[4-(cyclohexylcarbamoylsulfamoyl)phenyl]ethyl]-5-methylpyrazine-2-carboxamide"
+ },
+ "GLUCAGON": {
+  "cid": 16132283,
+  "smiles": "CC(C)CC(C(=O)NC(CCSC)C(=O)NC(CC(=O)N)C(=O)NC(C(C)O)C(=O)O)NC(=O)C(CC1=CNC2=CC=CC=C21)NC(=O)C(CCC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC3=CC=CC=C3)NC(=O)C(CC(=O)O)NC(=O)C(CCC(=O)N)NC(=O)C(C)NC(=O)C(CCCNC(=N)N)NC(=O)C(CCCNC(=N)N)NC(=O)C(CO)NC(=O)C(CC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CC4=CC=C(C=C4)O)NC(=O)C(CCCCN)NC(=O)C(CO)NC(=O)C(CC5=CC=C(C=C5)O)NC(=O)C(CC(=O)O)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC6=CC=CC=C6)NC(=O)C(C(C)O)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C(CO)NC(=O)C(CC7=CN=CN7)N",
+  "name": "(3S)-3-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-amino-3-(1H-imidazol-5-yl)propanoyl]amino]-3-hydroxypropanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxypropanoyl]amino]hexanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-4-methylpentanoyl]amino]-3-carboxypropanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-carbamimidamidopentanoyl]amino]propanoyl]amino]-5-oxopentanoyl]amino]-4-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[(1S,2R)-1-carboxy-2-hydroxypropyl]amino]-1,4-dioxobutan-2-yl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-4-oxobutanoic acid"
+ },
+ "GLUTAMINE": {
+  "cid": 5961,
+  "smiles": "C(CC(=O)N)[C@@H](C(=O)O)N",
+  "name": "GLUTAMINE"
+ },
+ "GLYBURIDE": {
+  "cid": 3488,
+  "smiles": "COC1=C(C=C(C=C1)Cl)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCCCC3",
+  "name": "5-chloro-N-[2-[4-(cyclohexylcarbamoylsulfamoyl)phenyl]ethyl]-2-methoxybenzamide"
+ },
+ "GLYCERIN": {
+  "cid": 753,
+  "smiles": "C(C(CO)O)O",
+  "name": "GLYCERIN"
+ },
+ "GLYCERIN SUPPS": {
+  "cid": 753,
+  "smiles": "C(C(CO)O)O",
+  "name": "GLYCERIN"
+ },
+ "GLYCOPYRROLATE": {
+  "cid": 11693,
+  "smiles": "C[N+]1(CCC(C1)OC(=O)C(C2CCCC2)(C3=CC=CC=C3)O)C.[Br-]",
+  "name": "(1,1-dimethylpyrrolidin-1-ium-3-yl) 2-cyclopentyl-2-hydroxy-2-phenylacetate;bromide"
+ },
+ "GUAIFENESIN": {
+  "cid": 3516,
+  "smiles": "COC1=CC=CC=C1OCC(CO)O",
+  "name": "3-(2-methoxyphenoxy)propane-1,2-diol"
+ },
+ "GUAIFENESIN-CODEINE": {
+  "cid": 3516,
+  "smiles": "COC1=CC=CC=C1OCC(CO)O",
+  "name": "Guaifenesin-Codeine Phosphate"
+ },
+ "GUAIFENESIN-DEXTROMETHORPHAN": {
+  "cid": 3516,
+  "smiles": "COC1=CC=CC=C1OCC(CO)O",
+  "name": "Guaifenesin-Dextromethorphan"
+ },
+ "HALOPERIDOL": {
+  "cid": 3559,
+  "smiles": "C1CN(CCC1(C2=CC=C(C=C2)Cl)O)CCCC(=O)C3=CC=C(C=C3)F",
+  "name": "4-[4-(4-chlorophenyl)-4-hydroxypiperidin-1-yl]-1-(4-fluorophenyl)butan-1-one"
+ },
+ "HEPARIN": {
+  "cid": 92044406,
+  "smiles": "CC(=O)NC1C(C(C(OC1O)COS(=O)(=O)O)OC2C(C(C(C(O2)C(=O)O)OC3C(C(C(C(O3)CO)OC4C(C(C(C(O4)C(=O)O)O)O)OS(=O)(=O)O)OS(=O)(=O)O)NS(=O)(=O)O)O)OS(=O)(=O)O)O.[Na+]",
+  "name": "sodium;6-[6-[6-[5-acetamido-4,6-dihydroxy-2-(sulfooxymethyl)oxan-3-yl]oxy-2-carboxy-4-hydroxy-5-sulfooxyoxan-3-yl]oxy-2-(hydroxymethyl)-5-(sulfoamino)-4-sulfooxyoxan-3-yl]oxy-3,4-dihydroxy-5-sulfooxyoxane-2-carboxylic acid"
+ },
+ "HEPATITIS B VACCINE": {
+  "cid": 16131310,
+  "smiles": "C[C@H]([C@@H](C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](C(C)C)C(=O)OC(=O)CNC(=O)CNC(=O)[C@H](C)NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC3=CC=CC=C3)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)[C@H](CC(C)C)NC(=O)CNC(=O)[C@H](CCCNC(=N)N)N)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC5C=NC=N5)NC(=O)[C@H](CC6=CC=CC=C6)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](CC7=CNC8=CC=CC=C87)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCSC)N)O",
+  "name": "HEPATITIS B VACCINE"
+ },
+ "HUMALOG": {
+  "cid": 16132438,
+  "smiles": "CC[C@H](C)[C@@H](C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CS)C(=O)N[C@@H](CS)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CO)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@@H](CS)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CC2=CC=C(C=C2)O)C(=O)N[C@@H](CS)C(=O)N[C@@H](CC(=O)N)C(=O)O)NC(=O)CN.C[C@H]([C@@H](C(=O)N[C@@H](CCCCN)C(=O)N1CCC[C@H]1C(=O)N[C@@H]([C@@H](C)O)C(=O)O)NC(=O)[C@H](CC2=CC=C(C=C2)O)NC(=O)[C@H](CC3=CC=CC=C3)NC(=O)[C@H](CC4=CC=CC=C4)NC(=O)CNC(=O)[C@H](CCCNC(=N)N)NC(=O)[C@H](CCC(=O)O)NC(=O)CNC(=O)[C@H](CS)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC5=CC=C(C=C5)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](C)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC6=CN=CN6)NC(=O)[C@H](CO)NC(=O)CNC(=O)[C@H](CS)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC7=CN=CN7)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC8=CC=CC=C8)N)O",
+  "name": "HUMALOG"
+ },
+ "HURRICAINE": {
+  "cid": 2337,
+  "smiles": "CCOC(=O)C1=CC=C(C=C1)N",
+  "name": "HURRICAINE"
+ },
+ "HYDRALAZINE": {
+  "cid": 3637,
+  "smiles": "C1=CC=C2C(=C1)C=NN=C2NN",
+  "name": "phthalazin-1-ylhydrazine"
+ },
+ "HYDROCERIN": {
+  "cid": 5997,
+  "smiles": "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C",
+  "name": "HYDROCERIN"
+ },
+ "HYDROCHLOROTHIAZIDE": {
+  "cid": 3639,
+  "smiles": "C1NC2=CC(=C(C=C2S(=O)(=O)N1)S(=O)(=O)N)Cl",
+  "name": "6-chloro-1,1-dioxo-3,4-dihydro-2H-1lambda6,2,4-benzothiadiazine-7-sulfonamide"
+ },
+ "HYDROCODONE-ACETAMINOPHEN": {
+  "cid": 4624,
+  "smiles": "C1=C(C(=CC(=C1O)O)O)CCN",
+  "name": "Hydrocodone-Acetaminophen"
+ },
+ "HYDROCORTISONE": {
+  "cid": 5754,
+  "smiles": "CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O",
+  "name": "(8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-3-one"
+ },
+ "HYDROMORPHONE": {
+  "cid": 5284570,
+  "smiles": "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(=O)CC4",
+  "name": "(4R,4aR,7aR,12bS)-9-hydroxy-3-methyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+ },
+ "HYDROMORPHONE P.F": {
+  "cid": 5284570,
+  "smiles": "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(=O)CC4",
+  "name": "HYDROmorphone P.F."
+ },
+ "HYDROMORPHONE-HP": {
+  "cid": 5284570,
+  "smiles": "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(=O)CC4",
+  "name": "HYDROmorphone-HP"
+ },
+ "HYDROXYCHLOROQUINE": {
+  "cid": 3652,
+  "smiles": "CCN(CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl)CCO",
+  "name": "HYDROXYCHLOROQUINE"
+ },
+ "HYDROXYUREA": {
+  "cid": 3657,
+  "smiles": "C(=O)(N)NO",
+  "name": "hydroxyurea"
+ },
+ "HYDROXYZINE": {
+  "cid": 3658,
+  "smiles": "C1CN(CCN1CCOCCO)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl",
+  "name": "HYDROXYZINE"
+ },
+ "HYOSCYAMINE": {
+  "cid": 154417,
+  "smiles": "CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3",
+  "name": "[(1S,5R)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] (2S)-3-hydroxy-2-phenylpropanoate"
+ },
+ "IBUPROFEN": {
+  "cid": 3672,
+  "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+  "name": "2-[4-(2-methylpropyl)phenyl]propanoic acid"
+ },
+ "IMIPENEM-CILASTATIN": {
+  "cid": 17756656,
+  "smiles": "C[C@H]([C@@H]1[C@H]2CC(=C(N2C1=O)C(=O)O)SCCN=CN)O.CC1(C[C@@H]1C(=O)N/C(=C\\CCCCSC[C@@H](C(=O)O)N)/C(=O)O)C",
+  "name": "IMIPENEM-CILASTATIN"
+ },
+ "IMIPRAMINE": {
+  "cid": 3696,
+  "smiles": "CN(C)CCCN1C2=CC=CC=C2CCC3=CC=CC=C31",
+  "name": "3-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethylpropan-1-amine"
+ },
+ "INDOMETHACIN": {
+  "cid": 3715,
+  "smiles": "CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O",
+  "name": "2-[1-(4-chlorobenzoyl)-5-methoxy-2-methylindol-3-yl]acetic acid"
+ },
+ "INSULIN": {
+  "cid": 70678557,
+  "smiles": "CCC(C)C1C(=O)NC2CSSCC(C(=O)NC(CSSCC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC2=O)CO)CC(C)C)CC3=CC=C(C=C3)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC4=CC=C(C=C4)O)C(=O)NC(CC(=O)N)C(=O)O)C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CC5=CC=CC=C5)C(=O)NC(CC6=CC=CC=C6)C(=O)NC(CC7=CC=C(C=C7)O)C(=O)NC(C(C)O)C(=O)N8CCCC8C(=O)NC(CCCCN)C(=O)NC(C(C)O)C(=O)O)C(C)C)CC(C)C)CC9=CC=C(C=C9)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC2=CNC=N2)CO)NC(=O)C(CC(C)C)NC(=O)C(CC2=CNC=N2)NC(=O)C(CCC(=O)N)NC(=O)C(C(=O)N)NC(=O)C(C(C)C)NC(=O)C(CC2=CC=CC=C2)N)C(=O)NC(C(=O)NC(C(=O)N1)CO)C(C)O)NC(=O)C(CCC(=O)N)NC(=O)C(CCC(=O)O)NC(=O)C(C(C)C)NC(=O)C(C(C)CC)NC(=O)CN",
+  "name": "(4S)-4-[[2-[[(1R,6R,12S,15S,18S,21S,24S,27S,30S,33S,36S,39S,42R,47R,50S,53S,56S,59S,62S,65S,68S,71S,74S,77S,80S,83S,88R)-88-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[(2-aminoacetyl)amino]-3-methylpentanoyl]amino]-3-methylbutanoyl]amino]-4-carboxybutanoyl]amino]-5-oxopentanoyl]amino]-6-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-3-amino-2-[[(2S)-2-[[(2S)-2-amino-3-phenylpropanoyl]amino]-3-methylbutanoyl]amino]-3-oxopropanoyl]amino]-5-oxopentanoyl]amino]-3-(1H-imidazol-4-yl)propanoyl]amino]-4-methylpentanoyl]amino]-47-[[(1S)-3-amino-1-carboxy-3-oxopropyl]carbamoyl]-53-(2-amino-2-oxoethyl)-62-(3-amino-3-oxopropyl)-77-[(2R)-butan-2-yl]-24,56-bis(2-carboxyethyl)-83-[(1S)-1-hydroxyethyl]-12,71,80-tris(hydroxymethyl)-33,50,65-tris[(4-hydroxyphenyl)methyl]-15-(1H-imidazol-4-ylmethyl)-27-methyl-18,30,36,59,68-pentakis(2-methylpropyl)-7,10,13,16,19,22,25,28,31,34,37,40,49,52,55,58,61,64,67,70,73,76,79,82,85,87-hexacosaoxo-21,39-di(propan-2-yl)-3,4,44,45,90,91-hexathia-8,11,14,17,20,23,26,29,32,35,38,41,48,51,54,57,60,63,66,69,72,75,78,81,84,86-hexacosazabicyclo[72.11.7]dononacontane-42-carbonyl]amino]acetyl]amino]-5-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S,3S)-1-[(2S)-2-[[(2S)-6-amino-1-[[(1S,2S)-1-carboxy-2-hydroxypropyl]amino]-1-oxohexan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-hydroxy-1-oxobutan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-oxopentanoic acid"
+ },
+ "INSULIN PUMP": {
+  "cid": 70678557,
+  "smiles": "CC[C@@H](C)[C@H]1C(=O)N[C@@H]2CSSC[C@@H](C(=O)N[C@@H](CSSC[C@@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CSSC[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC2=O)CO)CC(C)C)CC3=CC=C(C=C3)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC4=CC=C(C=C4)O)C(=O)N[C@@H](CC(=O)N)C(=O)O)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](CC5=CC=CC=C5)C(=O)N[C@@H](CC6=CC=CC=C6)C(=O)N[C@@H](CC7=CC=C(C=C7)O)C(=O)N[C@@H]([C@H](C)O)C(=O)N8CCC[C@H]8C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@H](C)O)C(=O)O)C(C)C)CC(C)C)CC9=CC=C(C=C9)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC2=CNC=N2)CO)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC2=CNC=N2)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](C(=O)N)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC2=CC=CC=C2)N)C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CO)[C@H](C)O)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C(C)C)NC(=O)[C@H]([C@H](C)CC)NC(=O)CN",
+  "name": "INSULIN"
+ },
+ "INTRALIPID LIPOSYN III": {
+  "cid": 131750197,
+  "smiles": "CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)OCC[N+](C)(C)C)OC(=O)CCCCCCC/C=C/CCCCCCCC.CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O",
+  "name": "INTRALIPID"
+ },
+ "IPRATROPIUM": {
+  "cid": 657309,
+  "smiles": "CC(C)[N+]1(C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3)C",
+  "name": "Ipratropium Bromide Neb"
+ },
+ "IRBESARTAN": {
+  "cid": 3749,
+  "smiles": "CCCCC1=NC2(CCCC2)C(=O)N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5",
+  "name": "IRBESARTAN"
+ },
+ "IRON POLYSACCHARIDES COMPLEX": {
+  "cid": 23925,
+  "smiles": "[Fe]",
+  "name": "IRON"
+ },
+ "ISO-OSMOTIC": {
+  "cid": 5234,
+  "smiles": "[Na+].[Cl-]",
+  "name": "Iso-Osmotic Sodium Chloride"
+ },
+ "ISONIAZID": {
+  "cid": 3767,
+  "smiles": "C1=CN=CC=C1C(=O)NN",
+  "name": "pyridine-4-carbohydrazide"
+ },
+ "ISOPROTERENOL": {
+  "cid": 3779,
+  "smiles": "CC(C)NCC(C1=CC(=C(C=C1)O)O)O",
+  "name": "ISOPROTERENOL"
+ },
+ "ISOSORBIDE DINITRATE": {
+  "cid": 6883,
+  "smiles": "C1C(C2C(O1)C(CO2)O[N+](=O)[O-])O[N+](=O)[O-]",
+  "name": "[(3S,3aS,6R,6aS)-3-nitrooxy-2,3,3a,5,6,6a-hexahydrofuro[3,2-b]furan-6-yl] nitrate"
+ },
+ "ISOSORBIDE MONONITRATE": {
+  "cid": 37839,
+  "smiles": "CC1(CC2C=C(C3(CC3(C2C1)C)C=O)C=O)C",
+  "name": "Isosorbide Mononitrate (Extended Release)"
+ },
+ "ISOTONIC": {
+  "cid": 5234,
+  "smiles": "[Na+].[Cl-]",
+  "name": "Isotonic Sodium Chloride"
+ },
+ "KAOPECTATE BENADRYL LIDO VISC": {
+  "cid": 53629521,
+  "smiles": "C1=CC=C(C(=C1)C(=O)[O-])[O-].[OH-].[Bi+3]",
+  "name": "KAOPECTATE"
+ },
+ "KCL": {
+  "cid": 4873,
+  "smiles": "[Cl-].[K+]",
+  "name": "KCL"
+ },
+ "KETAMINE": {
+  "cid": 3821,
+  "smiles": "CNC1(CCCCC1=O)C2=CC=CC=C2Cl",
+  "name": "KETAMINE"
+ },
+ "KETOCONAZOLE": {
+  "cid": 47576,
+  "smiles": "CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OC[C@@H]3CO[C@@](O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl",
+  "name": "KETOCONAZOLE"
+ },
+ "KETOROLAC": {
+  "cid": 3826,
+  "smiles": "C1CN2C(=CC=C2C(=O)C3=CC=CC=C3)C1C(=O)O",
+  "name": "5-benzoyl-2,3-dihydro-1H-pyrrolizine-1-carboxylic acid"
+ },
+ "LABETALOL": {
+  "cid": 3869,
+  "smiles": "CC(CCC1=CC=CC=C1)NCC(C2=CC(=C(C=C2)O)C(=O)N)O",
+  "name": "2-hydroxy-5-[1-hydroxy-2-(4-phenylbutan-2-ylamino)ethyl]benzamide"
+ },
+ "LACOSAMIDE": {
+  "cid": 219078,
+  "smiles": "CC(=O)N[C@H](COC)C(=O)NCC1=CC=CC=C1",
+  "name": "LACOSAMIDE"
+ },
+ "LACTIC ACID": {
+  "cid": 612,
+  "smiles": "CC(C(=O)O)O",
+  "name": "LACTIC ACID"
+ },
+ "LACTULOSE": {
+  "cid": 11333,
+  "smiles": "C(C1C(C(C(C(O1)OC2C(OC(C2O)(CO)O)CO)O)O)O)O",
+  "name": "(2S,3R,4S,5R,6R)-2-[(2R,3S,4S,5R)-4,5-dihydroxy-2,5-bis(hydroxymethyl)oxolan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol"
+ },
+ "LAMIVUDINE": {
+  "cid": 60825,
+  "smiles": "C1C(OC(S1)CO)N2C=CC(=NC2=O)N",
+  "name": "4-amino-1-[(2R,5S)-2-(hydroxymethyl)-1,3-oxathiolan-5-yl]pyrimidin-2-one"
+ },
+ "LAMOTRIGINE": {
+  "cid": 3878,
+  "smiles": "C1=CC(=C(C(=C1)Cl)Cl)C2=C(N=C(N=N2)N)N",
+  "name": "LAMOTRIGINE"
+ },
+ "LANSOPRAZOLE": {
+  "cid": 3883,
+  "smiles": "CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3N2)OCC(F)(F)F",
+  "name": "2-[[3-methyl-4-(2,2,2-trifluoroethoxy)pyridin-2-yl]methylsulfinyl]-1H-benzimidazole"
+ },
+ "LANTHANUM": {
+  "cid": 23926,
+  "smiles": "[La]",
+  "name": "LANTHANUM"
+ },
+ "LANTUS": {
+  "cid": 118984454,
+  "smiles": "CC[C@H](C)[C@H]1C(=O)N[C@H]2CSSC[C@@H](C(=O)N[C@@H](CSSC[C@@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CSSC[C@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H](NC2=O)CO)CC(C)C)CC3=CC=C(C=C3)O)CCC(=O)N)CC(C)C)CCC(=O)O)CC(=O)N)CC4=CC=C(C=C4)O)C(=O)NCC(=O)O)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)NCC(=O)N[C@@H](CC5=CC=CC=C5)C(=O)N[C@@H](CC6=CC=CC=C6)C(=O)N[C@@H](CC7=CC=C(C=C7)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)N8CCC[C@H]8C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N[C@@H](CCCNC(=N)N)C(=O)N[C@@H](CCCNC(=N)N)C(=O)O)C(C)C)CC(C)C)CC9=CC=C(C=C9)O)CC(C)C)C)CCC(=O)O)C(C)C)CC(C)C)CC2=CNC=N2)CO)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC2=CNC=N2)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CC(=O)N)NC(=O)[C@H](C(C)C)NC(=O)[C@H](CC2=CC=CC=C2)N)C(=O)N[C@H](C(=O)N[C@H](C(=O)N1)CO)[C@@H](C)O)NC(=O)[C@H](CCC(=O)N)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](C(C)C)NC(=O)[C@H]([C@@H](C)CC)NC(=O)CN",
+  "name": "LANTUS"
+ },
+ "LATANOPROST": {
+  "cid": 5311221,
+  "smiles": "CC(C)OC(=O)CCCC=CCC1C(CC(C1CCC(CCC2=CC=CC=C2)O)O)O",
+  "name": "Latanoprost 0.005% Ophth. Soln."
+ },
+ "LEPIRUDIN": {
+  "cid": 118856773,
+  "smiles": "CC[C@H](C)[C@H]1C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CSSC[C@H]2C(=O)NCC(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@@H](CSSC[C@@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N2)C(C)C)CC(=O)N)CO)CCC(=O)O)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]3CSSC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)NCC(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N3)CC(C)C)CC(=O)N)CCC(=O)N)CO)CCC(=O)O)[C@@H](C)O)NC(=O)[C@H](CC(=O)O)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CC4=CC=C(C=C4)O)NC(=O)[C@H]([C@@H](C)O)NC(=O)[C@H](CC(C)C)N)C(=O)N1)CCCCN)CC(=O)N)CCC(=O)N)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@@H](CCC(=O)O)C(=O)NCC(=O)N[C@@H]([C@@H](C)O)C(=O)N5CCC[C@H]5C(=O)N[C@@H](CCCCN)C(=O)N6CCC[C@H]6C(=O)N[C@@H](CCC(=O)N)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC7=CNC=N7)C(=O)N[C@@H](CC(=O)N)C(=O)N[C@@H](CC(=O)O)C(=O)NCC(=O)N[C@@H](CC(=O)O)C(=O)N[C@@H](CC8=CC=CC=C8)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N9CCC[C@H]9C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC1=CC=C(C=C1)O)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCC(=O)N)C(=O)O)CCC(=O)N)CC(=O)N)CCCCN)CCC(=O)O)CC(=O)O)CO)CC(C)C",
+  "name": "LEPIRUDIN"
+ },
+ "LEUCOVORIN": {
+  "cid": 135403647,
+  "smiles": "C1C(N(C2=C(N1)N=C(NC2=O)N)C=O)CNC3=CC=C(C=C3)C(=O)NC(CCC(=O)[O-])C(=O)[O-].[Ca+2]",
+  "name": "calcium;(2S)-2-[[4-[(2-amino-5-formyl-4-oxo-3,6,7,8-tetrahydropteridin-6-yl)methylamino]benzoyl]amino]pentanedioate"
+ },
+ "LEVALBUTEROL": {
+  "cid": 123601,
+  "smiles": "CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O.Cl",
+  "name": "4-[(1R)-2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol;hydrochloride"
+ },
+ "LEVETIRACETAM": {
+  "cid": 5284583,
+  "smiles": "CCC(C(=O)N)N1CCCC1=O",
+  "name": "(2S)-2-(2-oxopyrrolidin-1-yl)butanamide"
+ },
+ "LEVOFLOXACIN": {
+  "cid": 149096,
+  "smiles": "CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+  "name": "(2S)-7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid"
+ },
+ "LEVOTHYROXINE": {
+  "cid": 23666112,
+  "smiles": "C1=C(C=C(C(=C1I)OC2=CC(=C(C(=C2)I)O)I)I)CC(C(=O)[O-])N.[Na+]",
+  "name": "sodium;(2S)-2-amino-3-[4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl]propanoate"
+ },
+ "LIDOCAINE": {
+  "cid": 3676,
+  "smiles": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C",
+  "name": "2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide"
+ },
+ "LIDOCAINE EPINEPHRINE": {
+  "cid": 3676,
+  "smiles": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C",
+  "name": "Lidocaine 1%/Epinephrine 1:100000"
+ },
+ "LIDOCAINE JELLY": {
+  "cid": 3676,
+  "smiles": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C",
+  "name": "Lidocaine Jelly 2% (Urojet)"
+ },
+ "LIDOCAINE P.F": {
+  "cid": 3676,
+  "smiles": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C",
+  "name": "LIDOCAINE"
+ },
+ "LIDOCAINE VISCOUS": {
+  "cid": 6314,
+  "smiles": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C.Cl",
+  "name": "2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide;hydrochloride"
+ },
+ "LINEZOLID": {
+  "cid": 441401,
+  "smiles": "CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F",
+  "name": "N-[[(5S)-3-(3-fluoro-4-morpholin-4-ylphenyl)-2-oxo-1,3-oxazolidin-5-yl]methyl]acetamide"
+ },
+ "LISINOPRIL": {
+  "cid": 5362119,
+  "smiles": "C1CC(N(C1)C(=O)C(CCCCN)NC(CCC2=CC=CC=C2)C(=O)O)C(=O)O",
+  "name": "(2S)-1-[(2S)-6-amino-2-[[(1S)-1-carboxy-3-phenylpropyl]amino]hexanoyl]pyrrolidine-2-carboxylic acid"
+ },
+ "LITHIUM CARBONATE": {
+  "cid": 11125,
+  "smiles": "[Li+].[Li+].C(=O)([O-])[O-]",
+  "name": "LITHIUM CARBONATE"
+ },
+ "LOPERAMIDE": {
+  "cid": 3955,
+  "smiles": "CN(C)C(=O)C(CCN1CCC(CC1)(C2=CC=C(C=C2)Cl)O)(C3=CC=CC=C3)C4=CC=CC=C4",
+  "name": "4-[4-(4-chlorophenyl)-4-hydroxypiperidin-1-yl]-N,N-dimethyl-2,2-diphenylbutanamide"
+ },
+ "LOPINAVIR-RITONAVIR": {
+  "cid": 11979606,
+  "smiles": "CC1=C(C(=CC=C1)C)OCC(=O)N[C@@H](CC2=CC=CC=C2)[C@H](C[C@H](CC3=CC=CC=C3)NC(=O)[C@H](C(C)C)N4CCCNC4=O)O.CC(C)C1=NC(=CS1)CN(C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC2=CC=CC=C2)C[C@@H]([C@H](CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O",
+  "name": "LOPINAVIR-RITONAVIR"
+ },
+ "LORAZEPAM": {
+  "cid": 3958,
+  "smiles": "C1=CC=C(C(=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O)Cl",
+  "name": "7-chloro-5-(2-chlorophenyl)-3-hydroxy-1,3-dihydro-1,4-benzodiazepin-2-one"
+ },
+ "LOSARTAN": {
+  "cid": 11751549,
+  "smiles": "CCCCC1=NC(=C(N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=NN=N[N-]4)CO)Cl.[K+]",
+  "name": "potassium;[2-butyl-5-chloro-3-[[4-[2-(1,2,3-triaza-4-azanidacyclopenta-2,5-dien-5-yl)phenyl]phenyl]methyl]imidazol-4-yl]methanol"
+ },
+ "LOVASTATIN": {
+  "cid": 53232,
+  "smiles": "CC[C@H](C)C(=O)O[C@H]1C[C@H](C=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@@H]3C[C@H](CC(=O)O3)O)C",
+  "name": "LOVASTATIN"
+ },
+ "LUMIGAN": {
+  "cid": 5311027,
+  "smiles": "CCNC(=O)CCCC=CCC1C(CC(C1C=CC(CCC2=CC=CC=C2)O)O)O",
+  "name": "(Z)-7-[(1R,2R,3R,5S)-3,5-dihydroxy-2-[(E,3S)-3-hydroxy-5-phenylpent-1-enyl]cyclopentyl]-N-ethylhept-5-enamide"
+ },
+ "LYRICA": {
+  "cid": 5486971,
+  "smiles": "CC(C)C[C@@H](CC(=O)O)CN",
+  "name": "LYRICA"
+ },
+ "MAALOX BENADRYL LIDOCAINE": {
+  "cid": 6328211,
+  "smiles": "O.O.O.[Al]",
+  "name": "MAALOX"
+ },
+ "MAALOX DIPHENHYDRAMINE LIDOCAINE": {
+  "cid": 6328211,
+  "smiles": "O.O.O.[Al]",
+  "name": "MAALOX"
+ },
+ "MAALOX LIDOCAINE": {
+  "cid": 6328211,
+  "smiles": "O.O.O.[Al]",
+  "name": "MAALOX"
+ },
+ "MAGNESIUM CITRATE": {
+  "cid": 6099959,
+  "smiles": "C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O.C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O.[Mg+2].[Mg+2].[Mg+2]",
+  "name": "trimagnesium;2-hydroxypropane-1,2,3-tricarboxylate"
+ },
+ "MAGNESIUM OXIDE": {
+  "cid": 14792,
+  "smiles": "O=[Mg]",
+  "name": "oxomagnesium"
+ },
+ "MAGNESIUM SULFATE": {
+  "cid": 24083,
+  "smiles": "[O-]S(=O)(=O)[O-].[Mg+2]",
+  "name": "magnesium;sulfate"
+ },
+ "MANNITOL": {
+  "cid": 6251,
+  "smiles": "C(C(C(C(C(CO)O)O)O)O)O",
+  "name": "(2R,3R,4R,5R)-hexane-1,2,3,4,5,6-hexol"
+ },
+ "MCT OIL": {
+  "cid": 9958,
+  "smiles": "CC1=CC(=C(C=C1)O)O",
+  "name": "MCT"
+ },
+ "MECLIZINE": {
+  "cid": 4034,
+  "smiles": "CC1=CC(=CC=C1)CN2CCN(CC2)C(C3=CC=CC=C3)C4=CC=C(C=C4)Cl",
+  "name": "1-[(4-chlorophenyl)-phenylmethyl]-4-[(3-methylphenyl)methyl]piperazine"
+ },
+ "MEGESTROL": {
+  "cid": 11683,
+  "smiles": "CC1=CC2C(CCC3(C2CCC3(C(=O)C)OC(=O)C)C)C4(C1=CC(=O)CC4)C",
+  "name": "[(8R,9S,10R,13S,14S,17R)-17-acetyl-6,10,13-trimethyl-3-oxo-2,8,9,11,12,14,15,16-octahydro-1H-cyclopenta[a]phenanthren-17-yl] acetate"
+ },
+ "MEMANTINE": {
+  "cid": 4054,
+  "smiles": "CC12CC3CC(C1)(CC(C3)(C2)N)C",
+  "name": "MEMANTINE"
+ },
+ "MEPERIDINE": {
+  "cid": 4058,
+  "smiles": "CCOC(=O)C1(CCN(CC1)C)C2=CC=CC=C2",
+  "name": "ethyl 1-methyl-4-phenylpiperidine-4-carboxylate"
+ },
+ "MEROPENEM": {
+  "cid": 441130,
+  "smiles": "CC1C2C(C(=O)N2C(=C1SC3CC(NC3)C(=O)N(C)C)C(=O)O)C(C)O",
+  "name": "(4R,5S,6S)-3-[(3S,5S)-5-(dimethylcarbamoyl)pyrrolidin-3-yl]sulfanyl-6-[(1R)-1-hydroxyethyl]-4-methyl-7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid"
+ },
+ "MESALAMINE": {
+  "cid": 4075,
+  "smiles": "C1=CC(=C(C=C1N)C(=O)O)O",
+  "name": "MESALAMINE"
+ },
+ "MESALAMINE DR": {
+  "cid": 4075,
+  "smiles": "C1=CC(=C(C=C1N)C(=O)O)O",
+  "name": "MESALAMINE"
+ },
+ "MESNA": {
+  "cid": 23662354,
+  "smiles": "C(CS(=O)(=O)[O-])S.[Na+]",
+  "name": "sodium;2-sulfanylethanesulfonate"
+ },
+ "METFORMIN": {
+  "cid": 4091,
+  "smiles": "CN(C)C(=N)N=C(N)N",
+  "name": "3-(diaminomethylidene)-1,1-dimethylguanidine"
+ },
+ "METHADONE": {
+  "cid": 14184,
+  "smiles": "CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2.Cl",
+  "name": "6-(dimethylamino)-4,4-diphenylheptan-3-one;hydrochloride"
+ },
+ "METHIMAZOLE": {
+  "cid": 1349907,
+  "smiles": "CN1C=CNC1=S",
+  "name": "3-methyl-1H-imidazole-2-thione"
+ },
+ "METHOCARBAMOL": {
+  "cid": 4107,
+  "smiles": "COC1=CC=CC=C1OCC(COC(=O)N)O",
+  "name": "METHOCARBAMOL"
+ },
+ "METHOTREXATE": {
+  "cid": 11329481,
+  "smiles": "CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)NC(CCC(=O)[O-])C(=O)[O-].[Na+].[Na+]",
+  "name": "disodium;(2S)-2-[[4-[(2,4-diaminopteridin-6-yl)methyl-methylamino]benzoyl]amino]pentanedioate"
+ },
+ "METHOTREXATE SODIUM P.F": {
+  "cid": 126941,
+  "smiles": "CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O",
+  "name": "Methotrexate Sodium P.F."
+ },
+ "METHYLENE BLUE": {
+  "cid": 6099,
+  "smiles": "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-]",
+  "name": "[7-(dimethylamino)phenothiazin-3-ylidene]-dimethylazanium;chloride"
+ },
+ "METHYLNALTREXONE": {
+  "cid": 5361918,
+  "smiles": "C[N+]1(CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)O)O4)O)CC6CC6",
+  "name": "(4R,4aS,7aR,12bS)-3-(cyclopropylmethyl)-4a,9-dihydroxy-3-methyl-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-3-ium-7-one"
+ },
+ "METHYLPHENIDATE": {
+  "cid": 4158,
+  "smiles": "COC(=O)C(C1CCCCN1)C2=CC=CC=C2",
+  "name": "METHYLPHENIDATE"
+ },
+ "METHYLPREDNISOLONE": {
+  "cid": 6741,
+  "smiles": "CC1CC2C3CCC(C3(CC(C2C4(C1=CC(=O)C=C4)C)O)C)(C(=O)CO)O",
+  "name": "(6S,8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-6,10,13-trimethyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-3-one"
+ },
+ "METOCLOPRAMIDE": {
+  "cid": 4168,
+  "smiles": "CCN(CC)CCNC(=O)C1=CC(=C(C=C1OC)N)Cl",
+  "name": "4-amino-5-chloro-N-[2-(diethylamino)ethyl]-2-methoxybenzamide"
+ },
+ "METOLAZONE": {
+  "cid": 4170,
+  "smiles": "CC1NC2=CC(=C(C=C2C(=O)N1C3=CC=CC=C3C)S(=O)(=O)N)Cl",
+  "name": "7-chloro-2-methyl-3-(2-methylphenyl)-4-oxo-1,2-dihydroquinazoline-6-sulfonamide"
+ },
+ "METOPROLOL": {
+  "cid": 441308,
+  "smiles": "CC(C)NCC(COC1=CC=C(C=C1)CCOC)O.CC(C)NCC(COC1=CC=C(C=C1)CCOC)O.C(C(C(=O)O)O)(C(=O)O)O",
+  "name": "(2R,3R)-2,3-dihydroxybutanedioic acid;1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol"
+ },
+ "METRONIDAZOLE": {
+  "cid": 4173,
+  "smiles": "CC1=NC=C(N1CCO)[N+](=O)[O-]",
+  "name": "2-(2-methyl-5-nitroimidazol-1-yl)ethanol"
+ },
+ "MEXILETINE": {
+  "cid": 4178,
+  "smiles": "CC1=C(C(=CC=C1)C)OCC(C)N",
+  "name": "MEXILETINE"
+ },
+ "MICAFUNGIN": {
+  "cid": 477468,
+  "smiles": "CCCCCOC1=CC=C(C=C1)C2=CC(=NO2)C3=CC=C(C=C3)C(=O)N[C@H]4C[C@H]([C@H](NC(=O)[C@@H]5[C@H]([C@H](CN5C(=O)[C@@H](NC(=O)[C@@H](NC(=O)[C@@H]6C[C@H](CN6C(=O)[C@@H](NC4=O)[C@@H](C)O)O)[C@@H]([C@H](C7=CC(=C(C=C7)O)OS(=O)(=O)O)O)O)[C@@H](CC(=O)N)O)C)O)O)O",
+  "name": "MICAFUNGIN"
+ },
+ "MICONAZOLE": {
+  "cid": 4189,
+  "smiles": "C1=CC(=C(C=C1Cl)Cl)COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl",
+  "name": "1-[2-(2,4-dichlorophenyl)-2-[(2,4-dichlorophenyl)methoxy]ethyl]imidazole"
+ },
+ "MICONAZOLE NITRATE VAG": {
+  "cid": 68553,
+  "smiles": "C1=CC(=C(C=C1Cl)Cl)COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl.[N+](=O)(O)[O-]",
+  "name": "MICONAZOLE NITRATE"
+ },
+ "MICONAZOLE NITRATE VAGINAL": {
+  "cid": 68553,
+  "smiles": "C1=CC(=C(C=C1Cl)Cl)COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl.[N+](=O)(O)[O-]",
+  "name": "MICONAZOLE NITRATE"
+ },
+ "MIDAZOLAM": {
+  "cid": 4192,
+  "smiles": "CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F",
+  "name": "8-chloro-6-(2-fluorophenyl)-1-methyl-4H-imidazo[1,5-a][1,4]benzodiazepine"
+ },
+ "MIDODRINE": {
+  "cid": 18340,
+  "smiles": "COC1=CC(=C(C=C1)OC)C(CNC(=O)CN)O.Cl",
+  "name": "2-amino-N-[2-(2,5-dimethoxyphenyl)-2-hydroxyethyl]acetamide;hydrochloride"
+ },
+ "MILK OF MAGNESIA": {
+  "cid": 73981,
+  "smiles": "[OH-].[OH-].[Mg+2]",
+  "name": "magnesium;dihydroxide"
+ },
+ "MILRINONE": {
+  "cid": 4197,
+  "smiles": "CC1=C(C=C(C(=O)N1)C#N)C2=CC=NC=C2",
+  "name": "6-methyl-2-oxo-5-pyridin-4-yl-1H-pyridine-3-carbonitrile"
+ },
+ "MINERAL OIL": {
+  "cid": 8027,
+  "smiles": "C1=CNC=C1",
+  "name": "Mineral Oil"
+ },
+ "MINOXIDIL": {
+  "cid": 4201,
+  "smiles": "C1CCN(CC1)C2=NC(=N)N(C(=C2)N)O",
+  "name": "3-hydroxy-2-imino-6-piperidin-1-ylpyrimidin-4-amine"
+ },
+ "MIRAPEX": {
+  "cid": 119570,
+  "smiles": "CCCN[C@H]1CCC2=C(C1)SC(=N2)N",
+  "name": "MIRAPEX"
+ },
+ "MIRTAZAPINE": {
+  "cid": 4205,
+  "smiles": "CN1CCN2C(C1)C3=CC=CC=C3CC4=C2N=CC=C4",
+  "name": "5-methyl-2,5,19-triazatetracyclo[13.4.0.02,7.08,13]nonadeca-1(15),8,10,12,16,18-hexaene"
+ },
+ "MODAFINIL": {
+  "cid": 4236,
+  "smiles": "C1=CC=C(C=C1)C(C2=CC=CC=C2)S(=O)CC(=O)N",
+  "name": "MODAFINIL"
+ },
+ "MOEXIPRIL": {
+  "cid": 54889,
+  "smiles": "CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CC3=CC(=C(C=C3CC2C(=O)O)OC)OC.Cl",
+  "name": "(3S)-2-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]-6,7-dimethoxy-3,4-dihydro-1H-isoquinoline-3-carboxylic acid;hydrochloride"
+ },
+ "MONTELUKAST": {
+  "cid": 23663996,
+  "smiles": "CC(C)(C1=CC=CC=C1CCC(C2=CC=CC(=C2)C=CC3=NC4=C(C=CC(=C4)Cl)C=C3)SCC5(CC5)CC(=O)[O-])O.[Na+]",
+  "name": "sodium;2-[1-[[(1R)-1-[3-[(E)-2-(7-chloroquinolin-2-yl)ethenyl]phenyl]-3-[2-(2-hydroxypropan-2-yl)phenyl]propyl]sulfanylmethyl]cyclopropyl]acetate"
+ },
+ "MORPHINE": {
+  "cid": 16051935,
+  "smiles": "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O.CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O.OS(=O)(=O)O",
+  "name": "(4R,4aR,7S,7aR,12bS)-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-7,9-diol;sulfuric acid"
+ },
+ "MUCINEX": {
+  "cid": 3516,
+  "smiles": "COC1=CC=CC=C1OCC(CO)O",
+  "name": "MUCINEX"
+ },
+ "MUPIROCIN": {
+  "cid": 446596,
+  "smiles": "C[C@H]([C@H]1[C@@H](O1)C[C@H]2CO[C@H]([C@@H]([C@@H]2O)O)C/C(=C/C(=O)OCCCCCCCCC(=O)O)/C)[C@H](C)O",
+  "name": "MUPIROCIN"
+ },
+ "MYCOPHENOLATE MOFETIL": {
+  "cid": 5281078,
+  "smiles": "CC1=C2COC(=O)C2=C(C(=C1OC)CC=C(C)CCC(=O)OCCN3CCOCC3)O",
+  "name": "2-morpholin-4-ylethyl (E)-6-(4-hydroxy-6-methoxy-7-methyl-3-oxo-1H-2-benzofuran-5-yl)-4-methylhex-4-enoate"
+ },
+ "NADOLOL": {
+  "cid": 39147,
+  "smiles": "CC(C)(C)NCC(COC1=CC=CC2=C1CC(C(C2)O)O)O",
+  "name": "(2R,3S)-5-[3-(tert-butylamino)-2-hydroxypropoxy]-1,2,3,4-tetrahydronaphthalene-2,3-diol"
+ },
+ "NAFCILLIN": {
+  "cid": 8982,
+  "smiles": "CCOC1=C(C2=CC=CC=C2C=C1)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)O",
+  "name": "(2S,5R,6R)-6-[(2-ethoxynaphthalene-1-carbonyl)amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+ },
+ "NALOXONE": {
+  "cid": 5284596,
+  "smiles": "C=CCN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)O)O4)O",
+  "name": "(4R,4aS,7aR,12bS)-4a,9-dihydroxy-3-prop-2-enyl-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+ },
+ "NAMENDA": {
+  "cid": 181458,
+  "smiles": "CC12CC3CC(C1)(CC(C3)(C2)N)C.Cl",
+  "name": "3,5-dimethyladamantan-1-amine;hydrochloride"
+ },
+ "NAPHAZOLINE-PHENIRAMINE": {
+  "cid": 4436,
+  "smiles": "C1CN=C(N1)CC2=CC=CC3=CC=CC=C32",
+  "name": "Naphazoline-Pheniramine Ophth. Solution"
+ },
+ "NAPROXEN": {
+  "cid": 156391,
+  "smiles": "CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
+  "name": "(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid"
+ },
+ "NEOMYCIN": {
+  "cid": 8378,
+  "smiles": "C1[C@H]([C@@H]([C@H]([C@@H]([C@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CN)O)O)N)O[C@H]3[C@@H]([C@@H]([C@H](O3)CO)O[C@@H]4[C@@H]([C@H]([C@@H]([C@@H](O4)CN)O)O)N)O)O)N",
+  "name": "NEOMYCIN"
+ },
+ "NEOMYCIN-POLYMYXIN-DEXAMETH": {
+  "cid": 8378,
+  "smiles": "C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)N)OC3C(C(C(O3)CO)OC4C(C(C(C(O4)CN)O)O)N)O)O)N",
+  "name": "Neomycin-Polymyxin-Dexameth Ophth. Oint"
+ },
+ "NEOSTIGMINE": {
+  "cid": 4456,
+  "smiles": "CN(C)C(=O)OC1=CC=CC(=C1)[N+](C)(C)C",
+  "name": "[3-(dimethylcarbamoyloxy)phenyl]-trimethylazanium"
+ },
+ "NESIRITIDE": {
+  "cid": 53395955,
+  "smiles": "CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NCC(=O)NC(CSSCC(C(=O)NC(C(=O)NCC(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCNC(=N)N)CC(=O)O)CCSC)CCCCN)CCCNC(=N)N)CC2=CC=CC=C2)NC(=O)CNC(=O)C(CO)NC(=O)CNC(=O)C(CCC(=O)N)NC(=O)C(C(C)C)NC(=O)C(CCSC)NC(=O)C(CCCCN)NC(=O)C3CCCN3C(=O)C(CO)N)C(=O)NC(CCCCN)C(=O)NC(C(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC4=CNC=N4)C(=O)O)CC(C)C)CO)CO)CO)CO",
+  "name": "2-[[2-[[2-[[2-[[2-[[6-amino-2-[[52-[[2-[[2-[[2-[[5-amino-2-[[2-[[2-[[6-amino-2-[[1-(2-amino-3-hydroxypropanoyl)pyrrolidine-2-carbonyl]amino]hexanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-methylbutanoyl]amino]-5-oxopentanoyl]amino]acetyl]amino]-3-hydroxypropanoyl]amino]acetyl]amino]-40-(4-aminobutyl)-49-benzyl-28-butan-2-yl-31,43-bis(3-carbamimidamidopropyl)-34-(carboxymethyl)-16,19,22,25-tetrakis(hydroxymethyl)-10-(2-methylpropyl)-37-(2-methylsulfanylethyl)-6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51-hexadecaoxo-1,2-dithia-5,8,11,14,17,20,23,26,29,32,35,38,41,44,47,50-hexadecazacyclotripentacontane-4-carbonyl]amino]hexanoyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-(1H-imidazol-4-yl)propanoic acid"
+ },
+ "NEVIRAPINE": {
+  "cid": 4463,
+  "smiles": "CC1=C2C(=NC=C1)N(C3=C(C=CC=N3)C(=O)N2)C4CC4",
+  "name": "NEVIRAPINE"
+ },
+ "NIACIN": {
+  "cid": 938,
+  "smiles": "C1=CC(=CN=C1)C(=O)O",
+  "name": "NIACIN"
+ },
+ "NICARDIPINE": {
+  "cid": 4474,
+  "smiles": "CC1=C(C(C(=C(N1)C)C(=O)OCCN(C)CC2=CC=CC=C2)C3=CC(=CC=C3)[N+](=O)[O-])C(=O)OC",
+  "name": "NiCARdipine IV"
+ },
+ "NICOTINE": {
+  "cid": 89594,
+  "smiles": "CN1CCCC1C2=CN=CC=C2",
+  "name": "Nicotine Patch"
+ },
+ "NICOTINE POLACRILEX": {
+  "cid": 89594,
+  "smiles": "CN1CCC[C@H]1C2=CN=CC=C2",
+  "name": "NICOTINE"
+ },
+ "NIFEDIPINE": {
+  "cid": 4485,
+  "smiles": "CC1=C(C(C(=C(N1)C)C(=O)OC)C2=CC=CC=C2[N+](=O)[O-])C(=O)OC",
+  "name": "NIFEdipine CR"
+ },
+ "NIMODIPINE": {
+  "cid": 4497,
+  "smiles": "CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OCCOC",
+  "name": "NIMODIPINE"
+ },
+ "NITROFURANTOIN": {
+  "cid": 5353830,
+  "smiles": "C1C(=O)NC(=O)N1N=CC2=CC=C(O2)[N+](=O)[O-]",
+  "name": "Nitrofurantoin (Macrodantin)"
+ },
+ "NITROFURANTOIN MONOHYD": {
+  "cid": 6604200,
+  "smiles": "C1C(=O)NC(=O)N1/N=C/C2=CC=C(O2)[N+](=O)[O-]",
+  "name": "NITROFURANTOIN"
+ },
+ "NITROGLYCERIN": {
+  "cid": 4510,
+  "smiles": "C(C(CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-]",
+  "name": "1,3-dinitrooxypropan-2-yl nitrate"
+ },
+ "NITROGLYCERIN SL": {
+  "cid": 4510,
+  "smiles": "C(C(CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-]",
+  "name": "Nitroglycerin SL"
+ },
+ "NITROPRUSSIDE": {
+  "cid": 11963579,
+  "smiles": "[C-]#N.[C-]#N.[C-]#N.[C-]#N.[C-]#N.[N-]=O.[Na+].[Na+].[Fe+4]",
+  "name": "Nitroprusside Sodium"
+ },
+ "NOREPINEPHRINE": {
+  "cid": 439260,
+  "smiles": "C1=CC(=C(C=C1C(CN)O)O)O",
+  "name": "4-[(1R)-2-amino-1-hydroxyethyl]benzene-1,2-diol"
+ },
+ "NOREPINEPHRINE BITARTRATE": {
+  "cid": 3047796,
+  "smiles": "C1=CC(=C(C=C1[C@H](CN)O)O)O.[C@@H]([C@H](C(=O)O)O)(C(=O)O)O.O",
+  "name": "NOREPINEPHRINE BITARTRATE"
+ },
+ "NORTRIPTYLINE": {
+  "cid": 4543,
+  "smiles": "CNCCC=C1C2=CC=CC=C2CCC3=CC=CC=C31",
+  "name": "N-methyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,11,13-hexaenylidene)propan-1-amine"
+ },
+ "NY": {
+  "cid": 9900771,
+  "smiles": "C1=CC(=CC=C1CC(C(=O)O)NC(=O)C(CC(=O)N)N)O",
+  "name": "(2S)-2-[[(2S)-2,4-diamino-4-oxobutanoyl]amino]-3-(4-hydroxyphenyl)propanoic acid"
+ },
+ "NYSTATIN": {
+  "cid": 6433272,
+  "smiles": "CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O",
+  "name": "(1S,15S,16R,17R,18S,19E,21E,25E,27E,29E,31E)-33-[(2S,3S,4S,5S,6R)-4-amino-3,5-dihydroxy-6-methyloxan-2-yl]oxy-1,3,4,7,9,11,17,37-octahydroxy-15,16,18-trimethyl-13-oxo-14,39-dioxabicyclo[33.3.1]nonatriaconta-19,21,25,27,29,31-hexaene-36-carboxylic acid"
+ },
+ "NYSTATIN-TRIAMCINOLONE": {
+  "cid": 11953844,
+  "smiles": "CC(CCC=C(C)CCC=C(C)C)CCOP(=O)(O)OC1C(C(C(C(O1)CO)O)O)NC(=O)C",
+  "name": "Nystatin-Triamcinolone Cream"
+ },
+ "OCTREOTIDE": {
+  "cid": 6917964,
+  "smiles": "CC(C1C(=O)NC(CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=CC=C4)NC(=O)C(CC5=CC=CC=C5)N)C(=O)NC(CO)C(C)O)O.CC(=O)O",
+  "name": "acetic acid;(4R,7S,10S,13R,16S,19R)-10-(4-aminobutyl)-19-[[(2R)-2-amino-3-phenylpropanoyl]amino]-16-benzyl-N-[(2R,3R)-1,3-dihydroxybutan-2-yl]-7-[(1R)-1-hydroxyethyl]-13-(1H-indol-3-ylmethyl)-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carboxamide"
+ },
+ "OLANZAPINE": {
+  "cid": 135398745,
+  "smiles": "CC1=CC2=C(S1)NC3=CC=CC=C3N=C2N4CCN(CC4)C",
+  "name": "2-methyl-4-(4-methylpiperazin-1-yl)-10H-thieno[2,3-b][1,5]benzodiazepine"
+ },
+ "OMEPRAZOLE": {
+  "cid": 4594,
+  "smiles": "CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC",
+  "name": "6-methoxy-2-[(4-methoxy-3,5-dimethylpyridin-2-yl)methylsulfinyl]-1H-benzimidazole"
+ },
+ "ONDANSETRON": {
+  "cid": 4595,
+  "smiles": "CC1=NC=CN1CC2CCC3=C(C2=O)C4=CC=CC=C4N3C",
+  "name": "9-methyl-3-[(2-methylimidazol-1-yl)methyl]-2,3-dihydro-1H-carbazol-4-one"
+ },
+ "ORABASE W BENZOCAINE PASTE": {
+  "cid": 131698544,
+  "smiles": "CC(C(C(C(C(=O)O)O)O)O)O.CC(=O)O.[Na]",
+  "name": "ORABASE"
+ },
+ "OSELTAMIVIR": {
+  "cid": 65028,
+  "smiles": "CCC(CC)O[C@@H]1C=C(C[C@@H]([C@H]1NC(=O)C)N)C(=O)OCC",
+  "name": "OSELTAMIVIR"
+ },
+ "OXACILLIN": {
+  "cid": 6196,
+  "smiles": "CC1=C(C(=NO1)C2=CC=CC=C2)C(=O)N[C@H]3[C@@H]4N(C3=O)[C@H](C(S4)(C)C)C(=O)O",
+  "name": "OXACILLIN"
+ },
+ "OXAZEPAM": {
+  "cid": 4616,
+  "smiles": "C1=CC=C(C=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O",
+  "name": "OXAZEPAM"
+ },
+ "OXCARBAZEPINE": {
+  "cid": 34312,
+  "smiles": "C1C2=CC=CC=C2N(C3=CC=CC=C3C1=O)C(=O)N",
+  "name": "OXCARBAZEPINE"
+ },
+ "OXYBUTYNIN": {
+  "cid": 4634,
+  "smiles": "CCN(CC)CC#CCOC(=O)C(C1CCCCC1)(C2=CC=CC=C2)O",
+  "name": "4-(diethylamino)but-2-ynyl 2-cyclohexyl-2-hydroxy-2-phenylacetate"
+ },
+ "OXYCODONE": {
+  "cid": 5284603,
+  "smiles": "CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O",
+  "name": "(4R,4aS,7aR,12bS)-4a-hydroxy-9-methoxy-3-methyl-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+ },
+ "OXYCODONE-ACETAMINOPHEN": {
+  "cid": 4624,
+  "smiles": "C1=C(C(=CC(=C1O)O)O)CCN",
+  "name": "Oxycodone-Acetaminophen"
+ },
+ "OXYMETAZOLINE": {
+  "cid": 4636,
+  "smiles": "CC1=CC(=C(C(=C1CC2=NCCN2)C)O)C(C)(C)C",
+  "name": "OXYMETAZOLINE"
+ },
+ "PACLITAXEL": {
+  "cid": 36314,
+  "smiles": "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C",
+  "name": "[(1S,2S,3R,4S,7R,9S,10S,12R,15S)-4,12-diacetyloxy-15-[(2R,3S)-3-benzamido-2-hydroxy-3-phenylpropanoyl]oxy-1,9-dihydroxy-10,14,17,17-tetramethyl-11-oxo-6-oxatetracyclo[11.3.1.03,10.04,7]heptadec-13-en-2-yl] benzoate"
+ },
+ "PAMIDRONATE": {
+  "cid": 4674,
+  "smiles": "C(CN)C(O)(P(=O)(O)O)P(=O)(O)O",
+  "name": "PAMIDRONATE"
+ },
+ "PANTOPRAZOLE": {
+  "cid": 4679,
+  "smiles": "COC1=C(C(=NC=C1)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC(F)F)OC",
+  "name": "6-(difluoromethoxy)-2-[(3,4-dimethoxypyridin-2-yl)methylsulfinyl]-1H-benzimidazole"
+ },
+ "PARENTERAL NUTRITION": {
+  "cid": 3658,
+  "smiles": "C1CN(CCN1CCOCCO)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl",
+  "name": "PARENTERAL"
+ },
+ "PARICALCITOL": {
+  "cid": 5281104,
+  "smiles": "C[C@H](/C=C/[C@H](C)C(C)(C)O)[C@H]1CC[C@@H]\\2[C@@]1(CCC/C2=C\\C=C3C[C@H](C[C@@H](C3)O)O)C",
+  "name": "PARICALCITOL"
+ },
+ "PAROXETINE": {
+  "cid": 43815,
+  "smiles": "C1CNCC(C1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4",
+  "name": "(3S,4R)-3-(1,3-benzodioxol-5-yloxymethyl)-4-(4-fluorophenyl)piperidine"
+ },
+ "PENICILLIN G": {
+  "cid": 23664709,
+  "smiles": "CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)[O-])C.[K+]",
+  "name": "potassium;(2S,5R,6R)-3,3-dimethyl-7-oxo-6-[(2-phenylacetyl)amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate"
+ },
+ "PENICILLIN V": {
+  "cid": 23676814,
+  "smiles": "CC1(C(N2C(S1)C(C2=O)NC(=O)COC3=CC=CC=C3)C(=O)[O-])C.[K+]",
+  "name": "potassium;(2S,5R,6R)-3,3-dimethyl-7-oxo-6-[(2-phenoxyacetyl)amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate"
+ },
+ "PENTAMIDINE INHALATION": {
+  "cid": 4735,
+  "smiles": "C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N",
+  "name": "PENTAMIDINE"
+ },
+ "PENTAMIDINE-INHALATION": {
+  "cid": 4735,
+  "smiles": "C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N",
+  "name": "Pentamidine-Inhalation"
+ },
+ "PENTOBARBITAL": {
+  "cid": 23676152,
+  "smiles": "CCCC(C)C1(C(=O)NC(=NC1=O)[O-])CC.[Na+]",
+  "name": "sodium;5-ethyl-4,6-dioxo-5-pentan-2-yl-1H-pyrimidin-2-olate"
+ },
+ "PENTOXIFYLLINE": {
+  "cid": 4740,
+  "smiles": "CC(=O)CCCCN1C(=O)C2=C(N=CN2C)N(C1=O)C",
+  "name": "PENTOXIFYLLINE"
+ },
+ "PERPHENAZINE": {
+  "cid": 4748,
+  "smiles": "C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl)CCO",
+  "name": "PERPHENAZINE"
+ },
+ "PHENAZOPYRIDINE": {
+  "cid": 4756,
+  "smiles": "C1=CC=C(C=C1)N=NC2=C(N=C(C=C2)N)N",
+  "name": "3-phenyldiazenylpyridine-2,6-diamine"
+ },
+ "PHENOBARBITAL": {
+  "cid": 4763,
+  "smiles": "CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2",
+  "name": "5-ethyl-5-phenyl-1,3-diazinane-2,4,6-trione"
+ },
+ "PHENYLEPHRINE": {
+  "cid": 5284443,
+  "smiles": "CNCC(C1=CC(=CC=C1)O)O.Cl",
+  "name": "3-[(1R)-1-hydroxy-2-(methylamino)ethyl]phenol;hydrochloride"
+ },
+ "PHENYTOIN": {
+  "cid": 657302,
+  "smiles": "C1=CC=C(C=C1)C2(C(=O)[N-]C(=O)N2)C3=CC=CC=C3.[Na+]",
+  "name": "sodium;5,5-diphenylimidazolidin-3-ide-2,4-dione"
+ },
+ "PHOSPHORUS": {
+  "cid": 5462309,
+  "smiles": "[P]",
+  "name": "phosphorus"
+ },
+ "PHYTONADIONE": {
+  "cid": 5284607,
+  "smiles": "CC1=C(C(=O)C2=CC=CC=C2C1=O)CC=C(C)CCCC(C)CCCC(C)CCCC(C)C",
+  "name": "2-methyl-3-[(E,7R,11R)-3,7,11,15-tetramethylhexadec-2-enyl]naphthalene-1,4-dione"
+ },
+ "PILOCARPINE": {
+  "cid": 5910,
+  "smiles": "CC[C@H]1[C@H](COC1=O)CC2=CN=CN2C",
+  "name": "PILOCARPINE"
+ },
+ "PIOGLITAZONE": {
+  "cid": 60560,
+  "smiles": "CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3.Cl",
+  "name": "5-[[4-[2-(5-ethylpyridin-2-yl)ethoxy]phenyl]methyl]-1,3-thiazolidine-2,4-dione;hydrochloride"
+ },
+ "PIPERACILLIN-TAZOBACTAM": {
+  "cid": 23724843,
+  "smiles": "CCN1CCN(C(=O)C1=O)C(=O)NC(C2=CC=CC=C2)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)[O-].CC1(C(N2C(S1(=O)=O)CC2=O)C(=O)O)CN3C=CN=N3.[Na+]",
+  "name": "sodium;(2S,5R,6R)-6-[[(2S)-2-[(4-ethyl-2,3-dioxopiperazine-1-carbonyl)amino]-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylate;(2S,3S,5R)-3-methyl-4,4,7-trioxo-3-(triazol-1-ylmethyl)-4lambda6-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+ },
+ "PLETAL": {
+  "cid": 2754,
+  "smiles": "C1CCC(CC1)N2C(=NN=N2)CCCCOC3=CC4=C(C=C3)NC(=O)CC4",
+  "name": "6-[4-(1-cyclohexyltetrazol-5-yl)butoxy]-3,4-dihydro-1H-quinolin-2-one"
+ },
+ "POLYETHYLENE GLYCOL": {
+  "cid": 174,
+  "smiles": "C(CO)O",
+  "name": "Polyethylene Glycol"
+ },
+ "POSACONAZOLE": {
+  "cid": 468595,
+  "smiles": "CC[C@@H]([C@H](C)O)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OC[C@H]5C[C@](OC5)(CN6C=NC=N6)C7=C(C=C(C=C7)F)F",
+  "name": "POSACONAZOLE"
+ },
+ "POTASSIUM CHL D5 NS": {
+  "cid": 4873,
+  "smiles": "[Cl-].[K+]",
+  "name": "Potassium Chl 20 mEq / 1000 mL D5 1/2 NS"
+ },
+ "POTASSIUM CHL D5NS": {
+  "cid": 4873,
+  "smiles": "[Cl-].[K+]",
+  "name": "Potassium Chl 20 mEq / 1000 mL D5NS"
+ },
+ "POTASSIUM CHL D5W": {
+  "cid": 4873,
+  "smiles": "[Cl-].[K+]",
+  "name": "Potassium Chl 20 mEq / 1000 mL D5W"
+ },
+ "POTASSIUM CHL NS": {
+  "cid": 4873,
+  "smiles": "[Cl-].[K+]",
+  "name": "Potassium Chl 40 mEq / 1000 mL NS"
+ },
+ "POTASSIUM CHLORIDE": {
+  "cid": 4873,
+  "smiles": "[Cl-].[K+]",
+  "name": "potassium;chloride"
+ },
+ "POTASSIUM PHOSPHATE": {
+  "cid": 62657,
+  "smiles": "[O-]P(=O)([O-])[O-].[K+].[K+].[K+]",
+  "name": "tripotassium;phosphate"
+ },
+ "PRAMIPEXOLE": {
+  "cid": 119570,
+  "smiles": "CCCN[C@H]1CCC2=C(C1)SC(=N2)N",
+  "name": "PRAMIPEXOLE"
+ },
+ "PRASUGREL": {
+  "cid": 6918456,
+  "smiles": "CC(=O)OC1=CC2=C(S1)CCN(C2)C(C3=CC=CC=C3F)C(=O)C4CC4",
+  "name": "PRASUGREL"
+ },
+ "PRAVASTATIN": {
+  "cid": 54687,
+  "smiles": "CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC(CC(CC(=O)O)O)O)O",
+  "name": "(3R,5R)-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-[(2S)-2-methylbutanoyl]oxy-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]-3,5-dihydroxyheptanoic acid"
+ },
+ "PRAZOSIN": {
+  "cid": 4893,
+  "smiles": "COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4=CC=CO4)N)OC",
+  "name": "PRAZOSIN"
+ },
+ "PREDNISOLONE": {
+  "cid": 5755,
+  "smiles": "CC12CC(C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C)O",
+  "name": "PrednisoLONE Acetate 1% Ophth. Susp."
+ },
+ "PREDNISONE": {
+  "cid": 5865,
+  "smiles": "CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C",
+  "name": "(8S,9S,10R,13S,14S,17R)-17-hydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-6,7,8,9,12,14,15,16-octahydrocyclopenta[a]phenanthrene-3,11-dione"
+ },
+ "PREGABALIN": {
+  "cid": 5486971,
+  "smiles": "CC(C)CC(CC(=O)O)CN",
+  "name": "(3S)-3-(aminomethyl)-5-methylhexanoic acid"
+ },
+ "PRIMIDONE": {
+  "cid": 4909,
+  "smiles": "CCC1(C(=O)NCNC1=O)C2=CC=CC=C2",
+  "name": "PRIMIDONE"
+ },
+ "PROCAINAMIDE": {
+  "cid": 4913,
+  "smiles": "CCN(CC)CCNC(=O)C1=CC=C(C=C1)N",
+  "name": "PROCAINAMIDE"
+ },
+ "PROCHLORPERAZINE": {
+  "cid": 4917,
+  "smiles": "CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl",
+  "name": "2-chloro-10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazine"
+ },
+ "PROMETHAZINE": {
+  "cid": 4927,
+  "smiles": "CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)N(C)C",
+  "name": "N,N-dimethyl-1-phenothiazin-10-ylpropan-2-amine"
+ },
+ "PROPAFENONE": {
+  "cid": 4932,
+  "smiles": "CCCNCC(COC1=CC=CC=C1C(=O)CCC2=CC=CC=C2)O",
+  "name": "PROPAFENONE"
+ },
+ "PROPOFOL": {
+  "cid": 4943,
+  "smiles": "CC(C)C1=C(C(=CC=C1)C(C)C)O",
+  "name": "2,6-di(propan-2-yl)phenol"
+ },
+ "PROPOXYPHENE NAP.-APAP": {
+  "cid": 10100,
+  "smiles": "CCC(=O)O[C@](CC1=CC=CC=C1)(C2=CC=CC=C2)[C@H](C)CN(C)C",
+  "name": "PROPOXYPHENE"
+ },
+ "PROPRA": {
+  "cid": 4946,
+  "smiles": "CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O",
+  "name": "Propra"
+ },
+ "PROPRANOLOL": {
+  "cid": 4946,
+  "smiles": "CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O",
+  "name": "1-naphthalen-1-yloxy-3-(propan-2-ylamino)propan-2-ol"
+ },
+ "PROPRANOLOL LA": {
+  "cid": 4946,
+  "smiles": "CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O",
+  "name": "PROPRANOLOL"
+ },
+ "PROVIGIL": {
+  "cid": 4236,
+  "smiles": "C1=CC=C(C=C1)C(C2=CC=CC=C2)S(=O)CC(=O)N",
+  "name": "PROVIGIL"
+ },
+ "PSEUDOEPHEDRINE": {
+  "cid": 9581,
+  "smiles": "CC(C(C1=CC=CC=C1)O)NC.Cl",
+  "name": "(1S,2S)-2-(methylamino)-1-phenylpropan-1-ol;hydrochloride"
+ },
+ "PSYLLIUM": {
+  "cid": 181572,
+  "smiles": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC(=O)O",
+  "name": "PSYLLIUM"
+ },
+ "PULMICORT": {
+  "cid": 5281004,
+  "smiles": "CCCC1O[C@@H]2C[C@H]3[C@@H]4CCC5=CC(=O)C=C[C@@]5([C@H]4[C@H](C[C@@]3([C@@]2(O1)C(=O)CO)C)O)C",
+  "name": "PULMICORT"
+ },
+ "PYRAZINAMIDE": {
+  "cid": 1046,
+  "smiles": "C1=CN=C(C=N1)C(=O)N",
+  "name": "pyrazine-2-carboxamide"
+ },
+ "PYRIDOSTIGMINE": {
+  "cid": 4991,
+  "smiles": "C[N+]1=CC=CC(=C1)OC(=O)N(C)C",
+  "name": "PYRIDOSTIGMINE"
+ },
+ "PYRIDOXINE": {
+  "cid": 6019,
+  "smiles": "CC1=NC=C(C(=C1O)CO)CO.Cl",
+  "name": "4,5-bis(hydroxymethyl)-2-methylpyridin-3-ol;hydrochloride"
+ },
+ "QUETIAPINE": {
+  "cid": 5281025,
+  "smiles": "C1CN(CCN1CCOCCO)C2=NC3=CC=CC=C3SC4=CC=CC=C42.C1CN(CCN1CCOCCO)C2=NC3=CC=CC=C3SC4=CC=CC=C42.C(=CC(=O)O)C(=O)O",
+  "name": "2-[2-(4-benzo[b][1,4]benzothiazepin-6-ylpiperazin-1-yl)ethoxy]ethanol;(E)-but-2-enedioic acid"
+ },
+ "QUINAPRIL": {
+  "cid": 54892,
+  "smiles": "CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CC3=CC=CC=C3CC2C(=O)O",
+  "name": "(3S)-2-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]-3,4-dihydro-1H-isoquinoline-3-carboxylic acid"
+ },
+ "QUINIDINE": {
+  "cid": 94328,
+  "smiles": "COC1=CC2=C(C=CN=C2C=C1)C(C3CC4CCN3CC4C=C)O.C(C(C(C(C(C(=O)O)O)O)O)O)O",
+  "name": "(S)-[(2R,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-(6-methoxyquinolin-4-yl)methanol;(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoic acid"
+ },
+ "QUINIDINE GLUCONATE E.R": {
+  "cid": 94328,
+  "smiles": "COC1=CC2=C(C=CN=C2C=C1)[C@@H]([C@H]3C[C@@H]4CCN3C[C@@H]4C=C)O.C([C@H]([C@H]([C@@H]([C@H](C(=O)O)O)O)O)O)O",
+  "name": "QUINIDINE GLUCONATE"
+ },
+ "QUININE": {
+  "cid": 3034034,
+  "smiles": "COC1=CC2=C(C=CN=C2C=C1)[C@H]([C@@H]3C[C@@H]4CCN3C[C@@H]4C=C)O",
+  "name": "QUININE"
+ },
+ "QVAR": {
+  "cid": 21700,
+  "smiles": "CCC(=O)OCC(=O)[C@]1([C@H](C[C@@H]2[C@@]1(C[C@@H]([C@]3([C@H]2CCC4=CC(=O)C=C[C@@]43C)Cl)O)C)C)OC(=O)CC",
+  "name": "QVAR"
+ },
+ "RACEPINEPHRINE": {
+  "cid": 838,
+  "smiles": "CNCC(C1=CC(=C(C=C1)O)O)O",
+  "name": "RACEPINEPHRINE"
+ },
+ "RALTEGRAVIR": {
+  "cid": 54671008,
+  "smiles": "CC1=NN=C(O1)C(=O)NC(C)(C)C2=NC(=C(C(=O)N2C)O)C(=O)NCC3=CC=C(C=C3)F",
+  "name": "RALTEGRAVIR"
+ },
+ "RAMIPRIL": {
+  "cid": 5362129,
+  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N2[C@H]3CCC[C@H]3C[C@H]2C(=O)O",
+  "name": "RAMIPRIL"
+ },
+ "RANITIDINE": {
+  "cid": 3001055,
+  "smiles": "CNC(=C[N+](=O)[O-])NCCSCC1=CC=C(O1)CN(C)C",
+  "name": "(E)-1-N'-[2-[[5-[(dimethylamino)methyl]furan-2-yl]methylsulfanyl]ethyl]-1-N-methyl-2-nitroethene-1,1-diamine"
+ },
+ "REPAGLINIDE": {
+  "cid": 65981,
+  "smiles": "CCOC1=C(C=CC(=C1)CC(=O)N[C@@H](CC(C)C)C2=CC=CC=C2N3CCCCC3)C(=O)O",
+  "name": "REPAGLINIDE"
+ },
+ "RIFAMPIN": {
+  "cid": 135398735,
+  "smiles": "CC1C=CC=C(C(=O)NC2=C(C(=C3C(=C2O)C(=C(C4=C3C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C=NN5CCN(CC5)C)C",
+  "name": "[(7S,9E,11S,12R,13S,14R,15R,16R,17S,18S,19E,21Z)-2,15,17,27,29-pentahydroxy-11-methoxy-3,7,12,14,16,18,22-heptamethyl-26-[(E)-(4-methylpiperazin-1-yl)iminomethyl]-6,23-dioxo-8,30-dioxa-24-azatetracyclo[23.3.1.14,7.05,28]triaconta-1(29),2,4,9,19,21,25,27-octaen-13-yl] acetate"
+ },
+ "RIFAXIMIN": {
+  "cid": 6436173,
+  "smiles": "CC1C=CC=C(C(=O)NC2=C(C3=C(C4=C(C(=C3O)C)OC(C4=O)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C5=C2N6C=CC(=CC6=N5)C)O)C",
+  "name": "[(7S,9E,11S,12R,13S,14R,15R,16R,17S,18S,19E,21Z)-2,15,17,36-tetrahydroxy-11-methoxy-3,7,12,14,16,18,22,30-octamethyl-6,23-dioxo-8,37-dioxa-24,27,33-triazahexacyclo[23.10.1.14,7.05,35.026,34.027,32]heptatriaconta-1(35),2,4,9,19,21,25(36),26(34),28,30,32-undecaen-13-yl] acetate"
+ },
+ "RISPERIDONE": {
+  "cid": 5073,
+  "smiles": "CC1=C(C(=O)N2CCCCC2=N1)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F",
+  "name": "3-[2-[4-(6-fluoro-1,2-benzoxazol-3-yl)piperidin-1-yl]ethyl]-2-methyl-6,7,8,9-tetrahydropyrido[1,2-a]pyrimidin-4-one"
+ },
+ "RITONAVIR": {
+  "cid": 392622,
+  "smiles": "CC(C)C1=NC(=CS1)CN(C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC2=CC=CC=C2)C[C@@H]([C@H](CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O",
+  "name": "RITONAVIR"
+ },
+ "ROCURONIUM": {
+  "cid": 441290,
+  "smiles": "CC(=O)O[C@H]1[C@H](C[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@@H]4[C@@]3(C[C@@H]([C@H](C4)O)N5CCOCC5)C)C)[N+]6(CCCC6)CC=C",
+  "name": "ROCURONIUM"
+ },
+ "ROPINIROLE": {
+  "cid": 5095,
+  "smiles": "CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1",
+  "name": "ROPINIROLE"
+ },
+ "ROSIGLITAZONE": {
+  "cid": 77999,
+  "smiles": "CN(CCOC1=CC=C(C=C1)CC2C(=O)NC(=O)S2)C3=CC=CC=N3",
+  "name": "ROSIGLITAZONE"
+ },
+ "ROSUVASTATIN": {
+  "cid": 5282455,
+  "smiles": "CC(C)C1=NC(=NC(=C1C=CC(CC(CC(=O)[O-])O)O)C2=CC=C(C=C2)F)N(C)S(=O)(=O)C.CC(C)C1=NC(=NC(=C1C=CC(CC(CC(=O)[O-])O)O)C2=CC=C(C=C2)F)N(C)S(=O)(=O)C.[Ca+2]",
+  "name": "calcium;(E,3R,5S)-7-[4-(4-fluorophenyl)-2-[methyl(methylsulfonyl)amino]-6-propan-2-ylpyrimidin-5-yl]-3,5-dihydroxyhept-6-enoate"
+ },
+ "SALMETEROL": {
+  "cid": 5152,
+  "smiles": "C1=CC=C(C=C1)CCCCOCCCCCCNCC(C2=CC(=C(C=C2)O)CO)O",
+  "name": "SALMETEROL"
+ },
+ "SALMETEROL XINAFOATE": {
+  "cid": 5152,
+  "smiles": "C1=CC=C(C=C1)CCCCOCCCCCCNCC(C2=CC(=C(C=C2)O)CO)O",
+  "name": "Salmeterol Xinafoate Diskus (50 mcg)"
+ },
+ "SCOPOLAMINE": {
+  "cid": 5184,
+  "smiles": "CN1C2CC(CC1C3C2O3)OC(=O)C(CO)C4=CC=CC=C4",
+  "name": "Scopolamine Patch"
+ },
+ "SENNA": {
+  "cid": 5199,
+  "smiles": "C1=CC2=C(C(=C1)OC3C(C(C(C(O3)CO)O)O)O)C(=O)C4=C(C2C5C6=C(C(=CC=C6)OC7C(C(C(C(O7)CO)O)O)O)C(=O)C8=C5C=C(C=C8O)C(=O)O)C=C(C=C4O)C(=O)O",
+  "name": "9-[2-carboxy-4-hydroxy-10-oxo-5-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-9H-anthracen-9-yl]-4-hydroxy-10-oxo-5-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-9H-anthracene-2-carboxylic acid"
+ },
+ "SERTRALINE": {
+  "cid": 68617,
+  "smiles": "CNC1CCC(C2=CC=CC=C12)C3=CC(=C(C=C3)Cl)Cl",
+  "name": "(1S,4S)-4-(3,4-dichlorophenyl)-N-methyl-1,2,3,4-tetrahydronaphthalen-1-amine"
+ },
+ "SEVELAMER": {
+  "cid": 3085017,
+  "smiles": "C=CCN.C1C(O1)CCl",
+  "name": "2-(chloromethyl)oxirane;prop-2-en-1-amine"
+ },
+ "SILDENAFIL": {
+  "cid": 135398744,
+  "smiles": "CCCC1=NN(C2=C1N=C(NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C",
+  "name": "SILDENAFIL"
+ },
+ "SILVER SULFADIAZINE": {
+  "cid": 441244,
+  "smiles": "C1=CN=C(N=C1)[N-]S(=O)(=O)C2=CC=C(C=C2)N.[Ag+]",
+  "name": "SILVER SULFADIAZINE"
+ },
+ "SIMETHICONE": {
+  "cid": 6433516,
+  "smiles": "CO[Si](C)(C)O[Si](C)(C)C.O=[Si]=O",
+  "name": "dioxosilane;methoxy-dimethyl-trimethylsilyloxysilane"
+ },
+ "SIMVASTATIN": {
+  "cid": 54454,
+  "smiles": "CCC(C)(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C",
+  "name": "[(1S,3R,7S,8S,8aR)-8-[2-[(2R,4R)-4-hydroxy-6-oxooxan-2-yl]ethyl]-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl] 2,2-dimethylbutanoate"
+ },
+ "SIROLIMUS": {
+  "cid": 5284616,
+  "smiles": "CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC",
+  "name": "(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-dihydroxy-12-[(2R)-1-[(1S,3R,4R)-4-hydroxy-3-methoxycyclohexyl]propan-2-yl]-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo[30.3.1.04,9]hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentone"
+ },
+ "SODIUM ACETATE": {
+  "cid": 31372,
+  "smiles": "CC(=O)[O-].[Na+]",
+  "name": "SODIUM ACETATE"
+ },
+ "SODIUM BIC": {
+  "cid": 516892,
+  "smiles": "C(=O)(O)[O-].[Na+]",
+  "name": "sodium bic"
+ },
+ "SODIUM BICAR": {
+  "cid": 516892,
+  "smiles": "C(=O)(O)[O-].[Na+]",
+  "name": "sodium bicar"
+ },
+ "SODIUM BICARB": {
+  "cid": 516892,
+  "smiles": "C(=O)(O)[O-].[Na+]",
+  "name": "sodium bicarb"
+ },
+ "SODIUM BICARBO": {
+  "cid": 516892,
+  "smiles": "C(=O)(O)[O-].[Na+]",
+  "name": "Sodium Bicarbo"
+ },
+ "SODIUM BICARBONATE": {
+  "cid": 516892,
+  "smiles": "C(=O)(O)[O-].[Na+]",
+  "name": "sodium;hydrogen carbonate"
+ },
+ "SODIUM CHLORIDE INHALATION": {
+  "cid": 5234,
+  "smiles": "[Na+].[Cl-]",
+  "name": "SODIUM CHLORIDE"
+ },
+ "SODIUM CITRATE": {
+  "cid": 6224,
+  "smiles": "C(C(=O)[O-])C(CC(=O)[O-])(C(=O)[O-])O.[Na+].[Na+].[Na+]",
+  "name": "trisodium;2-hydroxypropane-1,2,3-tricarboxylate"
+ },
+ "SODIUM FLUORIDE": {
+  "cid": 5235,
+  "smiles": "[F-].[Na+]",
+  "name": "SODIUM FLUORIDE"
+ },
+ "SODIUM PHOSPHATE": {
+  "cid": 24243,
+  "smiles": "[O-]P(=O)([O-])[O-].[Na+].[Na+].[Na+]",
+  "name": "trisodium;phosphate"
+ },
+ "SODIUM POLYSTYRENE SULFONATE": {
+  "cid": 4069,
+  "smiles": "C1=CC=C(C(=C1)C2=C3C=C(C(=O)C=C3OC4=C(C(=C(C=C24)Br)O)[Hg])Br)C(=O)O",
+  "name": "Sodium Polystyrene Sulfonate"
+ },
+ "SOTALOL": {
+  "cid": 5253,
+  "smiles": "CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O",
+  "name": "SOTALOL"
+ },
+ "SPIRONOLACTONE": {
+  "cid": 5833,
+  "smiles": "CC(=O)SC1CC2=CC(=O)CCC2(C3C1C4CCC5(C4(CC3)C)CCC(=O)O5)C",
+  "name": "S-[(7R,8R,9S,10R,13S,14S,17R)-10,13-dimethyl-3,5'-dioxospiro[2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthrene-17,2'-oxolane]-7-yl] ethanethioate"
+ },
+ "STAVUDINE": {
+  "cid": 18283,
+  "smiles": "CC1=CN(C(=O)NC1=O)[C@H]2C=C[C@H](O2)CO",
+  "name": "STAVUDINE"
+ },
+ "STERILE WATER FOR IRRIGATION": {
+  "cid": 962,
+  "smiles": "O",
+  "name": "oxidane"
+ },
+ "SUCCINYLCHOLINE": {
+  "cid": 5314,
+  "smiles": "C[N+](C)(C)CCOC(=O)CCC(=O)OCC[N+](C)(C)C",
+  "name": "trimethyl-[2-[4-oxo-4-[2-(trimethylazaniumyl)ethoxy]butanoyl]oxyethyl]azanium"
+ },
+ "SUCRALFATE": {
+  "cid": 54182,
+  "smiles": "CCCCN(CCCC)CCCOCC1=CC=C(C=C1)C(=O)OCC",
+  "name": "Sucralfate"
+ },
+ "SUMATRIPTAN": {
+  "cid": 59772,
+  "smiles": "CNS(=O)(=O)CC1=CC2=C(C=C1)NC=C2CCN(C)C.C(CC(=O)O)C(=O)O",
+  "name": "butanedioic acid;1-[3-[2-(dimethylamino)ethyl]-1H-indol-5-yl]-N-methylmethanesulfonamide"
+ },
+ "TACROLIMUS": {
+  "cid": 445643,
+  "smiles": "CC1CC(C2C(CC(C(O2)(C(=O)C(=O)N3CCCCC3C(=O)OC(C(C(CC(=O)C(C=C(C1)C)CC=C)O)C)C(=CC4CCC(C(C4)OC)O)C)O)C)OC)OC",
+  "name": "(1R,9S,12S,13R,14S,17R,18E,21S,23S,24R,25S,27R)-1,14-dihydroxy-12-[(E)-1-[(1R,3R,4R)-4-hydroxy-3-methoxycyclohexyl]prop-1-en-2-yl]-23,25-dimethoxy-13,19,21,27-tetramethyl-17-prop-2-enyl-11,28-dioxa-4-azatricyclo[22.3.1.04,9]octacos-18-ene-2,3,10,16-tetrone"
+ },
+ "TALC": {
+  "cid": 165411828,
+  "smiles": "[OH-].[OH-].[O-][Si]12O[Si]3(O[Si](O1)(O[Si](O2)(O3)[O-])[O-])[O-].[Mg+2].[Mg+2].[Mg+2]",
+  "name": "TALC"
+ },
+ "TAMOXIFEN": {
+  "cid": 2733526,
+  "smiles": "CC/C(=C(\\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3",
+  "name": "TAMOXIFEN"
+ },
+ "TAMSULOSIN": {
+  "cid": 129211,
+  "smiles": "CCOC1=CC=CC=C1OCCNC(C)CC2=CC(=C(C=C2)OC)S(=O)(=O)N",
+  "name": "5-[(2R)-2-[2-(2-ethoxyphenoxy)ethylamino]propyl]-2-methoxybenzenesulfonamide"
+ },
+ "TARCEVA": {
+  "cid": 176871,
+  "smiles": "COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC.Cl",
+  "name": "N-(3-ethynylphenyl)-6,7-bis(2-methoxyethoxy)quinazolin-4-amine;hydrochloride"
+ },
+ "TEMAZEPAM": {
+  "cid": 5391,
+  "smiles": "CN1C2=C(C=C(C=C2)Cl)C(=NC(C1=O)O)C3=CC=CC=C3",
+  "name": "TEMAZEPAM"
+ },
+ "TENOFOVIR DISOPROXIL": {
+  "cid": 5481350,
+  "smiles": "C[C@H](CN1C=NC2=C(N=CN=C21)N)OCP(=O)(OCOC(=O)OC(C)C)OCOC(=O)OC(C)C",
+  "name": "TENOFOVIR DISOPROXIL"
+ },
+ "TENOFOVIR DISOPROXIL FUM": {
+  "cid": 5481350,
+  "smiles": "C[C@H](CN1C=NC2=C(N=CN=C21)N)OCP(=O)(OCOC(=O)OC(C)C)OCOC(=O)OC(C)C",
+  "name": "TENOFOVIR DISOPROXIL"
+ },
+ "TERAZOSIN": {
+  "cid": 5401,
+  "smiles": "COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4CCCO4)N)OC",
+  "name": "TERAZOSIN"
+ },
+ "TERBINAFINE": {
+  "cid": 1549008,
+  "smiles": "CC(C)(C)C#C/C=C/CN(C)CC1=CC=CC2=CC=CC=C21",
+  "name": "TERBINAFINE"
+ },
+ "TESTOSTERONE": {
+  "cid": 6013,
+  "smiles": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=CC(=O)CC[C@]34C",
+  "name": "TESTOSTERONE"
+ },
+ "THEOPHYLLINE": {
+  "cid": 2153,
+  "smiles": "CN1C2=C(C(=O)N(C1=O)C)NC=N2",
+  "name": "Theophylline (Oral Solution)"
+ },
+ "THIAMINE": {
+  "cid": 1130,
+  "smiles": "CC1=C(SC=[N+]1CC2=CN=C(N=C2N)C)CCO",
+  "name": "2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethanol"
+ },
+ "THIORIDAZINE": {
+  "cid": 66062,
+  "smiles": "CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC.Cl",
+  "name": "10-[2-(1-methylpiperidin-2-yl)ethyl]-2-methylsulfanylphenothiazine;hydrochloride"
+ },
+ "TIGECYCLINE": {
+  "cid": 54686904,
+  "smiles": "CC(C)(C)NCC(=O)NC1=CC(=C2C[C@H]3C[C@H]4[C@@H](C(=O)C(=C([C@]4(C(=O)C3=C(C2=C1O)O)O)O)C(=O)N)N(C)C)N(C)C",
+  "name": "TIGECYCLINE"
+ },
+ "TIMOLOL": {
+  "cid": 5281056,
+  "smiles": "CC(C)(C)NCC(COC1=NSN=C1N2CCOCC2)O.C(=CC(=O)O)C(=O)O",
+  "name": "(Z)-but-2-enedioic acid;(2S)-1-(tert-butylamino)-3-[(4-morpholin-4-yl-1,2,5-thiadiazol-3-yl)oxy]propan-2-ol"
+ },
+ "TIOTROPIUM": {
+  "cid": 5487426,
+  "smiles": "C[N+]1(C2CC(CC1C3C2O3)OC(=O)C(C4=CC=CS4)(C5=CC=CS5)O)C.[Br-]",
+  "name": "[(1S,2S,4R,5R)-9,9-dimethyl-3-oxa-9-azoniatricyclo[3.3.1.02,4]nonan-7-yl] 2-hydroxy-2,2-dithiophen-2-ylacetate;bromide"
+ },
+ "TIROFIBAN": {
+  "cid": 60947,
+  "smiles": "CCCCS(=O)(=O)NC(CC1=CC=C(C=C1)OCCCCC2CCNCC2)C(=O)O",
+  "name": "(2S)-2-(butylsulfonylamino)-3-[4-(4-piperidin-4-ylbutoxy)phenyl]propanoic acid"
+ },
+ "TIZANIDINE": {
+  "cid": 114869,
+  "smiles": "C1CN=C(N1)NC2=C(C=CC3=NSN=C32)Cl.Cl",
+  "name": "5-chloro-N-(4,5-dihydro-1H-imidazol-2-yl)-2,1,3-benzothiadiazol-4-amine;hydrochloride"
+ },
+ "TOBRAMYCIN": {
+  "cid": 62005,
+  "smiles": "C1C(C(C(C(C1N)OC2C(C(C(C(O2)CO)O)N)O)O)OC3C(CC(C(O3)CN)O)N)N.OS(=O)(=O)O",
+  "name": "(2S,3R,4S,5S,6R)-4-amino-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,5S,6R)-3-amino-6-(aminomethyl)-5-hydroxyoxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol;sulfuric acid"
+ },
+ "TOBRAMYCIN INHALATION": {
+  "cid": 36294,
+  "smiles": "C1[C@@H]([C@H]([C@@H]([C@H]([C@@H]1N)O[C@@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)N)O)O)O[C@@H]3[C@@H](C[C@@H]([C@H](O3)CN)O)N)N",
+  "name": "TOBRAMYCIN INHALATION"
+ },
+ "TOCOPHERYL": {
+  "cid": 11305985,
+  "smiles": "CC1=C(C(=C(C2=C1OC(CC2)(C)CCCC(C)CCCC(C)CCCC(C)C)C)OC(=O)C)C",
+  "name": "[2,5,7,8-tetramethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-3,4-dihydrochromen-6-yl] acetate"
+ },
+ "TOLTERODINE": {
+  "cid": 443879,
+  "smiles": "CC1=CC(=C(C=C1)O)C(CCN(C(C)C)C(C)C)C2=CC=CC=C2",
+  "name": "2-[(1R)-3-[di(propan-2-yl)amino]-1-phenylpropyl]-4-methylphenol"
+ },
+ "TOPIRAMATE": {
+  "cid": 5284627,
+  "smiles": "CC1(O[C@@H]2CO[C@@]3([C@H]([C@@H]2O1)OC(O3)(C)C)COS(=O)(=O)N)C",
+  "name": "TOPIRAMATE"
+ },
+ "TORSEMIDE": {
+  "cid": 41781,
+  "smiles": "CC1=CC(=CC=C1)NC2=C(C=NC=C2)S(=O)(=O)NC(=O)NC(C)C",
+  "name": "1-[4-(3-methylanilino)pyridin-3-yl]sulfonyl-3-propan-2-ylurea"
+ },
+ "TRAMADOL": {
+  "cid": 33741,
+  "smiles": "CN(C)CC1CCCCC1(C2=CC(=CC=C2)OC)O",
+  "name": "(1R,2R)-2-[(dimethylamino)methyl]-1-(3-methoxyphenyl)cyclohexan-1-ol"
+ },
+ "TRANDOLAPRIL": {
+  "cid": 5484727,
+  "smiles": "CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N2[C@H]3CCCC[C@@H]3C[C@H]2C(=O)O",
+  "name": "TRANDOLAPRIL"
+ },
+ "TRAZODONE": {
+  "cid": 62935,
+  "smiles": "C1CN(CCN1CCCN2C(=O)N3C=CC=CC3=N2)C4=CC(=CC=C4)Cl.Cl",
+  "name": "2-[3-[4-(3-chlorophenyl)piperazin-1-yl]propyl]-[1,2,4]triazolo[4,3-a]pyridin-3-one;hydrochloride"
+ },
+ "TRIAMCINOLONE ACETONIDE": {
+  "cid": 6436,
+  "smiles": "C[C@]12C[C@@H]([C@]3([C@H]([C@@H]1C[C@@H]4[C@]2(OC(O4)(C)C)C(=O)CO)CCC5=CC(=O)C=C[C@@]53C)F)O",
+  "name": "TRIAMCINOLONE ACETONIDE"
+ },
+ "TRICOR": {
+  "cid": 3339,
+  "smiles": "CC(C)OC(=O)C(C)(C)OC1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)Cl",
+  "name": "TRICOR"
+ },
+ "URSODIOL": {
+  "cid": 31401,
+  "smiles": "CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C",
+  "name": "(4R)-4-[(3R,5S,7S,8R,9S,10S,13R,14S,17R)-3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoic acid"
+ },
+ "VALACYCLOVIR": {
+  "cid": 135398742,
+  "smiles": "CC(C)[C@@H](C(=O)OCCOCN1C=NC2=C1N=C(NC2=O)N)N",
+  "name": "VALACYCLOVIR"
+ },
+ "VALGANCICLOVIR": {
+  "cid": 135413534,
+  "smiles": "CC(C)C(C(=O)OCC(CO)OCN1C=NC2=C1N=C(NC2=O)N)N.Cl",
+  "name": "[2-[(2-amino-6-oxo-1H-purin-9-yl)methoxy]-3-hydroxypropyl] (2S)-2-amino-3-methylbutanoate;hydrochloride"
+ },
+ "VALPROATE": {
+  "cid": 3549980,
+  "smiles": "CCCC(CCC)C(=O)[O-]",
+  "name": "VALPROATE"
+ },
+ "VALPROIC ACID": {
+  "cid": 3121,
+  "smiles": "CCCC(CCC)C(=O)O",
+  "name": "VALPROIC ACID"
+ },
+ "VALSARTAN": {
+  "cid": 60846,
+  "smiles": "CCCCC(=O)N(CC1=CC=C(C=C1)C2=CC=CC=C2C3=NNN=N3)C(C(C)C)C(=O)O",
+  "name": "(2S)-3-methyl-2-[pentanoyl-[[4-[2-(2H-tetrazol-5-yl)phenyl]phenyl]methyl]amino]butanoic acid"
+ },
+ "VANCOMYCIN": {
+  "cid": 14969,
+  "smiles": "CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O",
+  "name": "(1S,2R,18R,19R,22S,25R,28R,40S)-48-[(2S,3R,4S,5S,6R)-3-[(2S,4S,5S,6S)-4-amino-5-hydroxy-4,6-dimethyloxan-2-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-22-(2-amino-2-oxoethyl)-5,15-dichloro-2,18,32,35,37-pentahydroxy-19-[[(2R)-4-methyl-2-(methylamino)pentanoyl]amino]-20,23,26,42,44-pentaoxo-7,13-dioxa-21,24,27,41,43-pentazaoctacyclo[26.14.2.23,6.214,17.18,12.129,33.010,25.034,39]pentaconta-3,5,8(48),9,11,14,16,29(45),30,32,34(39),35,37,46,49-pentadecaene-40-carboxylic acid"
+ },
+ "VASOPRESSIN": {
+  "cid": 11979316,
+  "smiles": "C1CC(N(C1)C(=O)C2CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)CC(=O)N)CCC(=O)N)CC3=CC=CC=C3)CC4=CC=C(C=C4)O)N)C(=O)NC(CCCCN)C(=O)NCC(=O)N.C1CC(N(C1)C(=O)C2CSSCC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)NC(C(=O)N2)CC(=O)N)CCC(=O)N)CC3=CC=CC=C3)CC4=CC=C(C=C4)O)N)C(=O)NC(CCCN=C(N)N)C(=O)NCC(=O)N",
+  "name": "N-[6-amino-1-[(2-amino-2-oxoethyl)amino]-1-oxohexan-2-yl]-1-[19-amino-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-benzyl-16-[(4-hydroxyphenyl)methyl]-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carbonyl]pyrrolidine-2-carboxamide;1-[19-amino-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-benzyl-16-[(4-hydroxyphenyl)methyl]-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carbonyl]-N-[1-[(2-amino-2-oxoethyl)amino]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]pyrrolidine-2-carboxamide"
+ },
+ "VECURONIUM": {
+  "cid": 39764,
+  "smiles": "CC(=O)OC1CC2CCC3C(C2(CC1N4CCCCC4)C)CCC5(C3CC(C5OC(=O)C)[N+]6(CCCCC6)C)C.[Br-]",
+  "name": "[(2S,3S,5S,8R,9S,10S,13S,14S,16S,17R)-17-acetyloxy-10,13-dimethyl-16-(1-methylpiperidin-1-ium-1-yl)-2-piperidin-1-yl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl] acetate;bromide"
+ },
+ "VENLAFAXINE": {
+  "cid": 62923,
+  "smiles": "CN(C)CC(C1=CC=C(C=C1)OC)C2(CCCCC2)O.Cl",
+  "name": "1-[2-(dimethylamino)-1-(4-methoxyphenyl)ethyl]cyclohexan-1-ol;hydrochloride"
+ },
+ "VERAPAMIL": {
+  "cid": 62969,
+  "smiles": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC.Cl",
+  "name": "2-(3,4-dimethoxyphenyl)-5-[2-(3,4-dimethoxyphenyl)ethyl-methylamino]-2-propan-2-ylpentanenitrile;hydrochloride"
+ },
+ "VIGAMOX": {
+  "cid": 101526,
+  "smiles": "COC1=C2C(=CC(=C1N3CC4CCCNC4C3)F)C(=O)C(=CN2C5CC5)C(=O)O.Cl",
+  "name": "7-[(4aS,7aS)-1,2,3,4,4a,5,7,7a-octahydropyrrolo[3,4-b]pyridin-6-yl]-1-cyclopropyl-6-fluoro-8-methoxy-4-oxoquinoline-3-carboxylic acid;hydrochloride"
+ },
+ "VINCRISTINE": {
+  "cid": 5978,
+  "smiles": "CCC1(CC2CC(C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)C78CCN9C7C(C=CC9)(C(C(C8N6C=O)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC)O",
+  "name": "VinCRIStine (Oncovin)"
+ },
+ "VIOXX": {
+  "cid": 5090,
+  "smiles": "CS(=O)(=O)C1=CC=C(C=C1)C2=C(C(=O)OC2)C3=CC=CC=C3",
+  "name": "VIOXX"
+ },
+ "VITAMIN A": {
+  "cid": 445354,
+  "smiles": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/CO)/C)/C",
+  "name": "VITAMIN A"
+ },
+ "VITAMIN B COMPLEX": {
+  "cid": 936,
+  "smiles": "C1=CC(=CN=C1)C(=O)N",
+  "name": "VITAMIN B"
+ },
+ "VITAMIN B COMPLEX W C": {
+  "cid": 936,
+  "smiles": "C1=CC(=CN=C1)C(=O)N",
+  "name": "VITAMIN B"
+ },
+ "VITAMIN D": {
+  "cid": 12895043,
+  "smiles": "CC(CCC(C(C)(C)O)O)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C",
+  "name": "Vitamin D"
+ },
+ "VITAMIN E": {
+  "cid": 69540411,
+  "smiles": "CC1=C(C2=C(CC[C@@](O2)(C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C(=C1O)C)C.C(CC(=O)[O-])C(=O)[O-].[Ca+2]",
+  "name": "VITAMIN E"
+ },
+ "VORICONAZOLE": {
+  "cid": 71616,
+  "smiles": "C[C@@H](C1=NC=NC=C1F)[C@](CN2C=NC=N2)(C3=C(C=C(C=C3)F)F)O",
+  "name": "VORICONAZOLE"
+ },
+ "WARFARIN": {
+  "cid": 54678486,
+  "smiles": "CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)O",
+  "name": "4-hydroxy-3-(3-oxo-1-phenylbutyl)chromen-2-one"
+ },
+ "XOPENEX": {
+  "cid": 123601,
+  "smiles": "CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O.Cl",
+  "name": "4-[(1R)-2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol;hydrochloride"
+ },
+ "ZIDOVUDINE": {
+  "cid": 35370,
+  "smiles": "CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)CO)N=[N+]=[N-]",
+  "name": "ZIDOVUDINE"
+ },
+ "ZINC SULFATE": {
+  "cid": 24424,
+  "smiles": "[O-]S(=O)(=O)[O-].[Zn+2]",
+  "name": "zinc;sulfate"
+ },
+ "ZIPRASIDONE": {
+  "cid": 60854,
+  "smiles": "C1CN(CCN1CCC2=C(C=C3C(=C2)CC(=O)N3)Cl)C4=NSC5=CC=CC=C54",
+  "name": "5-[2-[4-(1,2-benzothiazol-3-yl)piperazin-1-yl]ethyl]-6-chloro-1,3-dihydroindol-2-one"
+ },
+ "ZOFRAN": {
+  "cid": 59774,
+  "smiles": "CC1=NC=CN1CC2CCC3=C(C2=O)C4=CC=CC=C4N3C.O.O.Cl",
+  "name": "ZOFRAN"
+ },
+ "ZOLPIDEM": {
+  "cid": 441338,
+  "smiles": "CC1=CC=C(C=C1)C2=C(N3C=C(C=CC3=N2)C)CC(=O)N(C)C.CC1=CC=C(C=C1)C2=C(N3C=C(C=CC3=N2)C)CC(=O)N(C)C.C(C(C(=O)O)O)(C(=O)O)O",
+  "name": "(2R,3R)-2,3-dihydroxybutanedioic acid;N,N-dimethyl-2-[6-methyl-2-(4-methylphenyl)imidazo[1,2-a]pyridin-3-yl]acetamide"
+ },
+ "ZONISAMIDE": {
+  "cid": 5734,
+  "smiles": "C1=CC=C2C(=C1)C(=NO2)CS(=O)(=O)N",
+  "name": "1,2-benzoxazol-3-ylmethanesulfonamide"
+ }
+}

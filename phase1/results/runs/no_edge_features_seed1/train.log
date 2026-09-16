@@ -1,0 +1,16 @@
+23:50:54 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1024}
+23:50:54 | INFO | model: transformer backbone, 1144833 trainable parameters, device=cuda
+23:50:54 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+23:51:06 | INFO | epoch   1/12 | train_mse 0.6352 | val_mse 0.6122 | val_ci 0.6486 | val_pearson 0.3558 | lr 5.00e-04 | 11.8s
+23:51:18 | INFO | epoch   2/12 | train_mse 0.5754 | val_mse 0.6152 | val_ci 0.6652 | val_pearson 0.3952 | lr 5.00e-04 | 12.2s
+23:51:37 | INFO | epoch   3/12 | train_mse 0.5355 | val_mse 0.5366 | val_ci 0.6922 | val_pearson 0.4806 | lr 5.00e-04 | 18.3s
+23:51:50 | INFO | epoch   4/12 | train_mse 0.5044 | val_mse 0.5309 | val_ci 0.6952 | val_pearson 0.5021 | lr 5.00e-04 | 13.4s
+23:52:04 | INFO | epoch   5/12 | train_mse 0.4810 | val_mse 0.5428 | val_ci 0.6933 | val_pearson 0.4986 | lr 5.00e-04 | 14.0s
+23:52:22 | INFO | epoch   6/12 | train_mse 0.4658 | val_mse 0.5161 | val_ci 0.7058 | val_pearson 0.5192 | lr 5.00e-04 | 17.6s
+23:52:36 | INFO | epoch   7/12 | train_mse 0.4572 | val_mse 0.4990 | val_ci 0.7075 | val_pearson 0.5474 | lr 5.00e-04 | 14.2s
+23:52:56 | INFO | epoch   8/12 | train_mse 0.4405 | val_mse 0.4944 | val_ci 0.7046 | val_pearson 0.5418 | lr 5.00e-04 | 19.0s
+23:53:18 | INFO | epoch   9/12 | train_mse 0.4309 | val_mse 0.4561 | val_ci 0.7292 | val_pearson 0.5882 | lr 5.00e-04 | 22.3s
+23:53:38 | INFO | epoch  10/12 | train_mse 0.4182 | val_mse 0.4654 | val_ci 0.7218 | val_pearson 0.5768 | lr 5.00e-04 | 19.6s
+23:54:00 | INFO | epoch  11/12 | train_mse 0.4077 | val_mse 0.4390 | val_ci 0.7373 | val_pearson 0.6094 | lr 5.00e-04 | 22.3s
+23:54:20 | INFO | epoch  12/12 | train_mse 0.3954 | val_mse 0.4698 | val_ci 0.7285 | val_pearson 0.5937 | lr 5.00e-04 | 19.7s
+23:54:22 | INFO | TEST | mse 0.4457 | rmse 0.6676 | ci 0.7457 | rm2 0.3872 | pearson 0.6342 | (205s)

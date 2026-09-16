@@ -1,0 +1,16 @@
+23:54:23 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1024}
+23:54:23 | INFO | model: transformer backbone, 1542017 trainable parameters, device=cuda
+23:54:23 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+23:54:46 | INFO | epoch   1/12 | train_mse 0.6284 | val_mse 0.6778 | val_ci 0.6335 | val_pearson 0.3433 | lr 5.00e-04 | 23.2s
+23:55:06 | INFO | epoch   2/12 | train_mse 0.5717 | val_mse 0.6725 | val_ci 0.6700 | val_pearson 0.4095 | lr 5.00e-04 | 20.3s
+23:55:24 | INFO | epoch   3/12 | train_mse 0.5345 | val_mse 0.5403 | val_ci 0.6952 | val_pearson 0.4929 | lr 5.00e-04 | 17.7s
+23:55:43 | INFO | epoch   4/12 | train_mse 0.4989 | val_mse 0.5191 | val_ci 0.6968 | val_pearson 0.5105 | lr 5.00e-04 | 18.7s
+23:56:03 | INFO | epoch   5/12 | train_mse 0.4804 | val_mse 0.5211 | val_ci 0.6989 | val_pearson 0.5374 | lr 5.00e-04 | 19.9s
+23:56:19 | INFO | epoch   6/12 | train_mse 0.4646 | val_mse 0.4930 | val_ci 0.7013 | val_pearson 0.5481 | lr 5.00e-04 | 16.2s
+23:56:37 | INFO | epoch   7/12 | train_mse 0.4450 | val_mse 0.4854 | val_ci 0.7139 | val_pearson 0.5604 | lr 5.00e-04 | 18.1s
+23:56:53 | INFO | epoch   8/12 | train_mse 0.4347 | val_mse 0.4927 | val_ci 0.7276 | val_pearson 0.5780 | lr 5.00e-04 | 15.7s
+23:57:11 | INFO | epoch   9/12 | train_mse 0.4241 | val_mse 0.5009 | val_ci 0.7254 | val_pearson 0.5559 | lr 5.00e-04 | 17.6s
+23:57:28 | INFO | epoch  10/12 | train_mse 0.4202 | val_mse 0.4562 | val_ci 0.7346 | val_pearson 0.5900 | lr 5.00e-04 | 17.1s
+23:57:45 | INFO | epoch  11/12 | train_mse 0.4081 | val_mse 0.4489 | val_ci 0.7395 | val_pearson 0.6010 | lr 5.00e-04 | 17.4s
+23:58:04 | INFO | epoch  12/12 | train_mse 0.4007 | val_mse 0.4432 | val_ci 0.7385 | val_pearson 0.6159 | lr 5.00e-04 | 19.1s
+23:58:07 | INFO | TEST | mse 0.4434 | rmse 0.6659 | ci 0.7437 | rm2 0.3767 | pearson 0.6419 | (222s)

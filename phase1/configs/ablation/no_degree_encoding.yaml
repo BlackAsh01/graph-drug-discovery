@@ -1,0 +1,5 @@
+# A2 - remove the Graphormer centrality (degree) encoding
+base: _base.yaml
+variant: no_degree_encoding
+model:
+  use_degree_encoding: false

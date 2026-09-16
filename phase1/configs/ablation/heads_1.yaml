@@ -1,0 +1,5 @@
+# A4 - single attention head instead of 8
+base: _base.yaml
+variant: heads_1
+model:
+  num_heads: 1

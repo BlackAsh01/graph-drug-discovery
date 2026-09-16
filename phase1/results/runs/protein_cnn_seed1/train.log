@@ -1,0 +1,16 @@
+00:16:16 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1000}
+00:16:16 | INFO | model: transformer backbone, 1659521 trainable parameters, device=cuda
+00:16:16 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+00:17:03 | INFO | epoch   1/12 | train_mse 0.6124 | val_mse 0.5991 | val_ci 0.6648 | val_pearson 0.3921 | lr 5.00e-04 | 47.0s
+00:17:51 | INFO | epoch   2/12 | train_mse 0.5548 | val_mse 0.5997 | val_ci 0.6728 | val_pearson 0.4092 | lr 5.00e-04 | 47.1s
+00:18:38 | INFO | epoch   3/12 | train_mse 0.5145 | val_mse 0.5694 | val_ci 0.6964 | val_pearson 0.4527 | lr 5.00e-04 | 47.5s
+00:19:25 | INFO | epoch   4/12 | train_mse 0.4924 | val_mse 0.5361 | val_ci 0.7113 | val_pearson 0.5175 | lr 5.00e-04 | 46.6s
+00:20:12 | INFO | epoch   5/12 | train_mse 0.4722 | val_mse 0.5208 | val_ci 0.7186 | val_pearson 0.5386 | lr 5.00e-04 | 47.5s
+00:21:00 | INFO | epoch   6/12 | train_mse 0.4545 | val_mse 0.4826 | val_ci 0.7220 | val_pearson 0.5627 | lr 5.00e-04 | 47.6s
+00:21:50 | INFO | epoch   7/12 | train_mse 0.4455 | val_mse 0.4698 | val_ci 0.7334 | val_pearson 0.5810 | lr 5.00e-04 | 49.8s
+00:22:37 | INFO | epoch   8/12 | train_mse 0.4354 | val_mse 0.4782 | val_ci 0.7291 | val_pearson 0.5669 | lr 5.00e-04 | 47.3s
+00:23:25 | INFO | epoch   9/12 | train_mse 0.4186 | val_mse 0.5045 | val_ci 0.7225 | val_pearson 0.5735 | lr 5.00e-04 | 47.5s
+00:24:12 | INFO | epoch  10/12 | train_mse 0.4146 | val_mse 0.4546 | val_ci 0.7301 | val_pearson 0.5943 | lr 5.00e-04 | 47.0s
+00:24:59 | INFO | epoch  11/12 | train_mse 0.4032 | val_mse 0.4481 | val_ci 0.7428 | val_pearson 0.5982 | lr 5.00e-04 | 46.8s
+00:25:46 | INFO | epoch  12/12 | train_mse 0.3968 | val_mse 0.4545 | val_ci 0.7349 | val_pearson 0.5964 | lr 5.00e-04 | 47.2s
+00:25:49 | INFO | TEST | mse 0.4472 | rmse 0.6687 | ci 0.7454 | rm2 0.3934 | pearson 0.6313 | (570s)

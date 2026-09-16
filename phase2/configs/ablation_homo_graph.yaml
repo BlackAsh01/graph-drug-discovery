@@ -1,0 +1,6 @@
+﻿# Ablation (d): homogeneous graph - all node types share one embedding space and all
+# relations are collapsed into a single edge type (type-agnostic message passing).
+base: ablation_base.yaml
+name: homo_graph
+model:
+  gnn_type: homo

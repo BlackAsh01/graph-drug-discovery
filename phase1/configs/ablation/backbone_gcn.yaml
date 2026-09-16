@@ -1,0 +1,5 @@
+# A9 - backbone swap: GCN message passing (what the original notebook actually trained)
+base: _base.yaml
+variant: backbone_gcn
+model:
+  backbone: gcn

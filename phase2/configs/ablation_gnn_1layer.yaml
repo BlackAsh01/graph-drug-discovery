@@ -1,0 +1,5 @@
+﻿# Ablation (g'): a single GNN layer instead of two.
+base: ablation_base.yaml
+name: gnn_1layer
+model:
+  gnn_layers: 1

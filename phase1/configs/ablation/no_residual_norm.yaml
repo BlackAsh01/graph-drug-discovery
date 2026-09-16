@@ -1,0 +1,6 @@
+# A5 - no residual connections and no normalisation inside the transformer blocks
+base: _base.yaml
+variant: no_residual_norm
+model:
+  residual: false
+  norm: none

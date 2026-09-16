@@ -1,0 +1,26 @@
+# Pinned to the versions the results in results/ were produced with
+# (Python 3.12.3, Windows 11, CUDA 12.1, NVIDIA GTX 1650 Ti 4 GB).
+#
+# PyTorch: install the build matching your CUDA first, e.g.
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+# then `pip install -r requirements.txt`. torch-geometric is pure Python here; the optional
+# torch-scatter / torch-sparse extensions are NOT required (PyG falls back to torch.scatter_reduce).
+torch==2.5.1
+torch-geometric==2.6.1
+rdkit==2024.3.5
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.16.3
+scikit-learn==1.6.1
+PyYAML==6.0.1
+tqdm==4.66.5
+matplotlib==3.9.2
+pytest==7.4.4
+
+# Only needed to (re)compute protein-language-model embeddings (scripts/embed_proteins.py);
+# the ProtBERT-BFD embeddings for the 229 KIBA targets are shipped in data/protein_embeddings/.
+transformers==4.46.2
+huggingface_hub==0.26.2
+tokenizers==0.20.3
+safetensors==0.4.5
+sentencepiece==0.2.1

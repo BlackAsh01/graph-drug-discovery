@@ -1,0 +1,16 @@
+23:47:21 | INFO | data: {"split_dir": "D:\\CLG\\AU\\projects\\release\\phase1\\data\\splits\\kiba_subset20_seed42", "sizes": {"train": 18826, "val": 2353, "test": 2353}, "n_drugs": 2068, "n_targets": 229, "protein_input_dim": 1024}
+23:47:21 | INFO | model: transformer backbone, 1543425 trainable parameters, device=cuda
+23:47:21 | INFO | target scaler: {"mean": 11.717900276184082, "std": 0.8285475373268127}
+23:47:39 | INFO | epoch   1/12 | train_mse 0.6223 | val_mse 0.6093 | val_ci 0.6511 | val_pearson 0.3681 | lr 5.00e-04 | 18.4s
+23:47:56 | INFO | epoch   2/12 | train_mse 0.5640 | val_mse 0.5648 | val_ci 0.6680 | val_pearson 0.4369 | lr 5.00e-04 | 16.2s
+23:48:14 | INFO | epoch   3/12 | train_mse 0.5356 | val_mse 0.6049 | val_ci 0.6721 | val_pearson 0.4561 | lr 5.00e-04 | 18.2s
+23:48:31 | INFO | epoch   4/12 | train_mse 0.5042 | val_mse 0.5366 | val_ci 0.6931 | val_pearson 0.4822 | lr 5.00e-04 | 16.9s
+23:48:48 | INFO | epoch   5/12 | train_mse 0.4956 | val_mse 0.5192 | val_ci 0.7035 | val_pearson 0.5079 | lr 5.00e-04 | 16.9s
+23:49:04 | INFO | epoch   6/12 | train_mse 0.4808 | val_mse 0.5243 | val_ci 0.7129 | val_pearson 0.5115 | lr 5.00e-04 | 15.6s
+23:49:21 | INFO | epoch   7/12 | train_mse 0.4634 | val_mse 0.5149 | val_ci 0.7117 | val_pearson 0.5145 | lr 5.00e-04 | 17.7s
+23:49:38 | INFO | epoch   8/12 | train_mse 0.4583 | val_mse 0.5082 | val_ci 0.7167 | val_pearson 0.5343 | lr 5.00e-04 | 17.0s
+23:49:55 | INFO | epoch   9/12 | train_mse 0.4529 | val_mse 0.4889 | val_ci 0.7187 | val_pearson 0.5490 | lr 5.00e-04 | 16.7s
+23:50:15 | INFO | epoch  10/12 | train_mse 0.4429 | val_mse 0.5023 | val_ci 0.7085 | val_pearson 0.5381 | lr 5.00e-04 | 19.9s
+23:50:33 | INFO | epoch  11/12 | train_mse 0.4400 | val_mse 0.5018 | val_ci 0.7219 | val_pearson 0.5317 | lr 5.00e-04 | 17.6s
+23:50:52 | INFO | epoch  12/12 | train_mse 0.4250 | val_mse 0.4924 | val_ci 0.7287 | val_pearson 0.5502 | lr 2.50e-04 | 19.6s
+23:50:54 | INFO | TEST | mse 0.4980 | rmse 0.7057 | ci 0.7255 | rm2 0.3209 | pearson 0.5753 | (211s)

@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv*/
+venv/
+myenv/
+.env
+
+# --- notebooks ---
+.ipynb_checkpoints/
+
+# --- data: only the compact copy, sample, splits and the shipped 0.55 MB npz are versioned ---
+data/raw/
+data/processed/
+data/*.tab
+data/*.pkl
+# regenerated / large protein-LM dumps (kiba_prot_bert_bfd.npz IS tracked)
+data/protein_embeddings/*.pt
+data/protein_embeddings/*.bin
+data/protein_embeddings/*.npy
+data/protein_embeddings/*.pkl
+data/protein_embeddings/*.safetensors
+
+# --- model checkpoints / large artefacts ---
+# results/*.csv, *.md, metrics.json, history.csv, test_predictions.csv and figures ARE tracked
+*.pt
+*.pth
+*.ckpt
+results/runs/**/*.pt
+results/runs/**/*.pth
+results/runs/**/*.ckpt
+results/runs/_*/
+results/*.log
+
+# --- misc ---
+.DS_Store
+Thumbs.db
+*.log.tmp

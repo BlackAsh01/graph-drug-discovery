@@ -1,0 +1,49 @@
+run_name: full_model_fulldata_seed0
+variant: protein_composition
+results_dir: results
+data:
+  data_dir: data
+  pairs_file: null
+  split_seed: 42
+  subset_fraction: 0.2
+  split_name: null
+  num_workers: 0
+protein:
+  encoder: composition
+  embedding_file: null
+  max_len: 1000
+  dropout: 0.1
+model:
+  backbone: transformer
+  hidden_dim: 128
+  num_layers: 4
+  num_heads: 8
+  dropout: 0.1
+  input_dropout: 0.0
+  use_edge_features: true
+  use_degree_encoding: true
+  residual: true
+  norm: batch
+  self_loops: true
+  fusion: cross_attention
+  fusion_heads: 4
+  head_hidden: 256
+  head_layers: 3
+  head_dropout: 0.1
+training:
+  seed: 0
+  device: auto
+  epochs: 12
+  batch_size: 128
+  lr: 0.0005
+  weight_decay: 1.0e-05
+  lr_factor: 0.5
+  lr_patience: 2
+  early_stopping_patience: 4
+  grad_clip: 1.0
+  amp: false
+  deterministic: true
+  monitor: mse
+  normalize_target: true
+  keep_checkpoint: false
+config_path: D:\CLG\AU\projects\release\phase1\configs\default.yaml

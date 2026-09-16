@@ -1,0 +1,5 @@
+﻿# Ablation (b'): keep the DDI edges in the graph but switch off the DDI penalty in the loss.
+base: ablation_base.yaml
+name: no_ddi_loss
+train:
+  ddi_weight: 0.0

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata. Author, title and school are placeholders pending the official thesis record."
+title: "Graph models for drug discovery: edge-aware graph transformers for drug–target affinity and heterogeneous-graph medication recommendation"
+version: "1.0.0"
+date-released: "2026-09-16"
+license: MIT
+repository-code: "https://github.com/BlackAsh01/graph-drug-discovery"
+authors:
+  - family-names: "Prabhu M"
+    given-names: "Ashwin"
+    alias: "BlackAsh01"
+preferred-citation:
+  type: thesis
+  title: "Graph models for drug discovery: Phase 1 drug–target affinity on KIBA and Phase 2 HGDR medication recommendation on MIMIC-III"
+  thesis-type: "Master's thesis"
+  year: 2026
+  authors:
+    - family-names: "Prabhu M"
+      given-names: "Ashwin"
+      alias: "BlackAsh01"
+  institution:
+    name: "<University>"
+  notes: "Update author, title and institution to match the deposited thesis. Phase 1 package: dti_gt. Phase 2 package: hgdr."

@@ -1,0 +1,6 @@
+# A7 - protein encoder swap: amino-acid composition (bag of residues) baseline
+base: _base.yaml
+variant: protein_composition
+protein:
+  encoder: composition
+  embedding_file: null

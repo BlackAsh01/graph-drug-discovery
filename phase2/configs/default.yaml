@@ -1,0 +1,47 @@
+# HGDR default configuration (full model).
+# All paths are relative to the phase2/ directory. Override any key with
+#   --set section.key=value   (e.g. --set train.epochs=5 model.hidden_dim=128)
+
+name: full            # used for run names and the ablation table
+seed: 0
+device: auto          # auto | cuda | cpu
+results_dir: results
+keep_checkpoint: true
+
+data:
+  processed_dir: data/processed/mimic3        # output of scripts/preprocess_mimic.py + build_hetero_graph.py
+  graph_file: graph.pt
+  split_fractions: [0.8, 0.1, 0.1]            # patient-level, hash-based (see src/hgdr/data/splits.py)
+  split_seed: 0                               # fixed for ALL ablation variants
+  subset_fraction: 1.0                        # 1.0 = all patients; see configs/ablation_base.yaml for the subset protocol
+  subset_seed: 0
+  max_history: 10                             # previous admissions fed to the history GRU
+
+model:
+  name: hgdr            # hgdr | mlp | lr | nearest
+  hidden_dim: 64
+  gnn_type: hetero      # hetero | homo   (homo = homogeneous-graph ablation)
+  gnn_layers: 2         # 0 = no graph encoder
+  conv: sage            # sage | gat
+  heads: 4
+  use_mol: true         # SMILES molecular encoder for drug nodes
+  mol_layers: 2
+  mol_conv: gat
+  use_proc: true        # procedure node type
+  use_history: true     # visit-sequence GRU
+  use_ddi_edges: true   # ('drug','interacts','drug') relation from TWOSIDES
+  use_coprescription_edges: true
+  dropout: 0.2
+
+train:
+  epochs: 30
+  patience: 5
+  batch_size: 128
+  lr: 0.001
+  weight_decay: 0.00001
+  grad_clip: 1.0
+  ddi_weight: 0.05      # coefficient of the soft-DDI-rate penalty (0 = off); see src/hgdr/models/losses.py
+  margin_weight: 0.0    # GAMENet-style multilabel margin term (0 = pure BCE)
+  threshold: 0.5        # probability threshold for the recommended set
+  select_metric: jaccard  # validation metric for model selection / early stopping ("a+b" sums metrics)
+  min_epochs: 3         # never early-stop before this epoch

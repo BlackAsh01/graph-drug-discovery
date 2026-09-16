@@ -1,0 +1,10 @@
+23:01:03 | INFO | data: 9349/1182/1196 train/val/test patients; 11954/1471/1485 visits; {'diag': 3868, 'proc': 115, 'drug': 606}
+23:01:03 | INFO | device: cuda
+23:01:05 | INFO | trainable parameters: 393,182
+23:01:24 | INFO | epoch 001 | loss 0.2184 (bce 0.2168, ddi 0.03020) | val jaccard 0.2275 f1 0.3600 prauc 0.4292 ddi 0.0888 #drugs 12.5 | 19.2s
+23:01:35 | INFO | epoch 002 | loss 0.1228 (bce 0.1201, ddi 0.05280) | val jaccard 0.1655 f1 0.2767 prauc 0.4434 ddi 0.0459 #drugs 7.1 | 11.5s
+23:01:47 | INFO | epoch 003 | loss 0.1194 (bce 0.1168, ddi 0.05189) | val jaccard 0.1987 f1 0.3201 prauc 0.4449 ddi 0.0525 #drugs 9.4 | 11.9s
+23:01:59 | INFO | epoch 004 | loss 0.1167 (bce 0.1141, ddi 0.05183) | val jaccard 0.1868 f1 0.3026 prauc 0.4450 ddi 0.0510 #drugs 8.7 | 12.0s
+23:02:10 | INFO | epoch 005 | loss 0.1154 (bce 0.1128, ddi 0.05149) | val jaccard 0.1860 f1 0.2999 prauc 0.4469 ddi 0.0631 #drugs 8.8 | 11.0s
+23:02:10 | INFO | early stopping (no val improvement for 4 epochs)
+23:02:17 | INFO | TEST | jaccard 0.2297 | prauc 0.4313 | f1 0.3633 | ddi 0.0894 (gt 0.0869) | #drugs 12.54 | P@10 0.5877 | 1.3 min

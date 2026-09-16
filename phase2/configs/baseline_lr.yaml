@@ -1,0 +1,8 @@
+﻿# Baseline (h): logistic regression (one linear layer) on multi-hot diagnoses + procedures (+ history).
+base: ablation_base.yaml
+name: baseline_lr
+model:
+  name: lr
+train:
+  ddi_weight: 0.0
+  lr: 0.003

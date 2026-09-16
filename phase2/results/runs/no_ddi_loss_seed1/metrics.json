@@ -1,0 +1,51 @@
+{
+  "run_name": "no_ddi_loss_seed1",
+  "config_name": "no_ddi_loss",
+  "seed": 1,
+  "model": "hgdr",
+  "device": "cuda",
+  "runtime_s": 257.5253167152405,
+  "epochs_run": 15,
+  "best_epoch": 14,
+  "n_params": 493022,
+  "val": {
+    "jaccard": 0.32899940522763305,
+    "prauc": 0.5695340220074887,
+    "f1": 0.4675910362669612,
+    "precision": 0.6695169574395203,
+    "recall": 0.3922000665961418,
+    "avg_drugs": 15.291638341264447,
+    "ddi_rate": 0.10854256307720765,
+    "precision@10": 0.6787219578518014,
+    "jaccard@10": 0.24303350104408725,
+    "hit_rate@10": 0.9932019034670292,
+    "n_visits": 1471
+  },
+  "test": {
+    "jaccard": 0.33384485506564704,
+    "prauc": 0.569596160513893,
+    "f1": 0.47279141972698907,
+    "precision": 0.6609621425889455,
+    "recall": 0.4029244796961795,
+    "avg_drugs": 15.942087542087542,
+    "ddi_rate": 0.10756973728534959,
+    "precision@10": 0.6797979797979798,
+    "jaccard@10": 0.2413619057654843,
+    "hit_rate@10": 0.9912457912457913,
+    "n_visits": 1485
+  },
+  "test_ground_truth_ddi_rate": 0.08688901741948617,
+  "graph": {
+    "diag|treated_by|drug": 56083,
+    "drug|treats|diag": 56083,
+    "proc|followed_by|drug": 2255,
+    "drug|follows|proc": 2255,
+    "drug|coprescribed|drug": 12120,
+    "drug|interacts|drug": 17866
+  },
+  "num_nodes": {
+    "diag": 3868,
+    "proc": 115,
+    "drug": 606
+  }
+}

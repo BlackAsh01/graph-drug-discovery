@@ -1,0 +1,9 @@
+﻿# Baseline (h): MLP on multi-hot diagnoses + procedures (+ multi-hot history).
+base: ablation_base.yaml
+name: baseline_mlp
+model:
+  name: mlp
+  hidden_dim: 256
+  dropout: 0.3
+train:
+  ddi_weight: 0.0
